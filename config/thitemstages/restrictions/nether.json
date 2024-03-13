@@ -1,0 +1,12 @@
+{
+    "Restriction Data": {
+        "stage": "nether",
+        "name": "下界",
+        "dimensionList": [
+            {
+                "dimension": "minecraft:the_nether",
+                "message": "您没有进入资格！"
+            }
+        ]
+    }
+}

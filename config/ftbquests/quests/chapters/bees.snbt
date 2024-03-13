@@ -1,0 +1,2176 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bees"
+	group: "6274245AF897553D"
+	icon: "statues:trans_bee_statue"
+	id: "6E30003C90335695"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"黑曜石蜂巢"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:draconic"
+					}
+				}
+			}
+			id: "7ADA2F0D7A514FD4"
+			shape: "circle"
+			subtitle: "生成"
+			tasks: [
+				{
+					id: "5C9FB6B789AA066A"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "神龙蜜蜂"
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"红石蜜蜂+巧克力穴居蜜蜂"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_dye_bee"
+			id: "1D63C58BF8C34C8D"
+			shape: "circle"
+			subtitle: "繁殖"
+			tasks: [
+				{
+					id: "17F38E2B38C16F41"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "染料蜜蜂"
+			x: 5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"黄色木匠蜜蜂+绿色木匠蜜蜂"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_lumber_bee"
+			id: "39A16CF9E6699C7D"
+			shape: "circle"
+			subtitle: "繁殖"
+			tasks: [
+				{
+					id: "7A62E1F54CE765A9"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "木场蜜蜂"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"巧克力穴居蜜蜂+挖掘者蜜蜂"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_quarry_bee"
+			id: "142537A61ED51BE6"
+			shape: "circle"
+			subtitle: "繁殖"
+			tasks: [
+				{
+					id: "741970ED3200F509"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "石料蜜蜂"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"木场蜜蜂+汗蜜蜂"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_rancher_bee"
+			id: "312B1C5FECF64F5A"
+			shape: "circle"
+			subtitle: "繁殖"
+			tasks: [
+				{
+					id: "079DB4829929BA87"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "牧场蜜蜂"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"漏斗+蜜蜂"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_collector_bee"
+			id: "7A31F2F626DB9B8C"
+			shape: "circle"
+			subtitle: "转化"
+			tasks: [
+				{
+					id: "6DA74A1B5B5EBA03"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "收集者蜜蜂"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"潜影壳+收集者蜜蜂"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_hoarder_bee"
+			id: "33A7B0C370E8AE9B"
+			shape: "circle"
+			subtitle: "转化"
+			tasks: [
+				{
+					id: "69FDD096679729E4"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "囤积者蜜蜂"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"木场蜜蜂+牧场蜜蜂"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_farmer_bee"
+			id: "1BE080E143D4DFE8"
+			shape: "circle"
+			subtitle: "繁殖"
+			tasks: [
+				{
+					id: "412A91110F5605C8"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "农夫蜜蜂"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			dependency_requirement: "one_started"
+			description: [
+				"TNT+蜜蜂"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_creeper_bee"
+			id: "690EBC122D6E383A"
+			shape: "circle"
+			subtitle: "转化"
+			tasks: [
+				{
+					id: "27D1EF0F5194185A"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "苦力怕蜜蜂"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			dependency_requirement: "one_started"
+			description: [
+				"农夫蜜蜂+牧场蜜蜂"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_cupid_bee"
+			id: "1E0A91E673635340"
+			shape: "circle"
+			subtitle: "繁殖"
+			tasks: [
+				{
+					id: "20AFA4F0F39C3B51"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "丘比特蜜蜂"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			dependency_requirement: "one_started"
+			description: [
+				"砂砾、沙子和泥土蜂巢"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_ashy_mining_bee"
+			id: "47AA5B27F5395F40"
+			shape: "circle"
+			subtitle: "生成"
+			tasks: [
+				{
+					id: "26FA788FA15C6CCA"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "灰烬穴居蜜蜂"
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"丛林木、深色橡木和金合欢蜂巢"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_blue_banded_bee"
+			id: "616BE81CA3D884B7"
+			shape: "circle"
+			subtitle: "生成"
+			tasks: [
+				{
+					id: "52387FB24CA4CDBF"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "蓝色条纹蜜蜂"
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"丛林木、白桦木、深色橡木和橡木蜂巢"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_green_carpenter_bee"
+			id: "7BBE82103CDFE4CC"
+			shape: "circle"
+			subtitle: "生成"
+			tasks: [
+				{
+					id: "2127CB8025C1A401"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "绿色木匠蜜蜂"
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"丛林木、云杉木、白桦木、深色橡木和橡木蜂巢"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_yellow_black_carpenter_bee"
+			id: "41A48AB3B88628C9"
+			shape: "circle"
+			subtitle: "生成"
+			tasks: [
+				{
+					id: "457EE4AC2AC1CFF1"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "黄色木匠蜜蜂"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"沙子、沙砾和泥土蜂巢"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_chocolate_mining_bee"
+			id: "742B623513D8BE1E"
+			shape: "circle"
+			subtitle: "生成"
+			tasks: [
+				{
+					id: "720F675DED751A08"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "巧克力穴居蜜蜂"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"砂砾和石头蜂巢"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_digger_bee"
+			id: "526FA28BF8F5782E"
+			shape: "circle"
+			subtitle: "生成"
+			tasks: [
+				{
+					id: "1ED13A1CF81E43FB"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "挖掘者蜜蜂"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"泥土蜂巢"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_leafcutter_bee"
+			id: "4ECE3ECD97263FEB"
+			shape: "circle"
+			subtitle: "生成"
+			tasks: [
+				{
+					id: "3DC4BCEB83C20610"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "切叶蜜蜂"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"石头和甘蔗蜂巢"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_mason_bee"
+			id: "3ED1FEC21FA0E1FA"
+			shape: "circle"
+			subtitle: "生成"
+			tasks: [
+				{
+					id: "5F04ED884EE69ED4"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "石匠蜜蜂"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"杜鹃蜜蜂生成在蓝色条纹蜜蜂的蜂巢里"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_neon_cuckoo_bee"
+			id: "1F4D6C7EBC2EDECD"
+			shape: "circle"
+			subtitle: "生成"
+			tasks: [
+				{
+					id: "10DDA87927C6D13D"
+					type: "checkmark"
+				}
+			]
+			title: "杜鹃蜜蜂"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"牧游蜜蜂生成在灰烬穴居蜜蜂的蜂巢里"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_nomad_bee"
+			id: "796F0DC112BBC478"
+			shape: "circle"
+			subtitle: "生成"
+			tasks: [
+				{
+					id: "4976A88A4498CC8E"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "牧游蜜蜂"
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"甘蔗蜂巢"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_reed_bee"
+			id: "04C0B2C148B2596A"
+			shape: "circle"
+			subtitle: "生成"
+			tasks: [
+				{
+					id: "1EF598CDD0354B72"
+					type: "checkmark"
+				}
+			]
+			title: "甘蔗蜜蜂"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"云杉蜂巢"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_resin_bee"
+			id: "195B9EF45CDAF095"
+			shape: "circle"
+			subtitle: "生成"
+			tasks: [
+				{
+					id: "73D4C547E4D8114F"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "树脂蜜蜂"
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"雪蜂巢"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_sweat_bee"
+			id: "6A90B65DE7D1D624"
+			shape: "circle"
+			subtitle: "生成"
+			tasks: [
+				{
+					id: "689DA8BD2D0AD271"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "汗蜜蜂"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"大黄蜂蜂巢"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:spawn_egg_bumble_bee"
+			id: "3C0A129F5AB663A8"
+			shape: "circle"
+			subtitle: "生成"
+			tasks: [
+				{
+					id: "4D44C2FF9659FA9C"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "大黄蜂蜜蜂"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"粉红粘液球+粘液蜜蜂"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:pink_slimy"
+					}
+				}
+			}
+			id: "7B4DA59DE70CD759"
+			shape: "circle"
+			subtitle: "转化"
+			tasks: [
+				{
+					id: "5106C58F0FC47672"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "粉红史莱姆蜜蜂"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"灵魂沙蜂巢"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:ghostly"
+					}
+				}
+			}
+			id: "183F0A2EE7A5B5AA"
+			shape: "circle"
+			subtitle: "生成"
+			tasks: [
+				{
+					id: "6C4C7A2EF76E21FE"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "恶魂蜜蜂"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"将高级蜂巢放在黑暗的房间里（光照度为 0），然后等待"
+				"&o&c骷髅和僵尸蜜蜂可以生成,所以如果你需要一个特定的蜜蜂,你可能必须清除一些蜜蜂.&r&r"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:skeletal"
+					}
+				}
+			}
+			id: "2B522FB78D6057E5"
+			shape: "circle"
+			subtitle: "生成"
+			tasks: [
+				{
+					id: "1BF42DDF4F6CE1E6"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "骷髅蜜蜂"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"挖掘者蜜蜂+灰烬穴居蜜蜂"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:copper"
+					}
+				}
+			}
+			id: "14A6DD97D2D333DF"
+			shape: "circle"
+			subtitle: "繁育"
+			tasks: [
+				{
+					id: "6CC59E2C88F65425"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "铜蜜蜂"
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"红石蜜蜂刷怪蛋+2桶不稳定红石"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:destabilized_redstone"
+					}
+				}
+			}
+			id: "344DC9A5E517F9F7"
+			shape: "circle"
+			subtitle: "合成"
+			tasks: [
+				{
+					id: "2AE11C80DE2BC2F6"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "不稳定红石蜜蜂"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"灵魂匕首+恶魂蜜蜂"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:soulium"
+					}
+				}
+			}
+			id: "6449F3711037F518"
+			shape: "circle"
+			subtitle: "转化"
+			tasks: [
+				{
+					id: "1CE6BCA2546B26F4"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "灵魂蜜蜂"
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"苦力怕蜜蜂+煤炭蜜蜂"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:niter"
+					}
+				}
+			}
+			id: "0184D7DBF86C3418"
+			shape: "circle"
+			subtitle: "繁殖"
+			tasks: [
+				{
+					id: "6FE8B52FA2D928E9"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "硝石蜜蜂"
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"荧石蜂巢"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:glowing"
+					}
+				}
+			}
+			id: "5415BFC707BB6D9D"
+			shape: "circle"
+			subtitle: "生成"
+			tasks: [
+				{
+					id: "38E88800FE4D2546"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "发光蜜蜂"
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			dependency_requirement: "one_started"
+			description: [
+				"岩浆蜜蜂刷怪蛋"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:blizz"
+					}
+				}
+			}
+			id: "404AD4D4ED2A17F5"
+			shape: "circle"
+			subtitle: "冷冻"
+			tasks: [
+				{
+					id: "7341363BACA2AE6E"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "暴雪蜜蜂"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			dependency_requirement: "one_started"
+			description: [
+				"4个究极精华、4个究极精华和终极精华蜜蜂刷怪蛋"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:insanium"
+					}
+				}
+			}
+			id: "575E0EA8C49237A9"
+			shape: "circle"
+			subtitle: "注魔祭坛"
+			tasks: [
+				{
+					id: "37C65A7F3BEB1877"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "究极精华蜜蜂"
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"8 魔源宝石+金蜜蜂刷怪蛋"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:arcane"
+					}
+				}
+			}
+			id: "1390E8888B346A22"
+			shape: "circle"
+			subtitle: "附魔装置"
+			tasks: [
+				{
+					id: "741A8B27382ACB01"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "神秘蜜蜂"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"黏液蜂巢"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:slimy"
+					}
+				}
+			}
+			id: "6A0E6BEBE83D68AB"
+			shape: "circle"
+			subtitle: "生成"
+			tasks: [
+				{
+					id: "43A6B45DF2DAF8B2"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "黏液蜜蜂"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"铅蜜蜂+巧克力穴居蜜蜂"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:coal"
+					}
+				}
+			}
+			id: "204603A441411447"
+			shape: "circle"
+			subtitle: "繁殖"
+			tasks: [
+				{
+					id: "282F64FF1A64468D"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "煤炭蜜蜂"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"戴斯块+蜜蜂"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:desh"
+					}
+				}
+			}
+			id: "09E314C4D63B67B7"
+			shape: "circle"
+			subtitle: "转化"
+			tasks: [
+				{
+					id: "72DD233E0CD9A04E"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "戴斯蜜蜂"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"深海生物群系"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:prismarine"
+					}
+				}
+			}
+			id: "286DADE3E2CBF106"
+			shape: "circle"
+			subtitle: "蜜蜂垂钓"
+			tasks: [
+				{
+					id: "5545C07DEB9DDBB9"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "海晶蜜蜂"
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"挖掘者蜜蜂+金蜜蜂"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:silver"
+					}
+				}
+			}
+			id: "7C9881E284AF4076"
+			shape: "circle"
+			subtitle: "繁殖"
+			tasks: [
+				{
+					id: "2DC7038D30654BC6"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "银蜜蜂"
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"幽匿块+挖掘者蜜蜂"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:sculk"
+					}
+				}
+			}
+			id: "76C75A9FFE1D47F6"
+			shape: "circle"
+			subtitle: "转化"
+			tasks: [
+				{
+					id: "620709EC042331D5"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "鬼音蜜蜂"
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"绯红菌+另一个蘑菇蜜蜂。"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:crimson"
+					}
+				}
+			}
+			id: "58842663E29B51A5"
+			shape: "circle"
+			subtitle: "转化"
+			tasks: [
+				{
+					id: "71472A80369A2342"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "绯红菌蜜蜂"
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"恶魂蜜蜂+僵尸蜜蜂或骷髅蜜蜂"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:grave"
+					}
+				}
+			}
+			id: "3C537CE83BBED968"
+			shape: "circle"
+			subtitle: "繁殖"
+			tasks: [
+				{
+					id: "7A45F4680DD5B789"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "坟墓蜜蜂"
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"4个高级精华块、4个高级精华和中级精华蜜蜂刷怪蛋"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:imperium"
+					}
+				}
+			}
+			id: "3AAAE332B9926300"
+			shape: "circle"
+			subtitle: "注魔祭坛"
+			tasks: [
+				{
+					id: "0924326DC550A2E7"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "高级精华蜜蜂"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"戴斯蜜蜂刷怪蛋"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:iesnium"
+					}
+				}
+			}
+			id: "52817FE0464B4F9A"
+			shape: "circle"
+			subtitle: "灵火"
+			tasks: [
+				{
+					id: "1E7DC40DBD50F9AE"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "艾瑟金属蜜蜂"
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"深海生物群系"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:sponge"
+					}
+				}
+			}
+			id: "29B43EE4CE15F0A3"
+			shape: "circle"
+			subtitle: "蜜蜂垂钓"
+			tasks: [
+				{
+					id: "3262DB7DE3FF40CF"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "海绵蜜蜂"
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"铜蜜蜂+巧克力穴居蜜蜂"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:zinc"
+					}
+				}
+			}
+			id: "64E7348C8B823935"
+			shape: "circle"
+			subtitle: "繁殖"
+			tasks: [
+				{
+					id: "4BC9E17F138A8F63"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "锌蜜蜂"
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"紫金块+戴斯蜜蜂"
+				"Ostrum Block + Desh Bee"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:ostrum"
+					}
+				}
+			}
+			id: "652B2C27B8BDE5C3"
+			shape: "circle"
+			subtitle: "转化"
+			tasks: [
+				{
+					id: "673B93EBC6D2675C"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "紫金蜜蜂"
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"灰烬穴居蜜蜂+巧克力穴居蜜蜂"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:tin"
+					}
+				}
+			}
+			id: "63EF4F1700D41FBF"
+			shape: "circle"
+			subtitle: "繁殖"
+			tasks: [
+				{
+					id: "2B5F1B9AC024BD75"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "锡蜜蜂"
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"8个岩石粉和1个不稳定红石蜜蜂刷怪蛋"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:basalz"
+					}
+				}
+			}
+			id: "645BFAD469261CC7"
+			shape: "circle"
+			subtitle: "合成"
+			tasks: [
+				{
+					id: "649DACD1615B7EE0"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "岩石蜜蜂"
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"水桶+切叶蜜蜂"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:tea"
+					}
+				}
+			}
+			id: "7B607E1395AB634A"
+			shape: "circle"
+			subtitle: "转化"
+			tasks: [
+				{
+					id: "66BF0B8127B59C06"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "茶蜜蜂"
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"4个觉醒终极精华,20个气精华,20个土精华,20个火精华,20个水精华,1个终极精华蜜蜂刷怪蛋"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:awakened_supremium"
+					}
+				}
+			}
+			id: "5DEC56C8CC50E86C"
+			shape: "circle"
+			subtitle: "觉醒祭坛"
+			tasks: [
+				{
+					id: "5FDF541AC590C018"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "觉醒终极精华蜜蜂"
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"不稳定红石蜜蜂刷怪蛋"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:resonant_ender"
+					}
+				}
+			}
+			id: "319BCE1B4645299E"
+			shape: "circle"
+			subtitle: "感应炉"
+			tasks: [
+				{
+					id: "3C1269B5B0A46923"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "谐振末影蜜蜂"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"纯蜜蜂刷怪蛋掉入魔力池"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:mana"
+					}
+				}
+			}
+			id: "70178ACE272DED0D"
+			shape: "circle"
+			subtitle: "魔力灌注"
+			tasks: [
+				{
+					id: "70B76324F22468C1"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "魔力蜜蜂"
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"下界砖蜂巢"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:magmatic"
+					}
+				}
+			}
+			id: "45B2CBEF32D15EC4"
+			shape: "circle"
+			subtitle: "生成"
+			tasks: [
+				{
+					id: "7145B6EFB2D81104"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "熔岩蜜蜂"
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"诡异菌+另一个蘑菇蜜蜂。"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:warped"
+					}
+				}
+			}
+			id: "42B96AF84E4FEB2A"
+			shape: "circle"
+			subtitle: "转化"
+			tasks: [
+				{
+					id: "16FED002EBD43AC5"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "诡异菌蜜蜂"
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"棕色蘑菇+另一个蘑菇蜜蜂。"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:brown_shroom"
+					}
+				}
+			}
+			id: "6017E55F343520D2"
+			shape: "circle"
+			subtitle: "转化"
+			tasks: [
+				{
+					id: "48A6DAD0F3991989"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "棕色蘑菇蜜蜂"
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"制作蜂巢头盔,让敌人攻击你。"
+				"有33%(?)的几率会生成一只神风特攻队蜜蜂。"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:kamikaz"
+					}
+				}
+			}
+			id: "15BBA7A7DDE7D74D"
+			shape: "circle"
+			subtitle: "特殊需求"
+			tasks: [
+				{
+					id: "5DF8F71A9500FCEE"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "神风特攻队蜜蜂"
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"灰烬穴居蜜蜂+蓝色条纹蜜蜂"
+				"Ashy Mining Bee + Blue Banded Bee"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:lead"
+					}
+				}
+			}
+			id: "1E61F4193FAEF666"
+			shape: "circle"
+			subtitle: "繁殖"
+			tasks: [
+				{
+					id: "548C19373C8EF902"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "铅蜜蜂"
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"银蜜蜂刷怪蛋掉入魔力池"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:manasteel"
+					}
+				}
+			}
+			id: "1C98E5DEC249D221"
+			shape: "circle"
+			subtitle: "魔力灌注"
+			tasks: [
+				{
+					id: "25D7AB9B0F6E9AD4"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "魔力钢蜜蜂"
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"4个初级精华,4个初级精华,1个奥术蜜蜂刷怪蛋"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:prudentium"
+					}
+				}
+			}
+			id: "094179AA2A5A826C"
+			shape: "circle"
+			subtitle: "注魔祭坛"
+			tasks: [
+				{
+					id: "43789D47F08FFFD2"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "初级精华蜜蜂"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"冰块+汗蜜蜂"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:frosty"
+					}
+				}
+			}
+			id: "406D1ED3FA3E7522"
+			shape: "circle"
+			subtitle: "转化"
+			tasks: [
+				{
+					id: "483A298D8ADB35EB"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "霜冻蜜蜂"
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"精灵尘、龙石、神秘蜜蜂刷怪蛋和1池魔力。"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:alfsteel"
+					}
+				}
+			}
+			id: "1C20048A06A93D08"
+			shape: "circle"
+			subtitle: "注魔板"
+			tasks: [
+				{
+					id: "3632044A047ACEBA"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "精灵钢蜜蜂"
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"活化水晶块+海晶蜜蜂"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:prosperity"
+					}
+				}
+			}
+			id: "6119B2F6013FDCC4"
+			shape: "circle"
+			subtitle: "转化"
+			tasks: [
+				{
+					id: "6E4A0502BA649FD4"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "活化蜜蜂"
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"红色蘑菇+另一个蘑菇蜜蜂."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:red_shroom"
+					}
+				}
+			}
+			id: "04936664595ED34C"
+			shape: "circle"
+			subtitle: "转化"
+			tasks: [
+				{
+					id: "63707F082985B3D8"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "红色蘑菇蜜蜂"
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"4个终极精华块、4个终极精华和高级精华蜜蜂刷怪蛋"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:supremium"
+					}
+				}
+			}
+			id: "68296F0BD5DB2604"
+			shape: "circle"
+			subtitle: "注魔祭坛"
+			tasks: [
+				{
+					id: "0F646A9C7EDCDEAF"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "终极精华蜜蜂"
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"耐热金属块+紫金蜜蜂"
+				"Calorite Block + Ostrum Bee"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:calorite"
+					}
+				}
+			}
+			id: "03AA2AA4B23144AD"
+			shape: "circle"
+			subtitle: "转化"
+			tasks: [
+				{
+					id: "0FB71124C8D0D9C9"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "耐热合金蜜蜂"
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"3个白色花瓣,1个蜜蜂小食"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:pure"
+					}
+				}
+			}
+			id: "150050F4618E9C22"
+			shape: "circle"
+			subtitle: "花药台"
+			tasks: [
+				{
+					id: "58ED31F6B10BAA40"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "纯蜜蜂"
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"下界金蜂巢"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:gold"
+					}
+				}
+			}
+			id: "2BE01689D55B2253"
+			shape: "circle"
+			subtitle: "生成"
+			tasks: [
+				{
+					id: "7D8734D23DD3CE04"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "金蜜蜂"
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"熔岩蜜蜂+汗蜜蜂"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:obsidian"
+					}
+				}
+			}
+			id: "53B06F0CD8489973"
+			shape: "circle"
+			subtitle: "繁殖"
+			tasks: [
+				{
+					id: "0B248144422CD560"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "黑曜石蜜蜂"
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"发光蜜蜂+巧克力穴居蜜蜂"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:redstone"
+					}
+				}
+			}
+			id: "4AD848EE8C6B5E6C"
+			shape: "circle"
+			subtitle: "繁殖"
+			tasks: [
+				{
+					id: "7CDC87AB8376CF7F"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "红石蜜蜂"
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"4个中级精华、4个中级精华和初级精华蜜蜂刷怪蛋"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:tertium"
+					}
+				}
+			}
+			id: "0C26A9D447D5F41E"
+			shape: "circle"
+			subtitle: "注魔祭坛"
+			tasks: [
+				{
+					id: "14610A8B7797209B"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "中级精华蜜蜂"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"深海生物群系"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:oily"
+					}
+				}
+			}
+			id: "091F38B3232FE3F8"
+			shape: "circle"
+			subtitle: "蜜蜂垂钓"
+			tasks: [
+				{
+					id: "3356ECB4D0B96592"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "石油蜜蜂"
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"破坏丛林树上的可可豆。"
+				"&c&o有2%几率生成一只蜜袋蜜蜂.&r&r"
+				"准备好抓住它!"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:sugarbag"
+					}
+				}
+			}
+			id: "2C06924E07DD85C1"
+			shape: "circle"
+			tasks: [
+				{
+					id: "396B1CF3E314DAF5"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "蜜袋蜜蜂"
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"可可豆+蜜袋蜜蜂"
+				"Cocoa Beans + Sugarbag Bee"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:chocolate"
+					}
+				}
+			}
+			id: "39D5414ABC0D7368"
+			shape: "circle"
+			subtitle: "转化"
+			tasks: [
+				{
+					id: "5D2220ADCD9499C3"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "巧克力蜜蜂"
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"震天雷击炸药+蜜蜂"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:blitz"
+					}
+				}
+			}
+			id: "0ED65B417EF3CCF4"
+			shape: "circle"
+			subtitle: "转化"
+			tasks: [
+				{
+					id: "37322695FD881AE6"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "狂风蜜蜂"
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"将高级蜂巢放在黑暗的房间里（光照度为 0），然后等待"
+				"&o&c骷髅和僵尸蜜蜂可以生成,所以如果你需要一个特定的蜜蜂,你可能必须清除一些蜜蜂.&r&r"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:zombie"
+					}
+				}
+			}
+			id: "71158343D57E17C5"
+			shape: "circle"
+			subtitle: "生成"
+			tasks: [
+				{
+					id: "6C7732D5C2358116"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "僵尸蜜蜂"
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			hide_dependency_lines: true
+			icon: "minecraft:bee_spawn_egg"
+			id: "40FCD5ABB1B4976F"
+			shape: "circle"
+			subtitle: "原版蜜蜂"
+			tasks: [
+				{
+					id: "4EA10F3248DFE4FE"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "蜜蜂"
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"蜜袋蜜蜂+杜鹃蜜蜂"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:pepto_bismol"
+					}
+				}
+			}
+			id: "37F4CC3E7DCDE51F"
+			shape: "circle"
+			subtitle: "繁殖"
+			tasks: [
+				{
+					id: "51120848123561A8"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "次水杨酸铋蜜蜂"
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			description: [
+				"我无法想出一个追踪每种蜜蜂成功繁殖的合情理方法。"
+				"你可以使用下面的列表."
+				"它还提供了一些有用的信息,帮你如何得到每个蜜蜂!"
+			]
+			icon: {
+				Count: 1b
+				id: "the_bumblezone:stingless_bee_helmet_1"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0EB66877C19B1BB3"
+			shape: "circle"
+			subtitle: "读我!"
+			tasks: [
+				{
+					id: "1F14359619CBD3E1"
+					title: "蜜蜂收集器101"
+					type: "checkmark"
+				}
+			]
+			title: "你的所有蜜蜂都属于我们"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EB66877C19B1BB3"]
+			description: [
+				"木场蜜蜂+树脂蜜蜂"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:plastic"
+					}
+				}
+			}
+			id: "711BF43CFB2DE085"
+			shape: "circle"
+			subtitle: "繁殖"
+			tasks: [
+				{
+					id: "64A7A0388DC03CDF"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "塑料蜜蜂"
+			x: -4.0d
+			y: 8.5d
+		}
+	]
+	title: "蜜蜂"
+}

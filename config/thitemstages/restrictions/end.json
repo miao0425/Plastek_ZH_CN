@@ -1,0 +1,12 @@
+{
+    "Restriction Data": {
+        "stage": "End",
+        "name": "末地",
+        "dimensionList": [
+            {
+                "dimension": "minecraft:the_end",
+                "message": "您没有进入资格！"
+            }
+        ]
+    }
+}

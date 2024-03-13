@@ -1,0 +1,820 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tools_2"
+	group: "04DB2BB1A10D6373"
+	icon: {
+		Count: 1b
+		id: "occultism:divination_rod"
+		tag: { }
+	}
+	id: "00A0164751CF042F"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["46A8082BAFA451ED"]
+			description: [
+				"需要建造沉浸工程多方块"
+			]
+			id: "1A6E4C045828DEDE"
+			tasks: [
+				{
+					id: "26363961B182E98A"
+					item: {
+						Count: 1b
+						id: "immersiveengineering:hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1F14D3B1AEC7C529"]
+			description: [
+				"从现在起，你的大部分工具、武器和盔甲都将通过寂静装备或神化制作，或者两者兼而有之！"
+				""
+				"但偶尔也会有例外情况，使用某些盔甲会更好"
+			]
+			id: "3780A1B40F84103A"
+			tasks: [
+				{
+					id: "0B52CCAFCD10ED48"
+					item: {
+						Count: 1b
+						id: "silentgear:pickaxe"
+						tag: {
+							Damage: 0
+							SGear_Data: {
+								Construction: {
+									Parts: [
+										{
+											ID: "silentgear:pickaxe_head"
+											Item: {
+												Count: 1b
+												id: "silentgear:pickaxe_head"
+												tag: {
+													CraftedCount: 1
+													Damage: 0
+													Materials: [
+														{
+															Count: 3b
+															ID: "silentgear:iron"
+															Item: {
+																Count: 1b
+																id: "minecraft:iron_ingot"
+															}
+														}
+													]
+												}
+											}
+										}
+										{
+											ID: "silentgear:rod"
+											Item: {
+												Count: 1b
+												id: "silentgear:rod"
+												tag: {
+													Materials: [
+														{
+															ID: "silentgear:wood/rough"
+															Item: {
+																Count: 1b
+																id: "minecraft:air"
+																tag: {
+																	Charged: 0b
+																}
+															}
+														}
+													]
+												}
+											}
+										}
+									]
+								}
+								Properties: {
+									LockStats: 0b
+									ModVersion: "3.2.2"
+									Stats: {
+										"silentgear:attack_reach": 3.0f
+										"silentgear:attack_speed": -2.8f
+										"silentgear:charging_value": 0.6999999f
+										"silentgear:durability": 249.99998f
+										"silentgear:enchantment_value": 13.999999f
+										"silentgear:harvest_level": 2.0f
+										"silentgear:harvest_speed": 6.0f
+										"silentgear:magic_damage": 1.0f
+										"silentgear:melee_damage": 3.0f
+										"silentgear:rarity": 20.0f
+										"silentgear:repair_efficiency": 1.0f
+									}
+									Traits: [
+										{
+											Level: 3b
+											Name: "silentgear:malleable"
+										}
+										{
+											Level: 1b
+											Name: "silentgear:magnetic"
+										}
+										{
+											Level: 3b
+											Name: "silentgear:crude"
+										}
+										{
+											Level: 5b
+											Name: "silentgear:bending"
+										}
+									]
+								}
+								Rendering: {
+									Model: 3
+								}
+							}
+							SGear_UUID: [I;
+								1450365213
+								1385909329
+								-1807623527
+								815855940
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "寂静工具"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["186B4AE054D01469"]
+			description: [
+				"有了这个方便的花袋，你可以把所有的花都塞进去。我发誓，鲜花根本不会受损。 这个花袋很神奇，实际上，你是把花送到了亚尔夫海姆"
+				""
+				"你能想象当你把手伸进储物袋想拿回一朵花时，亚尔夫海姆的居民们看到一只巨大的、块状的手从天而降时的恐怖表情吗？ "
+			]
+			id: "27193A29AB0DDAF8"
+			shape: "circle"
+			subtitle: "在沙子上写下我的名字..."
+			tasks: [
+				{
+					id: "3AC3465D38905880"
+					item: "botania:flower_bag"
+					type: "item"
+				}
+			]
+			title: "我可以给自己买花"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7B2BE8EF4B077ABF"]
+			description: [
+				"这个工具有很多用途，比如查找某些植物魔法方块的信息，以及激活亚尔夫海姆传送门"
+				""
+				"多亏了一位名叫&bQuarris&r的玩家，如果你用森林魔杖高亮显示你的魔力池--你就能看到该魔力池中的魔力总量！"
+			]
+			id: "7510B8270AB11333"
+			tasks: [
+				{
+					id: "115E52EA16B406D9"
+					item: {
+						Count: 1b
+						id: "botania:twig_wand"
+						tag: {
+							color1: 0
+							color2: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "森林法杖"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["791E405B6085CCE2"]
+			description: [
+				"哦，等等，不，他们确实做了些什么......"
+				""
+				"更好版本的魔鬼之梦果。你可以戴上护目镜，而不必服用毒药让自己产生幻觉！"
+				""
+				"这将使你的下界之旅更加轻松，因为你将能看到艾瑟金属矿石。 艾瑟金属将是进入太空不可或缺的一部分！"
+			]
+			id: "076EB307BC758853"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "626DB73237808792"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "护目镜什么也做不了"
+			tasks: [
+				{
+					id: "4A038C1160F52D57"
+					item: {
+						Count: 1b
+						id: "occultism:otherworld_goggles"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"38DAC7D1ECEB4AC6"
+				"791E405B6085CCE2"
+			]
+			description: [
+				"这根棒杆可以让你通过将其与尼瑟金属矿石相契合来追踪艾瑟金属矿石 "
+			]
+			id: "6C5537A36A16C0D4"
+			shape: "circle"
+			tasks: [
+				{
+					id: "7B038BBA795D53AB"
+					item: {
+						Count: 1b
+						id: "occultism:divination_rod"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4064F6ACEBE392CA"]
+			id: "2D85572657188C68"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "47109646E242EB35"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "20A949A600AD8980"
+					item: {
+						Count: 1b
+						id: "occultism:infused_pickaxe"
+						tag: {
+							Damage: 0
+							spiritName: "Azakarcryne"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1BEF36F590BA5162"]
+			id: "264AC1C8E63D24F0"
+			subtitle: "注意：这需要防腐木棍才能制作！"
+			tasks: [
+				{
+					id: "4A7B4A6F9DFEACB6"
+					item: "create:wrench"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["596C93F25C178797"]
+			description: [
+				"制作蜡烛"
+				""
+				"蜡烛需要油脂，用这把屠宰之斧击杀牛、猪或羊就能获得油脂"
+				""
+				"你现在应该有很多牛了吧？"
+			]
+			id: "177B92FA9A0F514E"
+			subtitle: "你不能拿蜡烛！"
+			tasks: [
+				{
+					id: "11B556CA48CFEBB8"
+					item: {
+						Count: 1b
+						id: "occultism:butcher_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6FB82F0B7BA3BD4B"]
+			description: [
+				"让你看到某些物品的工作魔力范围."
+			]
+			id: "0D706F84B07098AD"
+			tasks: [
+				{
+					id: "0EB64201BA35A2DC"
+					item: "botania:monocle"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			description: [
+				"在寂静齿轮和原版之外 -- 你还可以使用神化风格工具"
+				""
+				"通过神化 ，您可以从世界上找到的武器/工具/盔甲中提取强大的宝石，也可以在世界各地的宝箱中找到宝石"
+				""
+				"然后，您就可以为装备镶嵌宝石了"
+				""
+				"您也可以选择使用在世界中找到的物品，因为有些物品可能非常强大，尤其是神化 BOSS 掉落的物品"
+				""
+				"&c注：大多数神化装备可通过自行制作物品转化为寂静装备 &l过程不可逆转&r.&r"
+				""
+				"&l&e如果将寂静装备放入重铸台，就可以赋予它神化附魔、插槽等效果。 将两者混合使用，可以产生一些极其强大的物品&r&r"
+			]
+			icon: {
+				Count: 1b
+				id: "apotheosis:gem"
+				tag: {
+					facets: 6
+					gem: "apotheosis:the_nether/inferno"
+					rarity: "ancient"
+					uuids: [
+						[I;
+							-631996236
+							175786103
+							-1971532747
+							1592531039
+						]
+					]
+				}
+			}
+			id: "32741B1B4BE2FACE"
+			shape: "circle"
+			tasks: [
+				{
+					id: "418AC74AB13747CA"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "神化"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"2C638FD18C668A58"
+				"32741B1B4BE2FACE"
+				"291CEE5812B58E67"
+			]
+			description: [
+				"重铸站与宝石粉以及分解装备获得的材料搭配使用时 -- 可让您更改装备的属性"
+			]
+			id: "433AD1D8D4B477BD"
+			shape: "circle"
+			tasks: [
+				{
+					id: "5F2BABED814C9BB1"
+					item: "apotheosis:simple_reforging_table"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"2C638FD18C668A58"
+				"32741B1B4BE2FACE"
+				"291CEE5812B58E67"
+			]
+			description: [
+				"这张桌子可以产出宝石粉。只需放入你不需要的宝石，然后收集宝石粉"
+			]
+			id: "35D707568E4514F4"
+			rewards: [
+				{
+					id: "49B056FBDD5F7821"
+					item: "apotheosis:gem_dust"
+					random_bonus: 14
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "1E3F1B67838C4469"
+					item: "apotheosis:gem_cutting_table"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"2C638FD18C668A58"
+				"32741B1B4BE2FACE"
+				"291CEE5812B58E67"
+			]
+			description: [
+				"你现在可能已经在宝箱或怪物掉落中遇到过一些神化装备了"
+				""
+				"你可以把不用的东西放进去。 你会得到一些重要的材料："
+				""
+				"&8神秘废金属&r"
+				"&a陈旧布匹&r"
+				"&d玄奥沙&r"
+				"&6神铸珍珠&r"
+			]
+			id: "42159537E354482C"
+			rewards: [
+				{
+					id: "6A16E30C01CC9B8C"
+					item: "apotheosis:common_material"
+					random_bonus: 19
+					type: "item"
+				}
+				{
+					id: "452AB714E6E954E7"
+					item: "apotheosis:uncommon_material"
+					random_bonus: 14
+					type: "item"
+				}
+				{
+					id: "6739FC6910BA6729"
+					item: "apotheosis:epic_material"
+					random_bonus: 9
+					type: "item"
+				}
+				{
+					id: "0354E1A6A9F9341B"
+					item: "apotheosis:mythic_material"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "1CB045108B143FC7"
+					item: "apotheosis:salvaging_table"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"2C638FD18C668A58"
+				"32741B1B4BE2FACE"
+				"291CEE5812B58E67"
+			]
+			description: [
+				"虽然这不是神化物品，但如果你想把宝石放入装备的空插槽中，你就需要一张锻造台"
+			]
+			id: "6A0F00354FADEA15"
+			shape: "circle"
+			tasks: [
+				{
+					id: "1A5917E3E3A77324"
+					item: "minecraft:smithing_table"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2E0DB2805D654494"]
+			id: "1FCAB4A7D0AC7A5D"
+			shape: "circle"
+			tasks: [
+				{
+					id: "1295455514B8FC3C"
+					item: "mob_grinding_utils:absorption_upgrade"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2E0DB2805D654494"]
+			id: "5EE591E1AEC588D2"
+			shape: "circle"
+			tasks: [
+				{
+					id: "42BB36A18D3C686D"
+					item: "mob_grinding_utils:saw_upgrade_arthropod"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2E0DB2805D654494"]
+			id: "383B59A3A604DC17"
+			shape: "circle"
+			tasks: [
+				{
+					id: "6C32C0F90B914F2C"
+					item: "mob_grinding_utils:saw_upgrade_beheading"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2E0DB2805D654494"]
+			id: "41A8AF881250D90C"
+			shape: "circle"
+			tasks: [
+				{
+					id: "60B09F40B017A5E2"
+					item: "mob_grinding_utils:saw_upgrade_fire"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2E0DB2805D654494"]
+			id: "392339EE4457581B"
+			shape: "circle"
+			tasks: [
+				{
+					id: "0EBC0D7FEA9E22F9"
+					item: "mob_grinding_utils:saw_upgrade_looting"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2E0DB2805D654494"]
+			id: "520C627477EAFE8B"
+			shape: "circle"
+			tasks: [
+				{
+					id: "4B48919B395BE43F"
+					item: "mob_grinding_utils:saw_upgrade_sharpness"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2E0DB2805D654494"]
+			id: "34ADACADF0A18EC8"
+			shape: "circle"
+			tasks: [
+				{
+					id: "782A99D7EFD5FD1A"
+					item: "mob_grinding_utils:saw_upgrade_smite"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2E0DB2805D654494"]
+			id: "419BAF82DE5C43E0"
+			shape: "circle"
+			tasks: [
+				{
+					id: "4F0DBF0E959026FA"
+					item: "mob_grinding_utils:xp_solidifier_upgrade"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2E0DB2805D654494"]
+			id: "7FB438059382C276"
+			shape: "circle"
+			tasks: [
+				{
+					id: "3AF5CE967237DA2E"
+					item: "mob_grinding_utils:fan_upgrade_width"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2E0DB2805D654494"]
+			id: "636DDC00B2073B05"
+			shape: "circle"
+			tasks: [
+				{
+					id: "787BC54F812CD335"
+					item: "mob_grinding_utils:fan_upgrade_height"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2E0DB2805D654494"]
+			id: "6CF8F489E74023B3"
+			shape: "circle"
+			tasks: [
+				{
+					id: "0FC068D7F52E0534"
+					item: "mob_grinding_utils:fan_upgrade_speed"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2E0DB2805D654494"]
+			description: [
+				"怪物风扇将在3阶段解锁，所以目前 -- 你很可能还没有一个很好的方法来移动怪物"
+			]
+			id: "7712DE08D8BE78BA"
+			shape: "circle"
+			tasks: [
+				{
+					id: "126B18D77FFF6A2D"
+					item: "mob_grinding_utils:fan"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "0AA4BD76433811D1"
+			shape: "circle"
+			tasks: [
+				{
+					id: "4F44B64E318EE3DA"
+					item: {
+						Count: 1b
+						id: "theurgy:divination_rod_t2"
+						tag: {
+							Damage: 0
+							"theurgy:divination.setting.allow_attuning": 1b
+							"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t2_allowed_blocks"
+							"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t2_disallowed_blocks"
+							"theurgy:divination.setting.duration": 40
+							"theurgy:divination.setting.max_damage": 6
+							"theurgy:divination.setting.range": 96
+							"theurgy:divination.setting.tier": "minecraft:iron"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0AA4BD76433811D1"]
+			id: "38DAC7D1ECEB4AC6"
+			shape: "circle"
+			tasks: [
+				{
+					id: "47CC6C498830944D"
+					item: {
+						Count: 1b
+						id: "theurgy:divination_rod_t3"
+						tag: {
+							Damage: 0
+							"theurgy:divination.setting.allow_attuning": 1b
+							"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t3_allowed_blocks"
+							"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t3_disallowed_blocks"
+							"theurgy:divination.setting.duration": 40
+							"theurgy:divination.setting.max_damage": 9
+							"theurgy:divination.setting.range": 96
+							"theurgy:divination.setting.tier": "minecraft:diamond"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			description: [
+				"禁止敌对生物在火把周围64格半径内生成"
+			]
+			id: "3A6C953F679115B2"
+			shape: "circle"
+			tasks: [
+				{
+					id: "714D2521CA2303BE"
+					item: "torchmaster:megatorch"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			id: "68A5E02BB5CF2233"
+			shape: "circle"
+			tasks: [
+				{
+					id: "67B3AE47535BD6BB"
+					item: "torchmaster:feral_flare_lantern"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3A6C953F679115B2"]
+			description: [
+				"禁止中立生物在灯周围64格半径内生成"
+			]
+			id: "0AFC04D1E7E75275"
+			shape: "circle"
+			tasks: [
+				{
+					id: "0814D3AFB6FECB73"
+					item: "torchmaster:dreadlamp"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["68A5E02BB5CF2233"]
+			id: "1723DE60A4E3B77F"
+			shape: "circle"
+			tasks: [
+				{
+					id: "1523E0FADB584B8C"
+					item: "torchmaster:frozen_pearl"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7010308F4F836BAD"]
+			id: "2FCD2B8D09CF00E7"
+			shape: "circle"
+			tasks: [
+				{
+					id: "5F178E2A9A24B9B6"
+					item: "woodenhopper:wooden_hopper"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -8.0d
+		}
+	]
+	title: "工具"
+}

@@ -1,0 +1,268 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magic_6"
+	group: "16ADE1AEEBEEE736"
+	icon: "mysticalagriculture:inferium_essence"
+	id: "4A7024D413FD5349"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["331771D570C7CDA6"]
+			description: [
+				"有关所有可用的种子，您可以查看 \"收集\" 页面"
+				""
+				"在mod中生成所有种子的核心是灌注器： "
+				""
+				"- 把你的种子基座放在中间"
+				"- 4 个指定物品"
+				"- 4 个精华（取决于你想做什么）"
+				""
+				"放置好所有材料后，使用红石（杠杆/按钮/红石火把等）进行激活"
+			]
+			id: "1A86D1454D7A0BF2"
+			tasks: [
+				{
+					id: "407772399A5D492C"
+					title: "神秘农业"
+					type: "checkmark"
+				}
+			]
+			title: "闻起来怪怪的植物，还有更多！"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6350D49BCB579E6C"]
+			description: [
+				"放下祭坛，它会告诉你如何建造其余的结构。"
+			]
+			id: "2839B98FEEEB68EB"
+			tasks: [
+				{
+					id: "31218E8C35991BDD"
+					item: "mysticalagriculture:infusion_altar"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6350D49BCB579E6C"]
+			id: "38296FF3FF904850"
+			tasks: [
+				{
+					count: 8L
+					id: "2A73CD58BBA66CA5"
+					item: "mysticalagriculture:infusion_pedestal"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0F530646337BBF9B"]
+			id: "526C025D379247C4"
+			shape: "circle"
+			tasks: [
+				{
+					id: "41A88986D96B969D"
+					item: "mysticalagriculture:awakening_pedestal"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0F530646337BBF9B"]
+			id: "6E5D4DB2625E06E0"
+			shape: "circle"
+			tasks: [
+				{
+					id: "42E85F774AD619FC"
+					item: "mysticalagriculture:awakening_altar"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0F530646337BBF9B"]
+			id: "539508C77B02F5C3"
+			shape: "circle"
+			tasks: [
+				{
+					count: 4L
+					id: "2E45E5AF3A147E6F"
+					item: "mysticalagriculture:essence_vessel"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["714B87A0999F252A"]
+			id: "0F530646337BBF9B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "62514273793EAD16"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "7B01F93FEB350F83"
+					item: "mysticalagriculture:cognizant_dust"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1A86D1454D7A0BF2"]
+			id: "714B87A0999F252A"
+			shape: "circle"
+			tasks: [
+				{
+					id: "438F8F797FABAB84"
+					title: "觉醒"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1A86D1454D7A0BF2"]
+			id: "6350D49BCB579E6C"
+			tasks: [
+				{
+					id: "7665D54FC8B5BBCA"
+					title: "基础"
+					type: "checkmark"
+				}
+			]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2839B98FEEEB68EB"
+				"38296FF3FF904850"
+			]
+			description: [
+				"你可能现在需要两个"
+				""
+				"一个用于你的四级火箭，另一个用于神秘农业"
+			]
+			hide_dependency_lines: false
+			id: "4AC78DE83D2FDDD5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3B99F8307B5783F4"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "7DD4EBA2BDC3E8E4"
+					item: "mysticalagriculture:master_infusion_crystal"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["389CAFB268087EF8"]
+			id: "2879325DD3463E18"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1F11F426BCDF06FB"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "16A8767FBF4E4E50"
+					item: "apotheosis:endshelf"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2879325DD3463E18"]
+			id: "2261796DD3005D8B"
+			shape: "circle"
+			tasks: [
+				{
+					id: "2AC230B918D207E4"
+					item: "apotheosis:draconic_endshelf"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2261796DD3005D8B"]
+			id: "5A3EA1DB430806D7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "50654F3EB4F87513"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "31812E3B1484C734"
+					item: "apotheosis:pearl_endshelf"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1A86D1454D7A0BF2"]
+			description: [
+				"末地之书"
+			]
+			id: "389CAFB268087EF8"
+			shape: "circle"
+			subtitle: "神化附魔：80-100级"
+			tasks: [
+				{
+					id: "37B3FF4E6F1A0C08"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "知识的尽头"
+			x: 0.5d
+			y: -2.0d
+		}
+	]
+	title: "魔法"
+}

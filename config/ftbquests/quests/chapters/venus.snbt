@@ -1,0 +1,142 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "venus"
+	group: "6864EC96E852A08D"
+	icon: "ad_astra:venus_sandstone"
+	id: "4095E8572820AD71"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"061CE1BEF9113532"
+				"25DFFE80A9494193"
+				"601E005B54F802FB"
+				"74DC6E8D496A2AF5"
+				"6D688A755213C75F"
+			]
+			icon: "ad_astra:venus_globe"
+			id: "30E96F2A742A18D8"
+			rewards: [
+				{
+					id: "341C6BB8EB6C0E7D"
+					item: "ad_astra:venus_globe"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "6B81D2FED8270F94"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "金星仪"
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6A337CED7C4DE0ED"]
+			id: "6680220D255B8081"
+			tasks: [
+				{
+					dimension: "ad_astra:venus"
+					id: "25C0D8AF5EE0B504"
+					type: "dimension"
+				}
+			]
+			title: "前往金星！"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6680220D255B8081"]
+			id: "061CE1BEF9113532"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5AA613A706B40FCD"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "0A71CA6FAD03DC7B"
+					item: "ad_astra:raw_calorite"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6680220D255B8081"]
+			id: "25DFFE80A9494193"
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: true
+					count: 512L
+					id: "7AD49FC046586AF4"
+					item: "ad_astra:venus_cobblestone"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6680220D255B8081"]
+			id: "6D688A755213C75F"
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "4E8A262B398CC83D"
+					item: "ad_astra:infernal_spire_block"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6680220D255B8081"]
+			id: "601E005B54F802FB"
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: true
+					count: 512L
+					id: "622D9DA1665F5F82"
+					item: "ad_astra:venus_sand"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6680220D255B8081"]
+			id: "74DC6E8D496A2AF5"
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: true
+					count: 512L
+					id: "645DCE95E2883924"
+					item: "ad_astra:venus_sandstone"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 4.0d
+		}
+	]
+	title: "金星"
+}

@@ -1,0 +1,649 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage_4"
+	group: "7259EF239C15BF6E"
+	icon: "ae2:controller"
+	id: "4B0D3C7F168025BC"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0EA3983877DAE009"]
+			id: "69AF70807730CE36"
+			shape: "circle"
+			tasks: [
+				{
+					id: "7624F8B7A0766241"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:infinity_backpack"
+						tag: {
+							CanCharge: 1b
+							Energy: 0L
+							Selected: "POOR"
+							Special: 0b
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["46478F6D43F0A6EA"]
+			description: [
+				"ME 控制器每侧有 32 个通道，每个网络可添加多个控制器"
+				""
+				"如果添加多个控制器，则所有控制器必须相互连接（不通过任何线缆连接） 否则它就会变&e红.&r :)"
+			]
+			id: "72F937C5CEF3DF88"
+			shape: "circle"
+			tasks: [
+				{
+					id: "4A3093AF7DF2BB3A"
+					item: "ae2:controller"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["46478F6D43F0A6EA"]
+			id: "26EE6EE488E2D521"
+			shape: "circle"
+			tasks: [
+				{
+					id: "2A7F8EF56E14629F"
+					item: "ae2:terminal"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["46478F6D43F0A6EA"]
+			id: "2E26B37A9CDA3A00"
+			shape: "circle"
+			tasks: [
+				{
+					id: "4D03C5C719F73860"
+					item: "ae2:crafting_terminal"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["46478F6D43F0A6EA"]
+			id: "1F2AEA369EA9B73C"
+			shape: "circle"
+			tasks: [
+				{
+					id: "5B4E1395C1687B9F"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46478F6D43F0A6EA"]
+			id: "12B693AEF09EF056"
+			shape: "circle"
+			tasks: [
+				{
+					id: "167761A24AB4D91E"
+					item: "ae2:pattern_access_terminal"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A48C5941E27BA04"]
+			description: [
+				"安全终端可让您为 AE 网络设置权限"
+			]
+			id: "36E4995E303BF68B"
+			shape: "circle"
+			tasks: [
+				{
+					id: "227AEFFAE31CC132"
+					item: "ae2:security_station"
+					type: "item"
+				}
+				{
+					id: "206D947C756BC866"
+					item: "ae2:biometric_card"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["46478F6D43F0A6EA"]
+			description: [
+			]
+			id: "516D076D8531B375"
+			shape: "circle"
+			tasks: [
+				{
+					id: "2376544A7561F352"
+					item: "ae2:drive"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2A48C5941E27BA04"]
+			id: "35A918E4AEE39903"
+			rewards: [
+				{
+					count: 5
+					id: "339A1295B96F8749"
+					item: "ae2:wireless_booster"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "316D9D8761C46B14"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+				{
+					id: "0BDB5E1DCB962123"
+					item: "ae2:wireless_booster"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A48C5941E27BA04"]
+			id: "391D6BE744F345C4"
+			shape: "circle"
+			tasks: [
+				{
+					id: "0253010AE8217F13"
+					item: "ae2:wireless_terminal"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2A48C5941E27BA04"]
+			id: "0B0098B052D00AC4"
+			shape: "circle"
+			tasks: [
+				{
+					id: "4F6B43BC8D4FE9B2"
+					item: "ae2:wireless_crafting_terminal"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1BD116BD12410B94"]
+			description: [
+				"您的合成塔至少应由 1 个制作存储方块和一些并行处理单元组成"
+				""
+				"使用更多的并行处理单元可以让您的自动制作装置使用一个以上的分子装配室"
+				""
+				"添加合成监控器可以显示正在合成的内容"
+			]
+			id: "0C7561809B16EB93"
+			shape: "circle"
+			tasks: [
+				{
+					id: "3D7C067BDBBE547F"
+					item: "ae2:crafting_accelerator"
+					type: "item"
+				}
+			]
+			title: "合成塔"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1BD116BD12410B94"]
+			description: [
+				"有多种方法来建造它"
+				""
+				"最简单的方法是在 ME 接口周围安装几个分子装配室"
+				""
+				"如需了解更高级的，您应该查看 &n&bhttps://mysticalmachines.com/wiki/ae2-automatic-crafting&r&r"
+			]
+			id: "690E0E1BC832F620"
+			shape: "circle"
+			tasks: [
+				{
+					id: "759D0216B9E88430"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+				{
+					id: "4FD0058172213001"
+					item: "ae2:interface"
+					type: "item"
+				}
+			]
+			title: "分子装配室"
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1AE7A2562C1774E2"]
+			id: "46478F6D43F0A6EA"
+			shape: "circle"
+			subtitle: "基础知识"
+			tasks: [
+				{
+					id: "4B917FB26D94D803"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "AE2基础"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["46478F6D43F0A6EA"]
+			id: "1BD116BD12410B94"
+			shape: "circle"
+			tasks: [
+				{
+					id: "59C9DDE1EA67D6D1"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "简单的自动合成"
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1BD116BD12410B94"]
+			description: [
+				"无论你想自动合成什么，都需要设置一个样板"
+				""
+				"您需要将空白样板放入样板终端"
+				""
+				"样板本身将置于分子装配室设置内，但您应该可以将它们存入样板管理终端"
+			]
+			id: "1E91997B0DB7EAD4"
+			shape: "circle"
+			tasks: [
+				{
+					id: "3618B4B0F7A200C3"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["46478F6D43F0A6EA"]
+			id: "2A48C5941E27BA04"
+			shape: "circle"
+			tasks: [
+				{
+					id: "69F95450EAC26E48"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "无线"
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["46478F6D43F0A6EA"]
+			id: "0895FA9F6BE8AD2C"
+			shape: "circle"
+			tasks: [
+				{
+					id: "28FED2A6E726158D"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "线缆"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0895FA9F6BE8AD2C"]
+			id: "3F2D039D41DA814A"
+			shape: "circle"
+			subtitle: "8个频道"
+			tasks: [
+				{
+					id: "2A68C0B7EA0B2108"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0895FA9F6BE8AD2C"]
+			id: "303501E82D7BA0AC"
+			shape: "circle"
+			subtitle: "8个频道"
+			tasks: [
+				{
+					id: "1213610723FD9793"
+					item: "ae2:fluix_smart_cable"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0895FA9F6BE8AD2C"]
+			id: "091B2CF8002CB8BC"
+			shape: "circle"
+			subtitle: "8个频道"
+			tasks: [
+				{
+					id: "76A2D0BCB3F4C2C5"
+					item: "ae2:fluix_covered_cable"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0895FA9F6BE8AD2C"]
+			id: "7B801D3275489852"
+			shape: "circle"
+			subtitle: "32个频道"
+			tasks: [
+				{
+					id: "31E095A9045F209B"
+					item: "ae2:fluix_smart_dense_cable"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0895FA9F6BE8AD2C"]
+			description: [
+				"虽然它在 JEI 中是隐藏的，但 4 个线缆锚 + 像下面示例中的任何方块都应创建一个线缆伪装板"
+				""
+				"{image:kubejs:textures/ae2/ae2_facade_sample.png width:200 height:125 align:1}"
+				""
+				"您可以使用线缆伪装板来改变线缆的外观，使其成为您所用方块的外观"
+			]
+			id: "7C793769948A4F4B"
+			shape: "circle"
+			tasks: [
+				{
+					id: "4A3AC2B779399E82"
+					item: "ae2:cable_anchor"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1AE7A2562C1774E2"]
+			id: "4E6FB90BB4F8B39C"
+			shape: "circle"
+			tasks: [
+				{
+					id: "7C711D95F3F3ACDE"
+					item: "ae2:certus_quartz_wrench"
+					type: "item"
+				}
+				{
+					id: "126E001329E17B1D"
+					item: "ae2:nether_quartz_wrench"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1AE7A2562C1774E2"]
+			id: "5C01C29BC1664FA1"
+			shape: "circle"
+			tasks: [
+				{
+					id: "16396D3ABE2FAB88"
+					item: "ae2:cell_component_1k"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5C01C29BC1664FA1"]
+			id: "3131562E8C1FE2AC"
+			shape: "circle"
+			tasks: [
+				{
+					id: "64B684A74EC17B10"
+					item: "ae2:cell_component_4k"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3131562E8C1FE2AC"]
+			id: "5D6B9FEE3C7588E6"
+			shape: "circle"
+			tasks: [
+				{
+					id: "3F03BC43862C8DA7"
+					item: "ae2:cell_component_16k"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5D6B9FEE3C7588E6"]
+			id: "23DAD96B1A0061DA"
+			shape: "circle"
+			tasks: [
+				{
+					id: "1A2D9C67DF96E7E0"
+					item: "ae2:cell_component_64k"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["23DAD96B1A0061DA"]
+			id: "0E76F1C1018F0586"
+			shape: "circle"
+			tasks: [
+				{
+					id: "0E3FE3F26791A522"
+					item: "ae2:cell_component_256k"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0E76F1C1018F0586"]
+			id: "452DAB98D4209D5D"
+			shape: "circle"
+			tasks: [
+				{
+					id: "58C18175A957E1FF"
+					item: "megacells:cell_component_1m"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["452DAB98D4209D5D"]
+			id: "6F8B62C362E5BA97"
+			shape: "circle"
+			tasks: [
+				{
+					id: "7DE78493DF282869"
+					item: "megacells:cell_component_4m"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6F8B62C362E5BA97"]
+			id: "6A2BB6CF9FB387CD"
+			shape: "circle"
+			tasks: [
+				{
+					id: "5BA7B6E99D170D6D"
+					item: "megacells:cell_component_16m"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6A2BB6CF9FB387CD"]
+			id: "7106ED51BD75A935"
+			shape: "circle"
+			tasks: [
+				{
+					id: "790F483395C50F58"
+					item: "megacells:cell_component_64m"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7106ED51BD75A935"]
+			id: "6AB024E988665239"
+			shape: "circle"
+			tasks: [
+				{
+					id: "1FBF3928391A7D2E"
+					item: "megacells:cell_component_256m"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1AE7A2562C1774E2"]
+			description: [
+				"您可以制作物品、流体或化学品存储单元 "
+				""
+				"完成后的外壳与存储组件配对，就能形成一个单元"
+				""
+				"将制作完成的单元格放入 ME驱动器中"
+			]
+			id: "55206917683D68EB"
+			shape: "circle"
+			tasks: [
+				{
+					id: "5985B5989F5C6C38"
+					item: "ae2:item_cell_housing"
+					type: "item"
+				}
+				{
+					id: "5E8614078F36469F"
+					item: "ae2:fluid_cell_housing"
+					type: "item"
+				}
+				{
+					id: "14B240595196DEB1"
+					item: "appmek:chemical_cell_housing"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1AE7A2562C1774E2"]
+			id: "37E2A6F41DC4B475"
+			shape: "circle"
+			tasks: [
+				{
+					id: "29AFC3D2B05B981E"
+					item: "megacells:mega_item_cell_housing"
+					type: "item"
+				}
+				{
+					id: "2DF15B0C3B377275"
+					item: "megacells:mega_fluid_cell_housing"
+					type: "item"
+				}
+				{
+					id: "2AE025D479273420"
+					item: "megacells:mega_chemical_cell_housing"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0C7561809B16EB93"]
+			id: "4415F327C95D2686"
+			shape: "circle"
+			tasks: [
+				{
+					id: "04F7F34F47635BE9"
+					item: "ae2:crafting_monitor"
+					type: "item"
+				}
+				{
+					id: "5F468976D9FDA342"
+					item: "megacells:mega_crafting_monitor"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 0.5d
+		}
+	]
+	title: "存储"
+}

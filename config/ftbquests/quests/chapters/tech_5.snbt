@@ -1,0 +1,1500 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tech_5"
+	group: "7259EF239C15BF6E"
+	icon: "industrialforegoing:machine_frame_supreme"
+	id: "609B03BD4386E363"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4FE0F5D998E80566"]
+			description: [
+				"通过煤炭/煤炭焦来发电"
+				""
+				"简单易行，非常适合快速启动"
+			]
+			id: "739C33D959E17736"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3AC717347C100308"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "5885EC3B95570B97"
+					item: "thermal:dynamo_stirling"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["45216AA2FD4ED89F"]
+			description: [
+				"获取一些精炼油需要一个过程"
+				""
+				"我们会需要一些生产过程中产生的副产物，所以这条路也许值得一走"
+			]
+			id: "64679E7FA0EE3FC7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6FD90A6AF34F905A"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "74C41DF90D051F2F"
+					item: "thermal:dynamo_compression"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4FE0F5D998E80566"]
+			description: [
+				"这个更多是为了好玩，或者说是一种挑战.  "
+				""
+				"对于食物能源炉来说，有些食物可能会非常强大，或者你有一个土豆农场，你想让几十个能源炉用大量的土豆提供能量"
+			]
+			id: "2E04F7BC6B10C967"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0EE705EA4AD78ABE"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "7A9CD47E3B25799F"
+					item: "thermal:dynamo_gourmand"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["060D5244CBD4660D"]
+			id: "5FCBAAD5BBD07EC0"
+			subtitle: "欢迎来到副产物城！"
+			tasks: [
+				{
+					id: "2177EE9CE89EC77B"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "阶段 5"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4FE0F5D998E80566"]
+			description: [
+				"首先，你得在世界上找到更多的石油。要么是沥青沙，要么是流动石油"
+				""
+				"现在，您需要决定是将石油转移到另一个地方，还是设置一个商店"
+				""
+				"MEK 这个阶段可以使用流体管道，因此您现在将拥有自动提取/输出物品、流体、气体等"
+			]
+			id: "1AD0B3F87B1CBECC"
+			shape: "square"
+			subtitle: ""
+			tasks: [
+				{
+					id: "100F026FD980372C"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "获取更多石油"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1AD0B3F87B1CBECC"]
+			id: "45216AA2FD4ED89F"
+			shape: "square"
+			tasks: [
+				{
+					count: 3L
+					id: "5A221F95E638A86E"
+					item: "thermal:machine_refinery"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["45216AA2FD4ED89F"]
+			description: [
+				"沥青根本没有什么用处，所以我们既可以扔掉它，也可以回收它"
+				""
+				"将沥青放入热解炉会变成焦炭/焦油/重油，所有这一切都有一定的帮助"
+			]
+			id: "2C823AA36886D512"
+			shape: "circle"
+			subtitle: "再见副产物"
+			tasks: [
+				{
+					id: "6AC3116388D87D5D"
+					item: "thermal:machine_pyrolyzer"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			description: [
+				"这条路线将为您提供比目前更多的发电选择"
+			]
+			id: "4FE0F5D998E80566"
+			shape: "square"
+			tasks: [
+				{
+					id: "5CA276C00C192C58"
+					title: "更多能量"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5D2E9803B599134A"]
+			description: [
+				"将其连接到原木上，就能剥离原木，生成胶乳"
+			]
+			id: "3C7EC7EF220BF3DB"
+			tasks: [
+				{
+					id: "45261099E770F560"
+					item: "industrialforegoing:fluid_extractor"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3C7EC7EF220BF3DB"]
+			description: [
+				"您应该只需要 4 个不同流体的化学溶解室就能完成整合包"
+				""
+				"流体单元是存储、输入和输出流体的绝佳方式。它们甚至可以通过各种附魔来增加容纳量。 还有各种不同的流体储罐，以及一两个可以盛放液体的木桶 "
+				""
+				"您可能还需要一个熔岩炉来将某些物品熔化成流体"
+				""
+				"如果你真的想这样做，水桶法屡试不爽，而且能增强你的应变能力"
+				""
+				"有些附带目标可能需要你获取以太气体或粉红黏液"
+			]
+			id: "0EA3983877DAE009"
+			tasks: [
+				{
+					id: "60C54A618B6B6356"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "溶解"
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0EA3983877DAE009"]
+			id: "153362F00BFC2154"
+			subtitle: "胶乳"
+			tasks: [
+				{
+					id: "1E32E7A1929F5826"
+					item: "industrialforegoing:dissolution_chamber"
+					type: "item"
+				}
+			]
+			title: "胶乳化学溶解室"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0EA3983877DAE009"]
+			id: "5BEA0D7195BF43F8"
+			subtitle: "塑料"
+			tasks: [
+				{
+					id: "434D296406AE77E4"
+					item: "industrialforegoing:dissolution_chamber"
+					type: "item"
+				}
+			]
+			title: "塑料化学溶解室"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0EA3983877DAE009"]
+			id: "65659F644269267B"
+			subtitle: "不稳定熔融红石"
+			tasks: [
+				{
+					id: "4A307BF8E5335B39"
+					item: "industrialforegoing:dissolution_chamber"
+					type: "item"
+				}
+			]
+			title: "不稳定熔融红石化学溶解室"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0EA3983877DAE009"]
+			id: "57046DF3FB29F0BB"
+			subtitle: "谐振末影"
+			tasks: [
+				{
+					id: "66EA29857325A0BB"
+					item: "industrialforegoing:dissolution_chamber"
+					type: "item"
+				}
+			]
+			title: "谐振末影化学溶解室"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "5D2E9803B599134A"
+			tasks: [
+				{
+					id: "58BC92D0EE4DD805"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "使用部分流体"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "2615ADAD48E20CA7"
+			tasks: [
+				{
+					id: "7BDB0ABAC9814FE2"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "松香是你能量的颜色"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2615ADAD48E20CA7"]
+			description: [
+				"要获得松香，您需要在云杉、金合欢或橡木上使用树汁提取器"
+				""
+				"这样就能得到一些树脂"
+				""
+				"树脂需要输入流体精炼机，这样就能得到松香和一些石油"
+				""
+				"我们不会对树油做任何处理。如果你喜欢的话,你可以把它发送到压缩能源炉或摧毁它"
+			]
+			id: "524E2259BDC91C47"
+			tasks: [
+				{
+					id: "1F4072254CAE4421"
+					item: "thermal:device_tree_extractor"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["524E2259BDC91C47"]
+			id: "43A8642669459BA6"
+			tasks: [
+				{
+					id: "08F3C427DBA9B36C"
+					item: "thermal:machine_refinery"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["43A8642669459BA6"]
+			id: "7B749887BE3281AF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6DB1A00F26E0BE42"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "41A3B9E58A55D1FC"
+					item: "thermal:rosin"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["45216AA2FD4ED89F"]
+			id: "4FDC720E33809535"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6F2B4E12A9BB9DBD"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "62034EC3D9CD8116"
+					item: "emendatusenigmatica:sulfur_dust"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["45216AA2FD4ED89F"]
+			id: "5D84AA2C3504353F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "376A70536CB763CD"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "0076F3AA1F04D0B8"
+					item: "thermal:tar"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["45216AA2FD4ED89F"]
+			id: "744E233DCABACCE2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40ACE3092D6E600A"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "7F6A81997BF3A0F6"
+					item: "thermal:bitumen"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["57046DF3FB29F0BB"]
+			description: [
+				"制作完深渊之心后 -- 您需要回到远古城市，点亮房间中央的大传送门"
+				""
+				"为此，您需要剪掉生长在传送门框架周围的幽匿藤蔓。清理完所有方块的所有边后，就可以用深渊之心右键点击框架内的任意位置来点亮传送门。 "
+				""
+				""
+				"{image:kubejs:textures/deeperdarker/deeperdarker_portal_frame.png width:200 height:100 align:1}"
+			]
+			id: "2D895377F6FE3960"
+			rewards: [
+				{
+					id: "5029AEF44ED533B6"
+					item: {
+						Count: 1b
+						id: "endrem:cursed_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25F4571FCD147DD9"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "7F3043FF920DE66B"
+					item: "deeperdarker:heart_of_the_deep"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5BEA0D7195BF43F8"]
+			id: "2EF59BA4F088E6C8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0FFEB3711C182F6E"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "1A9716049C6EEA5F"
+					item: "industrialforegoing:machine_frame_simple"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["153362F00BFC2154"]
+			id: "7E14196C07D3C339"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6BF4AF94CAD93157"
+					table_id: 5825749635945163331L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "554478F4436F7F3E"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "555BD69295E454C5"
+					item: "industrialforegoing:machine_frame_advanced"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["65659F644269267B"]
+			id: "5CF860D2AB0DF518"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "022E3F8FF243AC7E"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "56020F2F197E2896"
+					item: "industrialforegoing:machine_frame_supreme"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			description: [
+				"在这个阶段，有很多更好的方式来获取资源"
+				""
+				"有了工业先锋，您可以在这里设置几台机器来建造真正强大的农场，并开始为下一个阶段即将推出的神秘农业做准备"
+				""
+				"有了 MEK 的数字型采矿机，你就可以在世界上开采矿石了。虽然从技术上讲，它是斗轮式挖掘机的升级版，但两者在采矿方式上的功能不同"
+			]
+			id: "43F168BD03BFE53B"
+			shape: "circle"
+			tasks: [
+				{
+					id: "36C105496861D09C"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "更智能的资源"
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["43F168BD03BFE53B"]
+			id: "3804AE715D3856E1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1F86EB73FC738525"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "1C761DB6742B0EB6"
+					item: "industrialforegoing:plant_gatherer"
+					type: "item"
+				}
+				{
+					id: "0503C221B705FBFD"
+					item: "industrialforegoing:plant_sower"
+					type: "item"
+				}
+				{
+					id: "32A0140327DEB2B0"
+					item: "industrialforegoing:plant_fertilizer"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["43F168BD03BFE53B"]
+			id: "72EB1DD905E2A604"
+			shape: "circle"
+			tasks: [
+				{
+					id: "73908EAFA0293BF5"
+					item: "industrialforegoing:animal_rancher"
+					type: "item"
+				}
+				{
+					id: "3580ABCFF4280687"
+					item: "industrialforegoing:animal_feeder"
+					type: "item"
+				}
+				{
+					id: "0641BD5539915D4F"
+					item: "industrialforegoing:animal_baby_separator"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["43F168BD03BFE53B"]
+			id: "75F8A8B511CC5026"
+			shape: "circle"
+			tasks: [
+				{
+					id: "1D70D0A7B67B7CF0"
+					item: "industrialforegoing:marine_fisher"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			description: [
+				"完成以下目标后，你就可以在第 5 阶段的 存储 下完成应用能源 2 的其余部分了"
+			]
+			id: "1AE7A2562C1774E2"
+			shape: "square"
+			tasks: [
+				{
+					id: "310838FBDDB27F9F"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "应用能源2"
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["790ECA9942A6B96B"]
+			id: "4E92D7C91599B826"
+			tasks: [
+				{
+					id: "68CBF4D12D80752C"
+					item: "ae2:inscriber"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"1AE7A2562C1774E2"
+				"790ECA9942A6B96B"
+			]
+			description: [
+				"只有化学溶解室或神秘农业配方才能制作出这些压印模板"
+				""
+				"&o神秘农业要到下一个阶段才会出现&r"
+			]
+			id: "64159F99BA4E8F75"
+			tasks: [
+				{
+					id: "3ECA058E1792BA60"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "7E67FC80005D5176"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "614B0EB212288734"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "314472A71DD96D1F"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"1AE7A2562C1774E2"
+				"790ECA9942A6B96B"
+			]
+			id: "4B41A7FE7246D2B0"
+			tasks: [
+				{
+					id: "4130C34CF50E405E"
+					item: "ae2:charger"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1AE7A2562C1774E2"]
+			description: [
+				"要获得所有的压印器，您需要使用每个化学溶解室中的一个，一个用来制作您的压印器，一个用来制作充能器。"
+			]
+			id: "790ECA9942A6B96B"
+			tasks: [
+				{
+					count: 6L
+					id: "42B512FE1332D231"
+					item: "prettypipes:blank_module"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4E92D7C91599B826"]
+			id: "0693CFEFD31E22BE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "08FCABBFBE49DBE9"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "6131C4A230ED2D15"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4E92D7C91599B826"]
+			id: "708BFEBB515846F3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0D20B4E4607BFA3D"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "392471B640057BF8"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4E92D7C91599B826"]
+			id: "5F142340459B3909"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "580B27D1218DBDC9"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "10F5BC4CA8CF5CE0"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1AE7A2562C1774E2"]
+			id: "2D2B2F94FFCC2203"
+			tasks: [
+				{
+					id: "5C86C2D8DF88B903"
+					item: "ae2:condenser"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2D2B2F94FFCC2203"]
+			id: "01DB3F04006ACC71"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DE05941771ED689"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "529AB16CF9FE6C2F"
+					item: "ae2:matter_ball"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2D2B2F94FFCC2203"]
+			description: [
+				"但创造物品需要一大堆，所以你还是开始准备吧！"
+			]
+			id: "1EFFAB72539A1FA9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "008C58CB64BA3BF9"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "这些在 7 阶段才能使用"
+			tasks: [
+				{
+					id: "34BC1F1F96C0C4E6"
+					item: "ae2:singularity"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0EA3983877DAE009"]
+			description: [
+				"有一些附魔可以在这方面发挥作用。"
+				""
+				"其中一个是扩容附魔，可以增加这个方块的流体容量。 还有其他附魔可以起到进一步增大体积的作用，但说实话我都忘了是什么了"
+				""
+				"&o你知道吗？不如加入 Discord 告诉我。然后我就可以把它添加到任务中，让其他人也知道！&r"
+			]
+			id: "508769E3B70EC7F4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "43948F9A27DFF7E4"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "035C0C8AB1C6B396"
+					item: {
+						Count: 1b
+						id: "thermal:fluid_cell"
+						tag: {
+							BlockEntityTag: {
+								TankInv: [
+									{
+										Amount: 0
+										Capacity: 32000
+										FluidName: "minecraft:empty"
+										Tank: 0b
+									}
+								]
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2D895377F6FE3960"]
+			description: [
+				"这是隐藏的"
+				""
+				"这个任务需要先获得深渊之心才能进行"
+				""
+				"如果您不确定如何做到这一点，您需要找到一个深谙之域生物群系或远古城市。  到了那里，发出足够的声音来提醒循声守卫"
+				""
+				"击杀循声守卫，拿走它的空之心，然后返回基地。查看化学溶解室的合成配方，就能看到你需要的&d深渊之心&r配方了 ."
+			]
+			hide_dependency_lines: true
+			id: "4B536820E1AEE72B"
+			subtitle: "深渊之心"
+			tasks: [
+				{
+					id: "727BD13902FF54D8"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "继续前进"
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4B536820E1AEE72B"]
+			description: [
+				"有了这只眼睛，你就拥有了进入末地所需的最后一只眼睛"
+				""
+				"您需要找到一个末地传送门，或者建造一个古代传送门方块，您需要 12 个"
+				""
+				"在这里，您将与末影龙一决高下"
+				""
+				"这个整合包使用了 mod “更凶猛的末影龙”，因此，战斗应该会更难，会有一些不同的机制"
+				""
+				"建议您带好可能需要的治疗物品、药水、饰品等"
+				""
+				"你会问原理是什么？"
+				""
+				"&e&o祝你好运&r&r "
+				""
+				""
+				"&o&a如果你能打败植物魔法的盖亚守护者 2，那么你应该有足够的能力应对这场战斗&r&r"
+			]
+			id: "0B70779A64DC22A8"
+			rewards: [
+				{
+					id: "1F5A3A1D42733846"
+					item: {
+						Count: 1b
+						id: "endrem:magical_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74E731A1D8F66502"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "野蛮人"
+			tasks: [
+				{
+					id: "27E38AE8A266DE2D"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "末地"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["268D87327288B46D"]
+			id: "4DDA8AE4B4591392"
+			tasks: [
+				{
+					id: "21BA9A7EAE4395C2"
+					item: "thermal:machine_smelter"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5FCBAAD5BBD07EC0"]
+			id: "268D87327288B46D"
+			tasks: [
+				{
+					id: "0B6947A51943B93B"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "最后几台热力机器"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["268D87327288B46D"]
+			description: [
+				"多驱冲压机是您制作板材、棒杆、齿轮、线缆等的新朋友！"
+			]
+			id: "0035FF9DD09AE418"
+			tasks: [
+				{
+					id: "349409005A9CA084"
+					item: "thermal:machine_press"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1AE7A2562C1774E2"]
+			id: "463F55548864F0FE"
+			tasks: [
+				{
+					id: "50381FF8D1CF403D"
+					item: "thermal:machine_crystallizer"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["463F55548864F0FE"]
+			id: "723C121516417858"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "48446ED6E879054D"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "5683FCAC6E061E9C"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["463F55548864F0FE"]
+			id: "3D2360638752DEBE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2237F1DE11632878"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "67F5DAC9D75B122E"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0EA3983877DAE009"]
+			id: "1C9AB136EC000AEF"
+			shape: "circle"
+			tasks: [
+				{
+					id: "4902E93FBCD532A9"
+					item: "thermal:machine_crucible"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1AD0B3F87B1CBECC"]
+			description: [
+				"如果你在世界上找到沥青沙，你可以用离心分离机进行加工"
+			]
+			id: "0EFCC15EA6867FCB"
+			shape: "circle"
+			tasks: [
+				{
+					id: "239D251793EE74DB"
+					item: "thermal:machine_centrifuge"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4DDA8AE4B4591392"]
+			id: "342F53F8AED7FC27"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "03F2C673912F21BF"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "2BC5D8E9871D5EA6"
+					item: "silentcompat:plasteel_ingot"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0035FF9DD09AE418"]
+			id: "3136349B668FB4FA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "14915B2391003573"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "7F82D90888ACB45D"
+					item: "emendatusenigmatica:plasteel_gear"
+					type: "item"
+				}
+				{
+					id: "654272DB715919C5"
+					item: "emendatusenigmatica:plasteel_plate"
+					type: "item"
+				}
+				{
+					id: "6474F06CBF86168C"
+					item: "emendatusenigmatica:plasteel_rod"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4DDA8AE4B4591392"]
+			id: "597D94CDF152FC02"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7CA38CBABEE9F841"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "735E81E551147D74"
+					item: "silentcompat:voidmetal_ingot"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0EA3983877DAE009"]
+			description: [
+				"要度过这个阶段，你至少需要 4 个末影人预言产物，才能填满深渊之心"
+			]
+			id: "3AA57C1952A2FAC6"
+			rewards: [
+				{
+					id: "7D265500B8C0E4FE"
+					item: "hostilenetworks:deep_learner"
+					type: "item"
+				}
+			]
+			subtitle: "深度怪物学习"
+			tasks: [
+				{
+					id: "61DA52F71AA4EABE"
+					title: "制造"
+					type: "checkmark"
+				}
+			]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3AA57C1952A2FAC6"]
+			description: [
+				"模拟室的运行需要一个预测矩阵和一个数据模型"
+				""
+				"您可以制作一大堆预测矩阵，然后把它们放在一个储存容器中，用管道输送到模拟室。 只要提供预测矩阵，这就能让你的过程继续下去"
+				""
+				"模拟室将产生通用预测产物以及预测结果"
+				""
+				"预测产物可移入战利品制造器"
+				""
+				"通用预测产物可用作各种物品的制作组件"
+			]
+			id: "48965869D95AD825"
+			tasks: [
+				{
+					id: "3A15D6EDC5867907"
+					item: "hostilenetworks:sim_chamber"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3AA57C1952A2FAC6"]
+			description: [
+				"战利品制造器装载了预测产物后，您可以选择一个希望制造器生产的物品。 这可以随时更改，不用担心！"
+				""
+				"一旦进入预测，它就会开始生产物品，因此请确保您设置了您要的物品"
+				""
+				"你不会想忘记它，生产一大堆你不需要的东西吧？"
+			]
+			id: "4DD4FCB6DD755884"
+			tasks: [
+				{
+					id: "5E291A06F1EC7304"
+					item: "hostilenetworks:loot_fabricator"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3AA57C1952A2FAC6"]
+			description: [
+				"要使用它，只需用右键单击您想要使用的怪物即可"
+				""
+				"完成后，就可以将模型放入深度学习机中"
+				""
+				"如果你看自己的深度学习机，就会在底部看到层级是 Faulty，成功几率极低。 建议你至少去到 Basic，也就是只少量击杀。   你可以继续击杀更多的怪物来提升数据模型的等级"
+				""
+				"当您对等级感到满意时 -- 返回基地，将数据模型放入模拟室"
+			]
+			id: "0E18B3314D1A89AB"
+			tasks: [
+				{
+					id: "69D5556201F504EE"
+					item: "hostilenetworks:blank_data_model"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3AA57C1952A2FAC6"]
+			description: [
+				"你需要源源不断地供应这些东西"
+				""
+				"这些信息将被载入模拟室，以创建通用预测产物，或预测产物"
+			]
+			id: "19AC3E3A260AEA05"
+			tasks: [
+				{
+					id: "7D559EC748BDEF87"
+					item: "hostilenetworks:empty_prediction"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"479450C7005487E5"
+				"59D3363EBA2DD136"
+				"41701B1E09B1F776"
+				"308211C27148B5C7"
+				"48965869D95AD825"
+				"4DD4FCB6DD755884"
+			]
+			description: [
+				"这是填补深渊之心的另一部分"
+				""
+				"要制作充能末影之眼，您需要为它注入以下元素："
+				""
+				"- 2 末影人预测产物"
+				"- 2 物质球"
+				"- 1 地之精华"
+				"- 1 水之精华"
+				"- 1 气之精华"
+				"- 1 火之精华"
+				"- 1 末影之眼"
+				""
+				"有了这些物品，您应该就可以用您的新生魔艺附魔装置来充能所有材料，制作出您需要的 2 个充能末影之眼了"
+			]
+			id: "7FBA1DE28DC570C7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2551DCE8A5CCC3FE"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					count: 2L
+					id: "237F023B25DBC0CE"
+					item: "kubejs:infused_eye_of_ender"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2D895377F6FE3960"]
+			icon: {
+				Count: 1b
+				id: "endrem:cursed_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2364541C3EEA8052"
+			rewards: [
+				{
+					id: "5DAB81804FF4DBEE"
+					item: {
+						Count: 1b
+						id: "endrem:cursed_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "heart"
+			tasks: [
+				{
+					id: "28DCDB33D5B56384"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "诅咒之眼恢复"
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0B70779A64DC22A8"]
+			icon: {
+				Count: 1b
+				id: "endrem:magical_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "00F2D10D62E14B0D"
+			rewards: [
+				{
+					id: "64E03D867742550B"
+					item: {
+						Count: 1b
+						id: "endrem:magical_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "heart"
+			tasks: [
+				{
+					id: "056BA3E944704548"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "纯净之眼修复"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["43F168BD03BFE53B"]
+			description: [
+				"数字型采矿机可在 5 阶段使用，RF 工具采石场/建筑机可在 6 阶段使用"
+				""
+				"数字型采矿机可能是更精致的设备，使用起来更方便一些，而 RF 工具采石场/建造机的速度可能比数字型采矿机快很多，但功率方面的成本非常高"
+			]
+			id: "68B52B7CBB24C891"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2FF3E1B2EA80F4D3"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "41067DD9D31F8098"
+					item: "mekanism:digital_miner"
+					type: "item"
+				}
+			]
+			title: "更智能的矿井"
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4FE0F5D998E80566"]
+			description: [
+				"通过压缩空气提供能量。 如果需要产生热量做任何事情，这也能帮助产生热量"
+			]
+			id: "77539F61CA763734"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "21E03A9297C1BCFC"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "45C1B12E9BB3C707"
+					item: "pneumaticcraft:pneumatic_dynamo"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0035FF9DD09AE418"]
+			id: "3D9677FD2AE1990C"
+			shape: "circle"
+			tasks: [
+				{
+					id: "0DB2D61B2DCE00E3"
+					item: "immersiveengineering:mold_wire"
+					type: "item"
+				}
+				{
+					id: "06EEF9775760A1E3"
+					item: "thermal:chiller_rod_cast"
+					type: "item"
+				}
+				{
+					id: "45D4D406231FAA2F"
+					item: "thermal:press_gear_die"
+					type: "item"
+				}
+			]
+			title: "铸模"
+			x: 2.0d
+			y: 7.5d
+		}
+	]
+	title: "科技"
+}

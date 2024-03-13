@@ -1,0 +1,313 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_otherside"
+	group: "6864EC96E852A08D"
+	icon: "minecraft:sculk_vein"
+	id: "16C9B060C916E694"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2D895377F6FE3960"]
+			description: [
+				"击杀循声守卫、制作深渊之心、找到远古城市、点亮幽冥传送门后，您终于可以穿越到幽冥世界了"
+				""
+				"在这里，您可以找到让应用能源 2 启动的资源"
+				""
+				"你需要把在这里收获的粉用焦油或松香放入结晶器中。 这样可以得到福鲁伊克斯和赛特斯石英"
+			]
+			id: "4132358525EEA37E"
+			rewards: [
+				{
+					icon: "supplementaries:sign_post_oak"
+					id: "58AD6358671D5915"
+					title: "Otherside Access"
+					type: "custom"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "277E2F6A0F38562C"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "哎呀，玩错游戏了"
+			tasks: [
+				{
+					id: "7B048AAACE8F0F33"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "幽冥"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4132358525EEA37E"]
+			id: "4685113C2A52E40E"
+			tasks: [
+				{
+					dimension: "deeperdarker:otherside"
+					id: "67D113366580962C"
+					type: "dimension"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4685113C2A52E40E"]
+			id: "350CD5DAB9A5D784"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5B970690613E9DE5"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "探索所有幽冥生物群系"
+			tasks: [
+				{
+					advancement: "deeperdarker:main/explore_otherside"
+					criterion: ""
+					icon: "deeperdarker:echo_sign"
+					id: "0BCDB2896199E89D"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"350CD5DAB9A5D784"
+				"32C9A1F44CC748A4"
+				"1898E8C4660D4797"
+				"0E5A2BAD12C5C0FB"
+				"38184ED154696EAE"
+				"20EF393971137895"
+				"3C4A018501950A89"
+				"5849FCFB2A64BA4F"
+			]
+			icon: "supplementaries:globe_sepia"
+			id: "7D258772575CA5FD"
+			rewards: [
+				{
+					id: "1399BF1B23F1B34C"
+					item: "supplementaries:globe_sepia"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "3180504843B6B4FF"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "幽冥地球仪"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4685113C2A52E40E"]
+			id: "32C9A1F44CC748A4"
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: true
+					count: 512L
+					id: "7AD03DA3238DA2FC"
+					item: "deeperdarker:cobbled_sculk_stone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 512L
+					id: "34424C7853E7118E"
+					item: "deeperdarker:cobbled_gloomslate"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4685113C2A52E40E"]
+			id: "1898E8C4660D4797"
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "6AB50E76C77DE7DF"
+					item: "deeperdarker:sculk_gleam"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"4E92401BFC11C854"
+				"0F4467F3E3C1FFB0"
+				"6A422B5075A81CD1"
+				"4F82119F19BA0E9D"
+				"4685113C2A52E40E"
+			]
+			icon: {
+				Count: 1b
+				id: "deeperdarker:warden_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0E5A2BAD12C5C0FB"
+			shape: "circle"
+			tasks: [{
+				id: "48DF80A4E206C812"
+				title: "装备升级"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"65E91D4BAA3B357C"
+				"4685113C2A52E40E"
+			]
+			description: ["别忘了--这把刀会对监守者造成更高的伤害"]
+			icon: {
+				Count: 1b
+				id: "deeperdarker:warden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "38184ED154696EAE"
+			shape: "circle"
+			tasks: [{
+				id: "587FCC285C8C5350"
+				title: "监守者消灭行动"
+				type: "checkmark"
+			}]
+			title: "Wardens? More Like Wardeads!"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4685113C2A52E40E"]
+			id: "3C4A018501950A89"
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: true
+					count: 512L
+					id: "2C09A573ECBED475"
+					item: "deeperdarker:sculk_vines"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 512L
+					id: "3EF9B00819D24482"
+					item: "deeperdarker:sculk_tendrils"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4685113C2A52E40E"]
+			id: "20EF393971137895"
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: true
+					count: 512L
+					id: "259AE0A47BE6C4FE"
+					item: "deeperdarker:echo_log"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 512L
+					id: "1511ED970965C9FA"
+					item: "deeperdarker:echo_soil"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4685113C2A52E40E"]
+			id: "5849FCFB2A64BA4F"
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: true
+					count: 75L
+					id: "16BA38CBC9574C75"
+					item: "deeperdarker:sculk_stone_iron_ore"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 75L
+					id: "16CF8F7257D3983A"
+					item: "deeperdarker:sculk_stone_copper_ore"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 75L
+					id: "65408A1EA96F4EE2"
+					item: "deeperdarker:sculk_stone_gold_ore"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 75L
+					id: "27FF8E6A0B1B377E"
+					item: "deeperdarker:sculk_stone_redstone_ore"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 75L
+					id: "3C0BB5B5CDED947A"
+					item: "deeperdarker:sculk_stone_emerald_ore"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 75L
+					id: "1AA9D0BCE44B53E5"
+					item: "deeperdarker:sculk_stone_lapis_ore"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 75L
+					id: "2A42DDB35E93F6F5"
+					item: "deeperdarker:sculk_stone_diamond_ore"
+					type: "item"
+				}
+			]
+			title: "幽匿矿石"
+			x: 0.0d
+			y: 4.5d
+		}
+	]
+	title: "幽冥"
+}

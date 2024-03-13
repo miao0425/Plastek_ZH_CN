@@ -1,0 +1,12 @@
+{
+    "Restriction Data": {
+        "stage": "Otherside",
+        "name": "深谙之园",
+        "dimensionList": [
+            {
+                "dimension": "deeperdarker:otherside",
+                "message": "您没有进入资格！"
+            }
+        ]
+    }
+}

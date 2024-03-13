@@ -1,0 +1,575 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "top_chef"
+	group: "2C080FE404DC830F"
+	icon: "cookingforblockheads:cooking_table"
+	id: "5BF6CCD1AAFD22A8"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			id: "792343B539FB1C92"
+			rewards: [
+				{
+					id: "48700387B4D68A59"
+					item: "minecraft:emerald"
+					random_bonus: 9
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: true
+					count: 500L
+					id: "234FB05E364B8F6C"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:plastek_smoothie"
+						}
+					}
+					title: "任意#kubejs:plastek_smoothie"
+					type: "item"
+				}
+			]
+			title: "制作冰沙"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "1CEDA4FE1F34B50C"
+			rewards: [
+				{
+					id: "787668A9E3B25415"
+					item: "minecraft:emerald"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "没有垂泪的果汁！"
+			tasks: [
+				{
+					consume_items: true
+					count: 500L
+					id: "324C761AF1B4B9C6"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:plastek_juice"
+						}
+					}
+					title: "任意#kubejs:plastek_juice"
+					type: "item"
+				}
+			]
+			title: "制作果汁"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "3735863132B3220F"
+			rewards: [
+				{
+					id: "1D048D4C64AD5772"
+					item: "minecraft:emerald"
+					random_bonus: 9
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: true
+					count: 500L
+					id: "58C550F17A744AF1"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:plastek_jelly"
+						}
+					}
+					title: "任意#kubejs:plastek_jelly"
+					type: "item"
+				}
+			]
+			title: "制作果冻"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "4FE8968DD9011E54"
+			rewards: [
+				{
+					id: "7574200306994CC9"
+					item: "minecraft:emerald"
+					random_bonus: 9
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "甜樱桃"
+			tasks: [
+				{
+					consume_items: true
+					count: 500L
+					id: "2B0B82869734964D"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:plastek_pie"
+						}
+					}
+					title: "任意#kubejs:plastek_pie"
+					type: "item"
+				}
+			]
+			title: "制作派"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "56D5549FB6D53176"
+			rewards: [
+				{
+					id: "317FA63C1ACE0C60"
+					item: "minecraft:emerald"
+					random_bonus: 9
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "我烤这个三明治"
+			tasks: [
+				{
+					consume_items: true
+					count: 300L
+					id: "3E26A88A96183975"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:plastek_sandwich"
+						}
+					}
+					title: "任意#kubejs:plastek_sandwich"
+					type: "item"
+				}
+			]
+			title: "制作三明治"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "08BA318D7D4F3678"
+			rewards: [
+				{
+					id: "04342DC26193E9BB"
+					item: "minecraft:emerald"
+					random_bonus: 9
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "你烤焦了!"
+			tasks: [
+				{
+					consume_items: true
+					count: 500L
+					id: "4323B3DB6E0A772B"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:plastek_toast"
+						}
+					}
+					title: "任意#kubejs:plastek_toast"
+					type: "item"
+				}
+			]
+			title: "制作吐司"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "0325483182650407"
+			rewards: [
+				{
+					id: "6CA8E9AD12588213"
+					item: "minecraft:emerald"
+					random_bonus: 9
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "有人喜欢Noosa吗？"
+			tasks: [
+				{
+					consume_items: true
+					count: 500L
+					id: "2601051B8BF97461"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:plastek_yogurt"
+						}
+					}
+					title: "任意#kubejs:plastek_yogurt"
+					type: "item"
+				}
+			]
+			title: "制作风味酸奶"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "44F22860D7E4A921"
+			rewards: [
+				{
+					id: "18ECA55B2FF3ED7E"
+					item: "minecraft:emerald"
+					random_bonus: 14
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "你看过表演，现在你就上场了！"
+			tasks: [
+				{
+					consume_items: true
+					count: 200L
+					id: "0FAFAA7CFD19D26C"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:plastek_iron_chef"
+						}
+					}
+					title: "任意#kubejs:plastek_iron_chef"
+					type: "item"
+				}
+			]
+			title: "铁厨师"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "0088085ED5001FC2"
+			rewards: [
+				{
+					id: "686B73CC77B7790C"
+					item: "minecraft:emerald"
+					random_bonus: 19
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "你仍然不能白做！它是生的！"
+			tasks: [
+				{
+					consume_items: true
+					count: 200L
+					id: "2A786751B62DAE3B"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:plastek_diamond_chef"
+						}
+					}
+					title: "任意#kubejs:plastek_diamond_chef"
+					type: "item"
+				}
+			]
+			title: "钻石厨师"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			id: "0A13F7C69B1D4B70"
+			rewards: [
+				{
+					id: "03823952F88F7DBC"
+					item: "minecraft:emerald"
+					random_bonus: 9
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "心灵鸡肉面"
+			tasks: [
+				{
+					consume_items: true
+					count: 500L
+					id: "3053309108EB6E35"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:plastek_soup"
+						}
+					}
+					title: "任意#kubejs:plastek_soup"
+					type: "item"
+				}
+			]
+			title: "煲汤"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "3756D9F0830DA4AE"
+			rewards: [
+				{
+					id: "0959551244584090"
+					item: "minecraft:emerald"
+					random_bonus: 9
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "RIP 逝世"
+			tasks: [
+				{
+					consume_items: true
+					count: 300L
+					id: "7AF91425A8CC387F"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:plastek_soda"
+						}
+					}
+					title: "任意#kubejs:plastek_soda"
+					type: "item"
+				}
+			]
+			title: "制作汽水"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "32F52FFF507D38B1"
+			rewards: [
+				{
+					id: "17627494696EE077"
+					item: "minecraft:emerald"
+					random_bonus: 9
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "在炎热的夏天，比暴雪人还冷！"
+			tasks: [
+				{
+					consume_items: true
+					count: 300L
+					id: "7A4B3A8CC9963EAE"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:plastek_ice_cream"
+						}
+					}
+					title: "任意#kubejs:plastek_ice_cream"
+					type: "item"
+				}
+			]
+			title: "制作冰淇淋"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "31E259FBF1E41CF7"
+			rewards: [
+				{
+					id: "3D8814BCC07B8316"
+					item: "minecraft:emerald"
+					random_bonus: 14
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "这可是个大蛋糕"
+			tasks: [
+				{
+					consume_items: true
+					count: 300L
+					id: "29EA81E8C317E6E3"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:plastek_cake"
+						}
+					}
+					title: "任意#kubejs:plastek_cake"
+					type: "item"
+				}
+			]
+			title: "制作蛋糕"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "1973E05B9AFEC3D7"
+			rewards: [
+				{
+					id: "3CE163870BE2A7D1"
+					item: "minecraft:emerald"
+					random_bonus: 9
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "您喜欢煎饼还是华夫饼？"
+			tasks: [
+				{
+					consume_items: true
+					count: 300L
+					id: "40157648FCC1455D"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:plastek_pancake"
+						}
+					}
+					title: "任意#kubejs:plastek_iron_chef"
+					type: "item"
+				}
+			]
+			title: "制作煎饼"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			id: "32DCA97AC14CD234"
+			rewards: [
+				{
+					id: "3464EB56EEE8EDF5"
+					item: "minecraft:emerald"
+					random_bonus: 24
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Gordon Ramsay终于在你的 TikTok 上给了你好评，恭喜你！"
+			tasks: [
+				{
+					consume_items: true
+					count: 200L
+					id: "4F606D5623D8B661"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "kubejs:plastek_netherite_chef"
+						}
+					}
+					title: "任意#kubejs:plastek_netherite_chef"
+					type: "item"
+				}
+			]
+			title: "下界合金厨师"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"如果您不确定以下任务中接受的任何物品的制作方法，可以在 JEI 中搜索以下内容："
+				""
+				"- $plastek_netherite_chef"
+				"- $plastek_diamond_chef "
+				"- $plastek_iron_chef "
+				"- $plastek_smoothie"
+				"- $plastek_jelly"
+				"- $plastek_juice "
+				"- $plastek_pie"
+				"- $plastek_sandwich"
+				"- $plastek_toast"
+				"- $plastek_yogurt"
+				"- $plastek_soup "
+				"- $plastek_ice_cream "
+				"- $plastek_cake "
+				"- $plastek_pancake"
+				""
+				"这将显示每个类别可制作的物品"
+			]
+			icon: "pamhc2foodcore:skilletitem"
+			id: "642115724F6FD13A"
+			shape: "circle"
+			subtitle: "读我！"
+			tasks: [
+				{
+					id: "19C28ADF88B37410"
+					title: "厨师笔记"
+					type: "checkmark"
+				}
+			]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "08ED6A664A5FAF03"
+			rewards: [
+				{
+					id: "774C0257E84888D0"
+					item: "pamhc2foodextended:ketchupitem"
+					type: "item"
+				}
+				{
+					id: "4341F969EE4CB099"
+					item: "minecraft:emerald"
+					random_bonus: 14
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "来吧，Toriko拿上番茄"
+			tasks: [
+				{
+					count: 64L
+					id: "3D5089C14CFA4089"
+					item: "pamhc2crops:tomatoitem"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "021E46054CD57156"
+					item: "farmersdelight:tomato"
+					type: "item"
+				}
+			]
+			title: "Toriko喜欢番茄"
+			x: 1.0d
+			y: 3.0d
+		}
+	]
+	title: "顶级厨师"
+}

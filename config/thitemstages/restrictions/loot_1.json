@@ -1,0 +1,22 @@
+{
+    "Restriction Data": {
+        "stage": "L1",
+        "name": "战利品1",
+        "itemList": [],
+
+        "tagList": ["kubejs:loot_1"]
+    },
+    "Settings": {
+        "advancedTooltips": "ALWAYS",
+        "itemTitle": "不可用物品",
+        "pickupDelay": 15,
+        "hideInJEI": true,
+        "canPickup": false,
+        "containerListWhitelist": false,
+        "checkPlayerInventory": true,
+        "checkPlayerEquipment": false,
+        "destroyableBlocks": false,
+        "usableItems": false,
+        "usableBlocks": false
+    }
+}

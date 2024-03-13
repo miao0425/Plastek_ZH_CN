@@ -1,0 +1,682 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magic_4"
+	group: "160159E361DC62EF"
+	icon: "botania:natura_pylon"
+	id: "7BE2C0FDA46F98AA"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["481CC7DD0387169C"]
+			description: [
+				"在这里,我们将为植物魔法和神秘学结束准备"
+				""
+				"这两个 mod 在未来仍将提供各自的内容，这些内容可能会有助于发展，但不会成为主要重点. "
+				""
+				"如果您正在与盖亚守护者 BOSS 周旋，而且您已通过普通方式为装备附魔 -- 您可以尝试建立一个魔咒图书馆"
+				""
+				"这个图书馆不仅可以存储所有的附魔书籍，还可以让您将图书馆中的书籍组合起来，制作出超级强大的附魔，但它的价格并不便宜"
+			]
+			id: "4B4788A9A077FA41"
+			tasks: [
+				{
+					id: "6778FB07C439E0E8"
+					title: "OK"
+					type: "checkmark"
+				}
+			]
+			title: "总结植物魔法与神秘学"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4B4788A9A077FA41"]
+			description: [
+				"这个仪式可以让你召唤出一个恶魔，它能够为你开采矿石，并把矿石存起来。 每隔一段时间就来看看恶魔给你带来了什么"
+				""
+				"让我们开始仪式，好吗？"
+			]
+			id: "7370F0819950059B"
+			shape: "circle"
+			subtitle: "仪式:召唤魔精矿工"
+			tasks: [
+				{
+					id: "24BD2AAF4FE9FA93"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "恶魔采矿"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43AC23BA6F042C2C"]
+			description: [
+				"你有没有想过，绿色传送门之外究竟是怎样的世界？我是如何乘坐以羊毛为动力的塑料火箭飞上月球的？ "
+				""
+				"那么，其中一个问题将这里得到最后得到解答"
+			]
+			id: "545BCD238889A9AF"
+			tasks: [
+				{
+					id: "5EF0EB0FFCE648C9"
+					title: "虫洞极限"
+					type: "checkmark"
+				}
+			]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B4788A9A077FA41"]
+			description: [
+				"这场战斗可能相当艰难 "
+				""
+				"如果你一直没有跟进装备的更新，也一直囤材料，那么现在就是升级的时候了"
+				""
+				"建议穿上一套附魔的 &d源质钢甲&r, 使用 &a泰拉之刃&r, 各种啤酒和饰品"
+				""
+				"&7气动工艺装甲&r, &c红石兵工厂 (通量)&r, 或用正确的材料附魔的 &9寂静装备&r, 即使不比源质钢更强，也大差不差"
+				""
+				"题外话：参加战斗的玩家越多，战斗就越艰难。 但奖励也会更好 "
+				""
+				"然而,为了获得进度奖励(不是任务奖励),你可能需要多次与Boss战斗,才能让团队中的每个人都得到正确的奖励"
+			]
+			id: "43AC23BA6F042C2C"
+			subtitle: "你可能需要准备一下！"
+			tasks: [
+				{
+					id: "4AFC28E3499285ED"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "盖亚守护者 - 第1部分"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["545BCD238889A9AF"]
+			description: [
+				"上述材料准备好后。您需要前往气动工艺压力室，将它们放入其中 "
+				""
+				"片刻之后，除了强化瓶之外的所有材料都会蒸发，并在原子层面上结合在一起，以某种方式形成克瓦希尔的血液. "
+			]
+			id: "50C38CBD42331813"
+			tasks: [
+				{
+					id: "7F1162CC31DCFD0F"
+					item: "mythicbotany:raw_elementium"
+					type: "item"
+				}
+				{
+					id: "0F923C54116D28F6"
+					item: "mythicbotany:alfheim_rune"
+					type: "item"
+				}
+				{
+					id: "0AFC5D5D9EEC4525"
+					item: "rootsclassic:growth_powder"
+					type: "item"
+				}
+				{
+					id: "0FC7E88E49A377AC"
+					item: "botania:life_essence"
+					type: "item"
+				}
+				{
+					id: "734AC2DE7D071F0C"
+					item: "kubejs:mason_jar"
+					type: "item"
+				}
+			]
+			title: "口渴"
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["50C38CBD42331813"]
+			description: [
+				"当你闻到血腥味时，你会发现它闻起来像 ...... 一双极旧但崭新的鞋子？"
+				""
+				".......但为什么呢？ "
+				""
+				"你或许应该在工作台前用一些蜂蜜混合后再喝。"
+			]
+			id: "50E223D6CA37794C"
+			tasks: [
+				{
+					id: "12F6099F17759686"
+					item: "mythicbotany:kvasir_blood"
+					type: "item"
+				}
+				{
+					id: "7BCC2BD03E311DF5"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["50E223D6CA37794C"]
+			description: [
+				"现在，您可以通过您制作的传送门前往亚尔夫海姆了！"
+				""
+				"亚尔夫海姆将是稀有材料龙石的所在地，未来您将需要龙石。"
+			]
+			id: "0933440E7DFA2B10"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4D9B3759E25A41CD"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "干杯！"
+			tasks: [
+				{
+					id: "320F3DE6280ACBA2"
+					item: "mythicbotany:kvasir_mead"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["43AC23BA6F042C2C"]
+			description: [
+				"如果您查看怪奇宝典中的《植物魔法词典》，并导航到《盖亚仪式》-- 您可以将召唤仪式的设计投射到世界中。"
+				""
+				"虽然投影显示你需要铁块,但你真的不需要铁块。然而,如果你不使用铁块,则结构可能继续说“不完成”,所以当你在你的区域时,你的屏幕上就会有额外的文本"
+				""
+				"如果您出于某种原因无法在植物魔法词典中找到它，下面是整个竞技场的鸟瞰图："
+				""
+				""
+				"{image:kubejs:textures/botania/botania_ritual_ftb_sample.png width:125 height:125 align:1}"
+				""
+				"&e&o图片来自： https://ftb.fandom.com/wiki/Ritual_of_Gaia&r&r"
+			]
+			id: "1AA726DA3A51CAC5"
+			tasks: [
+				{
+					id: "0FB5DAA326C3811F"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "79B963992EFD0898"
+					item: "botania:gaia_pylon"
+					type: "item"
+				}
+			]
+			title: "竞技场"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1AA726DA3A51CAC5"]
+			description: [
+				"如果是团队游戏，每个人都需要成就来发展植物魔法 "
+				""
+				"您可能需要进行几次战斗，以确保每个人都有成就"
+			]
+			id: "48D65877C05F1D79"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "19CC8A481D5E0B55"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					advancement: "botania:main/gaia_guardian_kill"
+					criterion: ""
+					id: "2FDF1CD11F2DFD31"
+					type: "advancement"
+				}
+			]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7F896FEF828D86E1"]
+			description: [
+				"喝完加拉尔号角的水后 -- 你就可以与盖亚守护者2交战了"
+				""
+				"召唤新的守护者使用盖亚锭而不是泰拉钢锭"
+				""
+				"这个守护者掉落了更好的奖励"
+			]
+			id: "637459C5F511748D"
+			shape: "circle"
+			tasks: [
+				{
+					advancement: "botania:challenge/gaia_guardian_hardmode"
+					criterion: ""
+					id: "2F56AC4042212375"
+					type: "advancement"
+				}
+			]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["48D65877C05F1D79"]
+			description: [
+				"如果你愿意，可以挑战盖亚守护者 2."
+				""
+				"在此之前，你要确保自己喝了加拉尔号角的水."
+				""
+				"- 制作狂野号角和世界树之枝. "
+				" "
+				"- 把狂野号角扔进魔力池。如果你有足够的魔力，它应该会转换成加拉尔号角！"
+				""
+				"- 现在，拿起你的世界树之枝，把它放下来，把加拉尔号角挂在上面"
+				""
+				"- 现在，您需要将魔力射入加拉尔号角 "
+				""
+				"一段时间后，号角会填满，你就可以喝它了"
+				""
+				"&c&l在没有喝下号角水的情况下，不要尝试进行盖亚守护者 2 的战斗。 不喝下号角中的水，就无法获得进行符文仪式所需的物品&r&r"
+			]
+			id: "7F896FEF828D86E1"
+			shape: "circle"
+			subtitle: "挑战盖亚守护者2"
+			tasks: [
+				{
+					id: "161F86D8214435FB"
+					item: "mythicbotany:yggdrasil_branch"
+					type: "item"
+				}
+				{
+					id: "0B684219E4D2CF04"
+					item: "botania:horn_grass"
+					type: "item"
+				}
+			]
+			title: "畅饮世界树之水"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["637459C5F511748D"]
+			description: [
+				"如果您在盖亚守护者 2 的战斗中获得了芬保尔之符片，您就可以进行符文仪式了. "
+				""
+				"目前有 2 种符文仪式 &6雷神之锤&r (&o&2在 JEI 中输入雷神之锤，查看配方&r&r). 这是一把极其强大的武器，在神化宝石/附魔的作用下，有可能成为整合包中最强的武器之一。"
+				""
+				"盖亚守护者 2可以掉落 \"命运骰子\" 其中包含多个强大的神器"
+				""
+				"这意味着您可能需要进行多次战斗"
+				""
+				"您可以随时查看： &b&n https://botaniamod.net/lexicon.html &r&r 了解更多有关植物魔法中物品的信息！"
+				""
+				""
+				""
+				"&o 对不起，如果您尝试点击... &r"
+			]
+			id: "792BF8CA3F9F297F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7671D465CB02BE80"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "符文仪式！"
+			tasks: [
+				{
+					id: "1EAF6EFAD4CBADA7"
+					item: "mythicbotany:fimbultyr_tablet"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7370F0819950059B"]
+			description: [
+				"此外，您还需要金色和白色粉笔。"
+			]
+			id: "6CD12F2F9CAA0FD6"
+			shape: "circle"
+			tasks: [
+				{
+					id: "1D1C3600269B81F2"
+					item: "occultism:golden_sacrificial_bowl"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "63BC3AB48C4AA63D"
+					item: "occultism:sacrificial_bowl"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "768A2D281100F63C"
+					item: "occultism:spirit_attuned_crystal"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "000231D4E9169F4C"
+					item: "occultism:candle_white"
+					type: "item"
+				}
+			]
+			title: "最基本的东西"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6CD12F2F9CAA0FD6"]
+			description: [
+				"把这些材料放在祭碗上，把书放在中间，然后等着看恶魔们是否满意这笔交易。"
+				""
+				"如果成功，您将获得一盏金色的矿工灯。"
+			]
+			id: "2EA3894CC2A995DD"
+			shape: "circle"
+			tasks: [
+				{
+					id: "3E1F773EFA7BB852"
+					item: {
+						Count: 1b
+						id: "occultism:iesnium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59308900E674FE20"
+					item: "occultism:iesnium_block"
+					type: "item"
+				}
+				{
+					id: "2BB03A45CEBB4107"
+					item: "occultism:magic_lamp_empty"
+					type: "item"
+				}
+				{
+					id: "433565709C9C4638"
+					item: "occultism:spirit_attuned_crystal"
+					type: "item"
+				}
+				{
+					id: "7F7ED24A7862B3EB"
+					item: "botania:dragonstone"
+					type: "item"
+				}
+				{
+					id: "3FF7505D49AC7902"
+					item: "occultism:book_of_binding_djinni"
+					type: "item"
+				}
+			]
+			title: "仪式物品"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C1F5DFD44351484"]
+			description: [
+				"将维度矿井放置在您想要的任何位置  "
+				""
+				"放好后，你可以把金色的矿工灯放进去，它就会自动开始为你收集矿石！"
+				""
+				"今后将减少对神秘学的发展需求 "
+				""
+				"不过，这个 mod 还是提供了很多很酷的功能，我绝对鼓励大家去玩玩其他仪式. "
+			]
+			id: "14C39386B2B629F0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "454CA7EFA8D2B1F8"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "48E349380CF5DAD8"
+					item: "occultism:dimensional_mineshaft"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2EA3894CC2A995DD"]
+			description: [
+				"使用同一个仪式地点,但增加两个献祭之碗可以让你创建维度矿井."
+			]
+			id: "5C1F5DFD44351484"
+			shape: "circle"
+			tasks: [
+				{
+					id: "55E4B4ED451BD970"
+					item: "occultism:iesnium_block"
+					type: "item"
+				}
+				{
+					id: "59515A3AF488C791"
+					item: "botania:dragonstone_block"
+					type: "item"
+				}
+				{
+					id: "4C879FE957EB55A6"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "3B2DD3E3F1BDD2C4"
+					item: "occultism:spirit_attuned_crystal"
+					type: "item"
+				}
+				{
+					id: "2C27793BDE76C368"
+					item: "occultism:book_of_binding_djinni"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "204E9D69228D7001"
+					item: "occultism:otherstone"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7D8A72A5FB6532B6"
+					item: "occultism:sacrificial_bowl"
+					type: "item"
+				}
+			]
+			title: "再补充几件"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["43AC23BA6F042C2C"]
+			description: [
+				"下一步，你需要制作一个信标，这意味着你需要一颗下界之星"
+				""
+				"如果你还没有召唤并杀死凋零，现在正是时候。 如果您已经有了下界之星，就可以继续前进了."
+			]
+			id: "73A71DD8262DE678"
+			rewards: [
+				{
+					count: 2
+					id: "209AEA638FD78B53"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			subtitle: "杀死一个凋零，获得一颗下界之星"
+			tasks: [
+				{
+					advancement: "minecraft:nether/summon_wither"
+					criterion: ""
+					icon: {
+						Count: 1b
+						id: "hostilenetworks:data_model"
+						tag: {
+							data_model: {
+								id: "hostilenetworks:wither"
+							}
+						}
+					}
+					id: "26996D423942211A"
+					type: "advancement"
+				}
+				{
+					id: "4093659F6E197FB9"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48ABF1D3186757AE"]
+			id: "042725CCA6DEBC5B"
+			shape: "circle"
+			tasks: [
+				{
+					id: "297FB385057E992B"
+					item: "waystones:waystone"
+					type: "item"
+				}
+				{
+					id: "5822F3EDBA77F769"
+					item: "waystones:mossy_waystone"
+					type: "item"
+				}
+				{
+					id: "12155A1DDEC54CBE"
+					item: "waystones:sandy_waystone"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0933440E7DFA2B10"]
+			id: "48ABF1D3186757AE"
+			rewards: [
+				{
+					id: "5E0F0E6DFC73EDE0"
+					item: {
+						Count: 1b
+						id: "endrem:lost_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70D1D5F98943116B"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "2B0B3758FD25B9EB"
+					item: "botania:dragonstone"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48ABF1D3186757AE"]
+			icon: {
+				Count: 1b
+				id: "endrem:lost_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0E288181791420B1"
+			rewards: [
+				{
+					id: "5ECF96108D3409AF"
+					item: {
+						Count: 1b
+						id: "endrem:lost_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "heart"
+			tasks: [
+				{
+					id: "7A0C5E4CC6EE20D8"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "魔眼恢复"
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4B4788A9A077FA41"]
+			description: [
+				"魔咒图书馆是一个极其强大的工具，它可以让你储存附魔，并将它们组合成一本书"
+			]
+			id: "681F7D7C8F26B46F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2414BD8A79A4F77F"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "1F937071D7AE5FED"
+					item: "apotheosis:library"
+					type: "item"
+				}
+			]
+			title: "知识存储"
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+	title: "魔法"
+}

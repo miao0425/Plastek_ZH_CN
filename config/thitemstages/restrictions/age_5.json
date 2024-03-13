@@ -1,0 +1,39 @@
+{
+    "Restriction Data": {
+        "stage": "A5",
+        "name": "阶段5",
+        "itemList": [],
+        "modList": [
+            "ae2",
+            "ars_nouveau",
+            "deeperdarker",
+            "hostilenetworks",
+            "industrialforegoing",
+            "megacells",
+            "thermal",
+            "xnet",
+            "unusualend"
+        ],
+        "tagList": ["kubejs:age_5_item"],
+        "exceptionList": [
+            {
+                "tag": "kubejs:age_5_exception"
+            }
+        ],
+        "containerList": [],
+        "dimensionList": []
+    },
+    "Settings": {
+        "advancedTooltips": "ALWAYS",
+        "itemTitle": "不可用物品",
+        "pickupDelay": 15,
+        "hideInJEI": true,
+        "canPickup": false,
+        "containerListWhitelist": false,
+        "checkPlayerInventory": true,
+        "checkPlayerEquipment": true,
+        "destroyableBlocks": false,
+        "usableItems": false,
+        "usableBlocks": false
+    }
+}

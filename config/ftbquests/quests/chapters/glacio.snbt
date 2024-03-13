@@ -1,0 +1,128 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "glacio"
+	group: "6864EC96E852A08D"
+	icon: "ad_astra:glacio_stone"
+	id: "4F3360B533876F87"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"469F09BB3EF56AFE"
+				"64148A55D34902AB"
+				"30D73A2107EB4172"
+			]
+			icon: "ad_astra:glacio_globe"
+			id: "2600082B8EEE5B25"
+			rewards: [
+				{
+					id: "43D16DC426E6B044"
+					item: "ad_astra:glacio_globe"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "68D12AF0F250AC8C"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "霜原星仪"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["733685689F4BC517"]
+			description: [
+				"霜原是您寻找更好的塑料制品之旅的起点。"
+				""
+				"商人对文物、太空或任何科学都一无所知，他似乎认为他用你换来的文物来自一个不属于这个星系的星球，名叫霜原。"
+				""
+				"他宣称，霜原的空气可以呼吸，但如果掉进雪里就有点冷。 这颗星球上的资源也很丰富，因为像你们这样的人从未在这里居住过。"
+				""
+				"那里主要生活着和平的生物。也许它们可以做成美味的炖肉？"
+				""
+				"&o你为什么相信这个人？&r"
+				""
+				"&o谁知道呢？&r"
+				""
+				"你不得不接受他们的建议，虽然....."
+				""
+				"&b&o由于其宁静的自然环境，如果您想在雪域建立基地，霜原是个不错的地方&r&r"
+			]
+			id: "12E3A82BAA311379"
+			subtitle: "空气中弥漫着清新的味道"
+			tasks: [
+				{
+					dimension: "ad_astra:glacio"
+					id: "7EF335D5902DF52C"
+					title: "前往霜原"
+					type: "dimension"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["12E3A82BAA311379"]
+			id: "469F09BB3EF56AFE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0FDAA4AA2DF3A3F5"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "052D4C38D12D0114"
+					item: "emendatusenigmatica:raw_sharkinite"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["12E3A82BAA311379"]
+			id: "64148A55D34902AB"
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: true
+					count: 512L
+					id: "0A4E833946FCDC81"
+					item: "ad_astra:glacio_cobblestone"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12E3A82BAA311379"]
+			id: "30D73A2107EB4172"
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: true
+					count: 512L
+					id: "00A4BF71609B7D18"
+					item: "ad_astra:permafrost"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	title: "霜原"
+}

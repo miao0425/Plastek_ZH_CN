@@ -1,0 +1,25 @@
+{
+    "Restriction Data": {
+        "stage": "A7",
+        "name": "阶段7",
+        "itemList": [],
+        "modList": ["extendedcrafting"],
+        "tagList": ["kubejs:age_7_item"],
+        "exceptionList": [],
+        "containerList": [],
+        "dimensionList": []
+    },
+    "Settings": {
+        "advancedTooltips": "ALWAYS",
+        "itemTitle": "不可用物品",
+        "pickupDelay": 15,
+        "hideInJEI": true,
+        "canPickup": false,
+        "containerListWhitelist": false,
+        "checkPlayerInventory": true,
+        "checkPlayerEquipment": true,
+        "destroyableBlocks": false,
+        "usableItems": false,
+        "usableBlocks": false
+    }
+}

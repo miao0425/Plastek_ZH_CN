@@ -1,0 +1,12 @@
+{
+    "Restriction Data": {
+        "stage": "Twilight_Forest",
+        "name": "暮色森林",
+        "dimensionList": [
+            {
+                "dimension": "twilightforest:twilight_forest",
+                "message": "您没有进入资格！"
+            }
+        ]
+    }
+}

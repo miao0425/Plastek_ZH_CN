@@ -1,0 +1,1072 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tech_7"
+	group: "69403B2D49AA6748"
+	icon: "create:creative_motor"
+	id: "7320D4B7C95E3046"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6CC548A88B883F00"]
+			hide_dependency_lines: false
+			id: "1D084DFDA1E21F68"
+			shape: "circle"
+			tasks: [
+				{
+					id: "2220FD71CF4EFB19"
+					item: "ae2:creative_item_cell"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6CC548A88B883F00"]
+			hide_dependency_lines: false
+			id: "18F0B3498C6106EE"
+			shape: "circle"
+			tasks: [
+				{
+					id: "196B4F03AA6B4DAE"
+					item: "ae2:creative_fluid_cell"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["46302C4C64C7C6E2"]
+			hide_dependency_lines: true
+			id: "6644AC2219D1F36E"
+			shape: "circle"
+			tasks: [
+				{
+					id: "5CAF52E5AC2C5D63"
+					item: "pneumaticcraft:creative_upgrade"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["01011EAF7AC1ECF1"]
+			description: [
+				"{@pagebreak}"
+			]
+			hide_dependency_lines: false
+			id: "76EA543CF771808F"
+			shape: "circle"
+			tasks: [
+				{
+					id: "7FAE462284DB785F"
+					item: "pneumaticcraft:creative_compressor"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"01011EAF7AC1ECF1"
+				"7DFD8A4FD1BB9E8D"
+			]
+			description: [
+				"烈焰人蛋糕的制作过程如下"
+				""
+				"现在，它看起来像是想浪费时间"
+			]
+			hide_dependency_lines: false
+			id: "0BB2400341ECDB10"
+			shape: "circle"
+			tasks: [
+				{
+					id: "6A0A8AB1E2E315BD"
+					item: "thermal:fluid_tank_creative_augment"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"76EA543CF771808F"
+				"161425322AABFBED"
+			]
+			hide_dependency_lines: false
+			id: "221A3D7B8C76B864"
+			shape: "circle"
+			tasks: [
+				{
+					id: "271321FBCEF918A3"
+					item: "thermal:machine_efficiency_creative_augment"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4091966F3BE79F43"]
+			hide_dependency_lines: false
+			id: "099E9B46035533DD"
+			shape: "circle"
+			tasks: [
+				{
+					id: "0B5E3F808F332BC0"
+					item: "thermal:machine_catalyst_creative_augment"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["01011EAF7AC1ECF1"]
+			hide_dependency_lines: false
+			id: "161425322AABFBED"
+			shape: "circle"
+			tasks: [
+				{
+					id: "50AA144F0995AB50"
+					item: "create:creative_motor"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"01011EAF7AC1ECF1"
+				"7DFD8A4FD1BB9E8D"
+				"0BB2400341ECDB10"
+			]
+			hide_dependency_lines: false
+			id: "0F40041626CD0CBB"
+			shape: "circle"
+			tasks: [
+				{
+					id: "5D01D1D376978A98"
+					item: "create:creative_fluid_tank"
+					type: "item"
+				}
+			]
+			title: "创造流体储罐"
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0A298462977A633B"]
+			hide_dependency_lines: false
+			id: "41CDD68812B0EF97"
+			shape: "circle"
+			tasks: [
+				{
+					id: "7A2582F8DC230458"
+					item: "create:creative_crate"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["51BAE5970C9584CB"]
+			description: [
+				"打造完美的烈焰人蛋糕"
+				""
+				"一种神奇的食物，能永远为烈焰人燃烧室提供能量"
+				""
+				"你想知道用它来做什么？"
+				""
+				"&o是啊......你想知道&r"
+			]
+			hide_dependency_lines: false
+			id: "7DFD8A4FD1BB9E8D"
+			shape: "gear"
+			subtitle: "这些是所选的配料"
+			tasks: [
+				{
+					id: "7645BD33D6BC8BBD"
+					item: "create:creative_blaze_cake"
+					type: "item"
+				}
+			]
+			title: "糖、香料和一切美好的东西"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"1D084DFDA1E21F68"
+				"18F0B3498C6106EE"
+				"553C169425A590A9"
+			]
+			hide_dependency_lines: true
+			id: "6981F33216C172CF"
+			shape: "circle"
+			tasks: [
+				{
+					id: "2CBBA3CF753F1A27"
+					item: "create:handheld_worldshaper"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["77C6034732EC7F88"]
+			hide_dependency_lines: false
+			id: "0A298462977A633B"
+			shape: "circle"
+			tasks: [
+				{
+					id: "456FB550BA9DE1D9"
+					item: "functionalstorage:creative_vending_upgrade"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"6CC548A88B883F00"
+				"26B22177279644A7"
+			]
+			hide_dependency_lines: false
+			id: "553C169425A590A9"
+			shape: "circle"
+			tasks: [
+				{
+					id: "0890AE7C0C7EF0C6"
+					item: "appmek:creative_chemical_cell"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"2384C49497914DBB"
+				"41CDD68812B0EF97"
+			]
+			hide_dependency_lines: false
+			id: "6CC548A88B883F00"
+			shape: "circle"
+			tasks: [
+				{
+					id: "094A9F9A87DF7A6A"
+					item: "rftoolsutility:creative_screen"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3D128960378C29D4"]
+			description: [
+				"4 级火箭有能力前往霜原"
+				""
+				"霜原是一个资源丰富、生物看似友好的星球"
+			]
+			id: "733685689F4BC517"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "15A1D3655546BDAB"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "396389733B0AE44A"
+					item: {
+						Count: 1b
+						id: "ad_astra:tier_4_rocket"
+						tag: {
+							BotariumData: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7AB6777B9471D4AD"]
+			description: [
+				"欢迎来到创造阶段"
+				""
+				"建造完 4 级火箭后，您就可以前往霜原"
+				""
+				"霜原会让你获得开始制造亲塑料复合物所需的最后一种资源，也就是你旅途中需要的最后一块锭"
+				""
+				"亲塑料复合物将用于制造这个阶段的所有创造物品"
+			]
+			id: "46302C4C64C7C6E2"
+			shape: "circle"
+			tasks: [
+				{
+					id: "3181319DA3318FA5"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "7 阶段"
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1B5E6706AC68BCC0"]
+			description: [
+				"要制作任何创造物品，需要高级工作台，所以让我们继续做吧。"
+				""
+				"但是，并不是所有东西都需要它"
+			]
+			id: "34269CBE4A60EE1A"
+			shape: "circle"
+			tasks: [
+				{
+					id: "32D77ECB57D76743"
+					item: "extendedcrafting:advanced_auto_table"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["733685689F4BC517"]
+			id: "01011EAF7AC1ECF1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3B8A176C2F294FEF"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "6733B1D30113E68D"
+					item: "emendatusenigmatica:plastim_plate"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["46302C4C64C7C6E2"]
+			hide_dependency_lines: true
+			id: "5BC23FFF0CC462B6"
+			shape: "circle"
+			tasks: [
+				{
+					id: "67B07FD9CCF53E90"
+					item: "pipez:infinity_upgrade"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"0BB2400341ECDB10"
+				"0F40041626CD0CBB"
+			]
+			id: "77C6034732EC7F88"
+			shape: "circle"
+			tasks: [
+				{
+					id: "531DDE8CAD0046B9"
+					item: "mekanism:creative_bin"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["221A3D7B8C76B864"]
+			id: "6B5674AA87E4BBC4"
+			shape: "circle"
+			tasks: [
+				{
+					id: "1D354FB0E7F28529"
+					item: "powah:energy_cell_creative"
+					type: "item"
+				}
+				{
+					id: "11662518CFC1573F"
+					item: "thermal:rf_coil_creative_augment"
+					type: "item"
+				}
+			]
+			title: "创造能量"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6B5674AA87E4BBC4"]
+			id: "2384C49497914DBB"
+			shape: "circle"
+			tasks: [
+				{
+					id: "1CB6AEDB1218DA80"
+					item: "ae2:creative_energy_cell"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2384C49497914DBB"]
+			id: "51BAE5970C9584CB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "77B9D13C589385A7"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "6AD96AF5EA22E64B"
+					item: "pneumaticcraft:creative_compressed_iron_block"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6B5674AA87E4BBC4"]
+			description: [
+				"不，可能不会"
+			]
+			id: "145444560CE7241F"
+			shape: "circle"
+			tasks: [
+				{
+					id: "631101014C6BFCA1"
+					item: {
+						Count: 1b
+						id: "mekanism:creative_energy_cube"
+						tag: {
+							mekData: {
+								componentConfig: {
+									config0: {
+										side0: 1
+										side1: 1
+										side2: 1
+										side3: 1
+										side4: 1
+										side5: 1
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "我真的需要这个吗？"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0F40041626CD0CBB"]
+			id: "26B22177279644A7"
+			shape: "circle"
+			tasks: [
+				{
+					id: "71D7B2247F896B1F"
+					item: "mekanism:creative_chemical_tank"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1EE34A8EBF067D13"]
+			id: "3D0A462904DDBAD2"
+			shape: "square"
+			tasks: [
+				{
+					id: "7A8E7C8169308F5E"
+					item: "mekanism:enrichment_chamber"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1EE34A8EBF067D13"]
+			id: "24FF2B2C385D7B8A"
+			tasks: [
+				{
+					id: "1A1C3EC83CB9686B"
+					item: "mekanism:chemical_oxidizer"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["46302C4C64C7C6E2"]
+			description: [
+				"我们将在这里安装几台机器，以制造裂变燃料，为裂变反应堆提供动力"
+			]
+			id: "1EE34A8EBF067D13"
+			subtitle: "第 1 部分"
+			tasks: [
+				{
+					id: "31A66268230A2393"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "未来的燃料"
+			x: 0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1EE34A8EBF067D13"]
+			id: "17576FDE566047D4"
+			tasks: [
+				{
+					id: "36A138768569B0CD"
+					item: "mekanism:chemical_dissolution_chamber"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1EE34A8EBF067D13"]
+			id: "1F6F8F46B95D9AEC"
+			tasks: [
+				{
+					id: "193C33431735341D"
+					item: "mekanism:chemical_infuser"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1EE34A8EBF067D13"]
+			description: [
+				"现在，我们开始生产裂变燃料。"
+				""
+				"裂变反应堆设置完毕后，你就要将裂变燃料送入裂变反应堆"
+			]
+			id: "1083EFA885F31C83"
+			tasks: [
+				{
+					id: "464AD7846E026C24"
+					item: "mekanism:isotopic_centrifuge"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["46302C4C64C7C6E2"]
+			id: "60400B420A133339"
+			subtitle: "第 2 部分"
+			tasks: [
+				{
+					id: "11188EB9D5814D4C"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "力量压倒一切"
+			x: 4.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["60400B420A133339"]
+			description: [
+				"您可以根据自己的钋需求，自由选择裂变反应堆的大小"
+				""
+				"所提供的示例将使用 4 宽 5 高的设置"
+				""
+				"&b您一定要等到裂变反应堆 100%充满冷却剂后再开启所有设备。然后再开始调整流速&r"
+				""
+				"&c&o你不会希望它爆炸并摧毁你的基地吧？&r&r"
+			]
+			id: "06CBEEF8DA88AC21"
+			tasks: [
+				{
+					id: "58F76BDFD2FFFDED"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					id: "4A64319C4EAD2FC7"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+				{
+					id: "7038C1468502919C"
+					item: "mekanismgenerators:control_rod_assembly"
+					type: "item"
+				}
+				{
+					id: "384DC03BD319B5B8"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+			]
+			title: "裂变反应堆"
+			x: 6.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1AAFA77B42A3909F"]
+			id: "2ACD9AB347CB63EF"
+			tasks: [
+				{
+					id: "432042E5FCB12A93"
+					item: "mekanism:solar_neutron_activator"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["2ACD9AB347CB63EF"]
+			id: "35B280F124AC0693"
+			tasks: [
+				{
+					id: "572C4F5A0C8B36E6"
+					item: "mekanism:pressurized_reaction_chamber"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"06CBEEF8DA88AC21"
+				"35B280F124AC0693"
+			]
+			id: "7B926B747A2EC7D8"
+			shape: "gear"
+			tasks: [
+				{
+					id: "488E0D5AADE2CE1D"
+					item: "mekanism:pellet_polonium"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["60400B420A133339"]
+			description: [
+				"您可以根据自己的钋生产需要，自由制作任何尺寸的工业涡轮"
+				""
+				"所提供的示例将使用 5 宽 9 高的设置"
+			]
+			id: "259B2A9BDF1D4EAC"
+			tasks: [
+				{
+					id: "7A58D0C6640DBFEF"
+					item: "mekanismgenerators:turbine_casing"
+					type: "item"
+				}
+				{
+					id: "1EAE1DC5638ECAE1"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+				{
+					id: "76AE39716F99D1B0"
+					item: "mekanismgenerators:turbine_rotor"
+					type: "item"
+				}
+				{
+					id: "2DB01D0AD3CB7F92"
+					item: "mekanismgenerators:turbine_blade"
+					type: "item"
+				}
+				{
+					id: "28CCED63A2853C18"
+					item: "mekanismgenerators:turbine_vent"
+					type: "item"
+				}
+				{
+					id: "0A0C4386091FAA66"
+					item: "mekanismgenerators:saturating_condenser"
+					type: "item"
+				}
+				{
+					id: "43DD67CB90134BCD"
+					item: "mekanismgenerators:electromagnetic_coil"
+					type: "item"
+				}
+				{
+					id: "0C188B6EA043B058"
+					item: "mekanism:pressure_disperser"
+					type: "item"
+				}
+				{
+					id: "2C2180479E4851C4"
+					item: "mekanismgenerators:turbine_valve"
+					type: "item"
+				}
+				{
+					id: "0E0EEAB6226F3A4A"
+					item: "mekanismgenerators:rotational_complex"
+					type: "item"
+				}
+			]
+			title: "工业涡轮机"
+			x: 9.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["259B2A9BDF1D4EAC"]
+			description: [
+				"- 128 涡轮外壳（框架必须是外壳，其他都可以是结构玻璃，如果你想让它看起来漂亮的话）"
+				"- 5 涡轮转子"
+				"- 10 涡轮叶片"
+				"- 33 涡轮排气口"
+				"- 6 饱和冷凝器 "
+				"- 3 电磁线圈"
+				"- 8 分压元件"
+				"- 1 涡轮阀门"
+				"- 1 复杂旋钮装置"
+				""
+				"{image:kubejs:textures/mekanism/mekanism_turbine_reactor_view_front.png width:150 height:150 align:1}"
+			]
+			id: "7ACEEF9E739B075A"
+			shape: "circle"
+			tasks: [
+				{
+					id: "1E48FE014F339C96"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "工业涡轮机示例"
+			x: 9.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["06CBEEF8DA88AC21"]
+			description: [
+				"- 67 裂变反应堆外壳（框架必须是外壳，如果你想让它看起来漂亮，其他所有东西都可以是反应堆玻璃）"
+				"- 4 控制棒组件"
+				"- 8 裂变燃料组件"
+				"- 3 裂变反应堆端口"
+				""
+				""
+				"{image:kubejs:textures/mekanism/mekanism_fission_reactor_view_front.png width:150 height:150 align:1}"
+			]
+			id: "002E1A83C3C0D396"
+			shape: "circle"
+			tasks: [
+				{
+					id: "477C5C238E4E6783"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "裂变反应堆示例"
+			x: 6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"002E1A83C3C0D396"
+				"7ACEEF9E739B075A"
+			]
+			description: [
+				"{image:kubejs:textures/mekanism/mekanism_turbine_fission_loop.png width:200 height:200 align:1}"
+				"{@pagebreak}"
+			]
+			id: "72F0E9CE1EA25A4C"
+			shape: "circle"
+			tasks: [
+				{
+					id: "29A2B8FF6E62AE57"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "闭环"
+			x: 8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7ACEEF9E739B075A"]
+			description: ["{image:kubejs:textures/mekanism/mekanism_turbine_reactor_view_top.png width:150 height:150 align:1}"]
+			id: "4022F2E8E8327BE3"
+			shape: "circle"
+			tasks: [
+				{
+					id: "1EA62381CA9DE669"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: ""
+			x: 8.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7ACEEF9E739B075A"]
+			description: ["{image:kubejs:textures/mekanism/mekanism_turbine_reactor_view_inside.png width:150 height:150 align:1}"]
+			id: "0909272B21CB7A6D"
+			shape: "circle"
+			tasks: [
+				{
+					id: "3C96409D7E205BDF"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: ""
+			x: 10.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["46302C4C64C7C6E2"]
+			id: "1AAFA77B42A3909F"
+			subtitle: "第3部分"
+			tasks: [
+				{
+					id: "2A8132D3A36E4419"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "只是颗粒？"
+			x: 2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["46302C4C64C7C6E2"]
+			description: [
+				"哇哦 我真不敢相信有人真的做到了这一步"
+				""
+				"太酷了！"
+				""
+				"感谢您花时间看完我的整合包。希望您在完成《阶段》其余部分的过程中愉快"
+			]
+			id: "1B5E6706AC68BCC0"
+			subtitle: "第 4 部分"
+			tasks: [
+				{
+					id: "24D5EBCBEE429E7E"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "让我们尽情创造"
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["654C0693E4AD7972"]
+			description: [
+				"输导矩阵是一个功能强大的多方块，可让您存储大量能量"
+				""
+				"这块任务的主要目标是制作一个终极输导元件单元。你将要用它来制造 4 级火箭"
+				""
+				"如果你有兴趣真正制作一个输导矩阵，其实很简单！"
+				""
+				"您可以制作任何长方体形状，最大尺寸为 18x18x18。框架本身必须由输导外壳制成，其余部分可以由输导外壳、结构玻璃或输导端口填充。"
+				""
+				"完成长方体形状的设计后，您需要添加作为储存器的输导元件。如果想提高功率传输速度，还需要添加输导供应器"
+			]
+			id: "7DED2DA9655A250E"
+			tasks: [
+				{
+					id: "04DD38B62D8E0E99"
+					item: "mekanism:induction_casing"
+					type: "item"
+				}
+				{
+					id: "59BDAF21F37589B1"
+					item: "mekanism:structural_glass"
+					type: "item"
+				}
+				{
+					id: "6B2694D5C6620E86"
+					item: "mekanism:induction_port"
+					type: "item"
+				}
+			]
+			title: "输导矩阵"
+			x: 14.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7DED2DA9655A250E"]
+			description: [
+				"公主在另一个城堡中。"
+			]
+			id: "662ED5C80079DFC4"
+			invisible: true
+			shape: "circle"
+			subtitle: "保留用于未来的聚变反应堆任务"
+			title: "聚变反应堆"
+			x: 17.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["259B2A9BDF1D4EAC"]
+			description: [
+				"锂的制作出乎意料地简单！"
+				""
+				"您已经建造了一个热力蒸馏塔来生产盐水。现在，您只需再做一个热力蒸馏塔，送入盐水，就能以 10mb 到 1mb 的速度生产锂！"
+				""
+				"您需要将液态锂送入回旋式气液转换机将其转化为锂，然后再将锂送入化学结晶器以制造锂粉"
+			]
+			id: "654C0693E4AD7972"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "76BB0452907EFA4C"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "锂变得简单"
+			tasks: [
+				{
+					id: "1F1C2ED7FF097A6F"
+					item: "mekanism:dust_lithium"
+					type: "item"
+				}
+			]
+			title: "锂粉"
+			x: 12.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7DED2DA9655A250E"]
+			description: [
+				"放置在输导矩阵内时，可起到能量存储作用"
+			]
+			id: "26FD986DBA81F07C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3724D4B59A6C055B"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "41A8D24E5E2B6EBC"
+					item: "mekanism:basic_induction_cell"
+					type: "item"
+				}
+				{
+					id: "5A74C6D69821D4B3"
+					item: "mekanism:advanced_induction_cell"
+					type: "item"
+				}
+				{
+					id: "56376CD4B8D7DF5A"
+					item: "mekanism:elite_induction_cell"
+					type: "item"
+				}
+				{
+					id: "6C20C5A875CAA012"
+					item: "mekanism:ultimate_induction_cell"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7DED2DA9655A250E"]
+			description: [
+				"增加你输导矩阵的能量传输速率。"
+			]
+			id: "0F8AC6AB5A5EAD78"
+			shape: "square"
+			tasks: [
+				{
+					id: "7A0F9E563AC03AB1"
+					item: "mekanism:basic_induction_provider"
+					type: "item"
+				}
+				{
+					id: "2990670ADBDE3A57"
+					item: "mekanism:advanced_induction_provider"
+					type: "item"
+				}
+				{
+					id: "29A58E59651C2F36"
+					item: "mekanism:elite_induction_provider"
+					type: "item"
+				}
+				{
+					id: "22F15AB126451308"
+					item: "mekanism:ultimate_induction_provider"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["1B5E6706AC68BCC0"]
+			description: [
+				"你需要把枯竭的零点模块外壳部件拿出来，用你的 Powah 充能台设置给它充能"
+			]
+			id: "3D128960378C29D4"
+			tasks: [
+				{
+					id: "39A2614D86547D07"
+					item: "kubejs:charged_zpm_housing_unit"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -4.0d
+		}
+	]
+	title: "科技"
+}

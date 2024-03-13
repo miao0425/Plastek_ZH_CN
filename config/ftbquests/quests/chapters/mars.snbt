@@ -1,0 +1,166 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mars"
+	group: "6864EC96E852A08D"
+	icon: "ad_astra:mars_sand"
+	id: "0CA6C6B554F97E08"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["53332FF908BC952E"]
+			description: [
+				"与大多数星球和空间一样，除了一些不同的景色/生物群系外，并没有其他不同"
+				""
+				"火星上有一些重要的资源，如源质钢(Elementium)、紫金(Ostrum)、锇(Osmium)"
+			]
+			id: "72D3E2106C9F726C"
+			subtitle: "马特·达蒙"
+			tasks: [
+				{
+					dimension: "ad_astra:mars"
+					id: "7611A7D413867EDB"
+					type: "dimension"
+				}
+			]
+			title: "去火星！"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72D3E2106C9F726C"]
+			id: "5F9539A8562FD6D4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0DFFB3DCBA969D49"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "0586DF4C59C73242"
+					item: "ad_astra:raw_ostrum"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["72D3E2106C9F726C"]
+			id: "153B4902D7117CD2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "77971A751D8407B5"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "495F86A800C44F8B"
+					item: "mythicbotany:raw_elementium"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["72D3E2106C9F726C"]
+			id: "39AD114E8DCBF247"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "16ACA56D7B9E2705"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "47471D40847D48EA"
+					item: "emendatusenigmatica:raw_osmium"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5F9539A8562FD6D4"
+				"153B4902D7117CD2"
+				"39AD114E8DCBF247"
+				"254981DD000F50C3"
+				"68F8A15AA3260C37"
+			]
+			icon: "ad_astra:mars_globe"
+			id: "51AFD998007A0F0A"
+			rewards: [
+				{
+					id: "45CC05BF0510A70B"
+					item: "ad_astra:mars_globe"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "297F26D481C80E08"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "火星世界"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["72D3E2106C9F726C"]
+			id: "254981DD000F50C3"
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: true
+					count: 512L
+					id: "6B5E8A86EDEC0B1D"
+					item: "ad_astra:mars_sand"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["72D3E2106C9F726C"]
+			id: "68F8A15AA3260C37"
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: true
+					count: 512L
+					id: "2E969E011A3EBF23"
+					item: "ad_astra:mars_cobblestone"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.5d
+		}
+	]
+	title: "火星"
+}

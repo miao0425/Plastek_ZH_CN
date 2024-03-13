@@ -1,0 +1,988 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "super_side_quest"
+	group: "2C080FE404DC830F"
+	icon: "ftbquests:book"
+	id: "41B98F2A3B3E44E3"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"这些任务可能会提供一些功能来帮助发展，但不一定适合主线发展，而且在主线任务系列中没有很好的分支点"
+				""
+				"这些任务在其可用的阶段中是有分支的"
+			]
+			id: "61B802AF5864AA4B"
+			shape: "circle"
+			subtitle: "为您的旅程提供帮助的其他方法"
+			tasks: [
+				{
+					id: "4680CD666DA9F69E"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "超级支线任务"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"61B802AF5864AA4B"
+				"0240FDF5F774DEEE"
+			]
+			id: "30274D02D16C7089"
+			shape: "circle"
+			tasks: [
+				{
+					id: "650CDA3DE8A57178"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "阶段 2 - 额外"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"61B802AF5864AA4B"
+				"481CC7DD0387169C"
+			]
+			id: "026849755FFDC818"
+			shape: "circle"
+			tasks: [
+				{
+					id: "1E1EA15611557C1C"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "阶段 4 - 额外"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5928D99A2F786286"
+				"61B802AF5864AA4B"
+			]
+			id: "268262DFB73CF55A"
+			shape: "circle"
+			tasks: [
+				{
+					id: "7313533EBB79D542"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "阶段 1 - 额外"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["268262DFB73CF55A"]
+			description: [
+				"陆行鸟是很好的伙伴，比马更好！"
+				""
+				"通过正确的生成和培训 -- 你可以得到一个金色的陆行鸟，它可以让你飞起来"
+				""
+				"其他陆行鸟也有独特的能力"
+				""
+				"请务必查看您的《怪奇宝典》，了解更多信息 "
+				""
+				"在 \"陆行鸟\" 任务中包含如何获得每只陆行鸟的信息"
+			]
+			icon: "chococraft:gold_chocobo_spawn_egg"
+			id: "1CE73094AB1A4965"
+			rewards: [
+				{
+					id: "1AC4BCB591F3258A"
+					item: "chococraft:chocobo_drumstick_cooked"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "5B249DC5F8D255DD"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "陆行鸟"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["268262DFB73CF55A"]
+			description: [
+				"开始学习 Corrail 墓碑的基本知识！"
+				""
+				"首先，确保 \"死亡知识\" 键绑定已设置. (默认：K)"
+				""
+				"当你死亡时，你可能会为此菜单获得一些 XP.  您还可以制作祈祷之安卡和装饰性坟墓。每隔一段时间，您就可以使用祈祷之安卡获得更多 XP，从而获得死亡知识树."
+				""
+				"这棵树可以为您的角色带来很多有用的好处 "
+				""
+				"请务必明智选择！ "
+			]
+			id: "2878C7A690B81DC5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "79FD9EB2476B8D0A"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "5EFF0DD7282A0595"
+					item: {
+						Count: 1b
+						id: "tombstone:ankh_of_pray"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38092562F2E84412"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tombstone:decorative_graves"
+						}
+					}
+					title: "任意#tombstone:decorative_graves"
+					type: "item"
+				}
+			]
+			title: "Colail墓碑"
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["30274D02D16C7089"]
+			description: [
+				"如果在 JEI 中查找 @beautify，你会发现几个不错的装饰方块"
+			]
+			icon: "beautify:botanist_workbench"
+			id: "74511EC087BF84F1"
+			shape: "circle"
+			tasks: [
+				{
+					id: "168A7B0DBCE29CE4"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "美化"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30274D02D16C7089"]
+			description: [
+				"潜行 + 用木棍点击铠甲支架，会打开一个选项菜单，可以将支架设置成各种姿势"
+			]
+			id: "0EA1450412E74054"
+			shape: "circle"
+			tasks: [
+				{
+					id: "0208A9B2094DD9EC"
+					item: "minecraft:armor_stand"
+					type: "item"
+				}
+				{
+					id: "77E3154F27AE44F1"
+					item: "minecraft:stick"
+					type: "item"
+				}
+			]
+			title: "盔甲雕像"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30274D02D16C7089"]
+			description: [
+				"有了这把凿子，你可以把许多方块雕刻成同一方块的其他图案"
+				""
+				"这让您可以大大改进建筑的设计"
+			]
+			id: "21CBE7EEB761D2F9"
+			shape: "circle"
+			tasks: [
+				{
+					id: "191F8AD1C8FEAE13"
+					item: {
+						Count: 1b
+						id: "rechiseled:chisel"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "重新凿刻"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["268262DFB73CF55A"]
+			description: [
+				"有了这些画作，您就可以在网上找到图片，然后将 URL 粘贴进去，就可以为画作定制自己的图片了！"
+				""
+				"您甚至可以为朋友留下画作，上线时，他们就会看到。"
+			]
+			id: "7744A349BB33E8D5"
+			rewards: [
+				{
+					count: 3
+					id: "04E7494C70B06231"
+					item: "immersive_paintings:painting"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "这颜色！"
+			tasks: [
+				{
+					id: "55E82317AF81D89E"
+					item: "immersive_paintings:painting"
+					type: "item"
+				}
+				{
+					id: "150C043EB8122B2D"
+					item: "immersive_paintings:glow_painting"
+					type: "item"
+				}
+			]
+			title: "身临其境的绘画"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["026849755FFDC818"]
+			description: [
+				"切片机与动力辊压机一样是机械动力的实用工具，不过它能自动完成农夫乐事砧板上的操作"
+			]
+			id: "2A3D28AC170EB5B6"
+			shape: "circle"
+			tasks: [
+				{
+					id: "5EE541FC37469CDA"
+					item: "sliceanddice:slicer"
+					type: "item"
+				}
+			]
+			title: "切片和切块"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"61B802AF5864AA4B"
+				"6C00F063FD2700AD"
+			]
+			description: [
+				"这绝对不是 RF Tools 的全部内容，请自行探索 mods 的其他部分"
+			]
+			id: "24084771586151A7"
+			shape: "circle"
+			tasks: [
+				{
+					id: "0655E32A68E58EEF"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "阶段 6 - 额外"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["24084771586151A7"]
+			description: [
+				"没有自动合成，就别想出门！"
+			]
+			id: "4DA7A92984B7D06D"
+			shape: "circle"
+			tasks: [
+				{
+					id: "51CD4DCE3FCF235B"
+					item: "rftoolsutility:crafter1"
+					type: "item"
+				}
+				{
+					id: "15B1B1BD366191C1"
+					item: "rftoolsutility:crafter2"
+					type: "item"
+				}
+				{
+					id: "436A4A7D914C3F99"
+					item: "rftoolsutility:crafter3"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["24084771586151A7"]
+			description: [
+				"请参阅 JEI 中的屏幕模块，了解可以用屏幕做的各种事情"
+			]
+			id: "4A13483BEEC8A6E4"
+			shape: "circle"
+			tasks: [
+				{
+					id: "20E15F65E80CC52E"
+					item: "rftoolsutility:screen_controller"
+					type: "item"
+				}
+				{
+					id: "5BA61B5FF702C63F"
+					item: "rftoolsutility:screen"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 1.4000000000000004d
+		}
+		{
+			dependencies: ["24084771586151A7"]
+			description: [
+				"改进其他RF工具机器"
+			]
+			id: "0BA76A0CC323E3BC"
+			shape: "circle"
+			tasks: [
+				{
+					id: "168F22BEAAEFB5A4"
+					item: "rftoolsbase:machine_infuser"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["026849755FFDC818"]
+			description: [
+				"洒水器可以让你用流体管道管道把 4 种不同的流体洒到它下面的方块上"
+				""
+				"- 熔岩 - 对下方的实体造成火焰伤害"
+				""
+				"- 水 - 保持该区域湿润"
+				""
+				"- 药水 - 对以下实体施加药水效果"
+				""
+				"- 液态肥料 - 施加骨粉效果"
+			]
+			id: "481E430051D7FED1"
+			shape: "circle"
+			tasks: [
+				{
+					id: "48CEA3B7AE6FFEAF"
+					item: "sliceanddice:sprinkler"
+					type: "item"
+				}
+				{
+					id: "20CE6E4008492F6E"
+					item: "sliceanddice:fertilizer_bucket"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["026849755FFDC818"]
+			description: [
+				"有了温室玻璃，您就可以在一年四季种植农作物！ 只需确保您想让作物受益的上方有任何&a 绿色染色玻璃&r"
+				""
+				"如果你愿意，可以使用 Chipped 来装饰玻璃，或者直接使用普通的 Minecraft 绿色染色玻璃"
+				""
+				"如果您不确定绿色染色玻璃是否适用，可以在 JEI 中按住 CTRL 键，在物品上寻找注明的标签 \"&asereneseasons:greenhouse_glass&r\""
+			]
+			id: "795374A3305D4394"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5E2E9A3E4A57F0E8"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "1AAB3B7F588C9B5E"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "chipped:green_stained_glass"
+						}
+					}
+					title: "温室玻璃"
+					type: "item"
+				}
+			]
+			title: "温室玻璃"
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["30274D02D16C7089"]
+			description: [
+				"Chipped 与 Re-Chiseled 的效果相同。 不过，您不需要使用凿子工具，而是需要使用几个工作台中的一个"
+				""
+				"每种都有自己庞大的方块外观目录可供选择"
+			]
+			id: "2130F91538C98D4E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5E62C94961EA4BD4"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "39C30FD0F13EEB84"
+					item: "chipped:botanist_workbench"
+					type: "item"
+				}
+				{
+					id: "11DCCF10ED68DCD6"
+					item: "chipped:glassblower"
+					type: "item"
+				}
+				{
+					id: "1FCC6F457304E45B"
+					item: "chipped:carpenters_table"
+					type: "item"
+				}
+				{
+					id: "41C204755CEA5FE5"
+					item: "chipped:loom_table"
+					type: "item"
+				}
+				{
+					id: "41108122DAA87343"
+					item: "chipped:mason_table"
+					type: "item"
+				}
+				{
+					id: "4F011BB6FDF162AF"
+					item: "chipped:alchemy_bench"
+					type: "item"
+				}
+				{
+					id: "3B401BF2A3DEEC8C"
+					item: "chipped:tinkering_table"
+					type: "item"
+				}
+			]
+			title: "Chipped"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"61B802AF5864AA4B"
+				"79705DCA6ADC0148"
+			]
+			id: "2B9D2297649DF1DF"
+			shape: "circle"
+			tasks: [
+				{
+					id: "18AF989417E488D0"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "阶段 3 - 额外"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2B9D2297649DF1DF"]
+			id: "474FF2524F214852"
+			shape: "circle"
+			subtitle: "该书可从市场处获得"
+			tasks: [
+				{
+					id: "6ED8C2AE0262FCCE"
+					item: "cookingforblockheads:cooking_table"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1B49D3097C155AA9"]
+			id: "0A1056301AE5FCAD"
+			shape: "circle"
+			tasks: [
+				{
+					id: "1D014C405CAF2860"
+					item: "pamhc2foodcore:bakewareitem"
+					type: "item"
+				}
+				{
+					id: "7040A6AC8662DA4F"
+					item: "pamhc2foodcore:cuttingboarditem"
+					type: "item"
+				}
+				{
+					id: "49D28DE526A8E5F3"
+					item: "pamhc2foodcore:juiceritem"
+					type: "item"
+				}
+				{
+					id: "3B21A17E7BE1B553"
+					item: "pamhc2foodcore:grinderitem"
+					type: "item"
+				}
+				{
+					id: "1FBEDEE92F3E9431"
+					item: "pamhc2foodcore:potitem"
+					type: "item"
+				}
+				{
+					id: "0F2653C9782971B7"
+					item: "pamhc2foodcore:rolleritem"
+					type: "item"
+				}
+				{
+					id: "1B3FD3484FF95A81"
+					item: "pamhc2foodcore:saucepanitem"
+					type: "item"
+				}
+				{
+					id: "203167E757188758"
+					item: "pamhc2foodcore:skilletitem"
+					type: "item"
+				}
+				{
+					id: "215DCCF2F2D7E3CC"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "47A7206121639438"
+					item: "cookingforblockheads:toaster"
+					type: "item"
+				}
+			]
+			title: "厨师工具"
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1B49D3097C155AA9"]
+			id: "27023B37C377B8CB"
+			shape: "circle"
+			tasks: [
+				{
+					id: "074E63BF7816ADB2"
+					item: "cookingforblockheads:tool_rack"
+					type: "item"
+				}
+				{
+					id: "5F76ACC669FBF3F1"
+					item: "cookingforblockheads:fruit_basket"
+					type: "item"
+				}
+				{
+					id: "09327F87237022DD"
+					item: "cookingforblockheads:spice_rack"
+					type: "item"
+				}
+				{
+					id: "2D3AA2FB4254B86D"
+					item: "cookingforblockheads:cow_jar"
+					type: "item"
+				}
+			]
+			title: "厨房"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["474FF2524F214852"]
+			description: [
+				"本整合包中的水槽没有无限水 "
+				""
+				"您需要找方法，将水泵入水槽，以便为其提供无限的水"
+			]
+			id: "1B49D3097C155AA9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "42BAC5BEDBFF4948"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "520876B0A6C7269C"
+					item: "cookingforblockheads:oven"
+					type: "item"
+				}
+				{
+					id: "1B694183D840332A"
+					item: "cookingforblockheads:fridge"
+					type: "item"
+				}
+				{
+					id: "706E3A84A44026CF"
+					item: "cookingforblockheads:sink"
+					type: "item"
+				}
+				{
+					id: "7F702D782B0CFAA6"
+					item: "cookingforblockheads:counter"
+					type: "item"
+				}
+				{
+					id: "5014E8AE51988F40"
+					item: "cookingforblockheads:cabinet"
+					type: "item"
+				}
+				{
+					id: "26EFC8C6B10B4BCA"
+					item: "cookingforblockheads:corner"
+					type: "item"
+				}
+				{
+					id: "79F2750D031B57D0"
+					item: "cookingforblockheads:hanging_corner"
+					type: "item"
+				}
+			]
+			title: "厨房"
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["268262DFB73CF55A"]
+			description: [
+				"雕像是一个在世界上添加可放置雕像作为装饰的 mod。如需了解更多信息，您可以查看游戏内的书籍： 《雕像》"
+				""
+				"这些雕像还提供了一些很酷的进度和功能！"
+				""
+				"- 您需要一些雕像核心，这些核心可以通过杀死雕像蝙蝠获得，在任何能找到原版蝙蝠的地方都能找到它们"
+				""
+				"- 您还需要一个 S.T.A.T.U.E.雕像台和雕像"
+				""
+				"- 在 S.T.A.T.U.E 雕像台中放置雕像核心和一个雕像"
+				""
+				"- 如果一切正常，你应该可以凿开雕像，从而解锁它。"
+				""
+				"- 在你的雕像解锁后，你需要出去杀死一些该雕像类型的怪物（即僵尸雕像需要击杀僵尸）"
+				""
+				"- 当您满足了击杀要求（我升级到 1 级需要 10 个击杀）后，您需要在 JEI 中查看您想要哪种升级。左键点击 JEI 中的雕像即可查看各种升级"
+				""
+				"- 一旦你确定了想要的升级，收集好这些材料，把所有东西都放进S.T.A.T.U.E雕像台，然后点击凿。 这样就可以把你选择的升级添加到你的雕像上了。 "
+				""
+				"&o&e对于掠夺升级，你可以在1级时每10秒点击一次雕像&r&r"
+			]
+			icon: "statues:statue_table"
+			id: "5A72ACE2E09964AF"
+			shape: "circle"
+			subtitle: "实用装饰"
+			tasks: [
+				{
+					id: "0AA6C3E5A2BDB0CC"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "雕像"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["24084771586151A7"]
+			description: [
+				"老实说，我完全可以把它放到第 6 阶段，之所以放在这里，只是因为对称"
+			]
+			id: "33D286A313579A89"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C239E53D516228F"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "创造飞行"
+			tasks: [
+				{
+					id: "18703B98AC65F2ED"
+					item: "angelring:angel_ring"
+					type: "item"
+				}
+			]
+			title: "创造模式飞行"
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["30274D02D16C7089"]
+			id: "06824B465C2709D9"
+			shape: "circle"
+			tasks: [
+				{
+					id: "5BB86BBAC6514037"
+					item: "botanypots:terracotta_botany_pot"
+					type: "item"
+				}
+				{
+					id: "77190AA3749492DA"
+					item: "botanypots:terracotta_hopper_botany_pot"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["026849755FFDC818"]
+			description: [
+				"有了这个方便实用的高科技纸箱，您就可以把刷怪笼或其他方块打包起来，搬到任何您想去的地方"
+				""
+				"也许是某个怪物农场？"
+			]
+			id: "6EA4D563D61BDB4C"
+			shape: "circle"
+			tasks: [
+				{
+					id: "386C3078458095E6"
+					item: "mekanism:cardboard_box"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2B9D2297649DF1DF"]
+			description: [
+				"如果您发现自己需要熔岩，但又不想自己去装 -- 你可以试着把列车开到下界，帮你收集熔岩 "
+				""
+				"您可以设置列车往返于下界收集熔岩，并将其存入基地的储罐中"
+				""
+				"关于列车，有很多内容是我们在探索中无法涵盖的。如果想了解更全面的指南，我建议您查看以下网站："
+				""
+				"&o&e\"Minecraft Create Mod - Train Tutorial\" by Rockit14&r&r"
+				"&o&bhttps://www.youtube.com/watch?v=C9Mwc2orrdk&r&r"
+			]
+			id: "56F6BBA4B5369677"
+			shape: "circle"
+			tasks: [
+				{
+					id: "32786BE10A74A04D"
+					item: "create:track"
+					type: "item"
+				}
+			]
+			title: "列车"
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["56F6BBA4B5369677"]
+			description: [
+				"虽然您不一定需要所有这些部件来驱动火车，但您需要其中的大部分"
+				""
+				"基本的列车设置："
+				""
+				"- 铺设列车轨道"
+				"- 在轨道上按你希望列车移动的方向放置一个列车站"
+				"- 要完成列车站的制作，请再次点击轨道一侧，放置实际的站台方块"
+				"- 打开列车站方块，点击创建新列车！"
+				"- 在蓝点上放列车机壳"
+				"- 从这里开始设计你的列车!"
+				""
+				"&o&b我们将继续进行最基本的设置：&r&r"
+				""
+				"- 用方块将列车机壳围起来，在列车顶部搭建一个 3x3 的平台"
+				"- 在列车行驶的方向上放下列车驾驶台"
+				"- 使用强力胶连接列车车上的所有方块"
+				"- 再次点击列车站方块，就可以装配列车"
+				""
+				"如果一切顺利，您的列车将组装完毕，您可以点击列车驾驶台，使用 W 或 S 推动列车前进或后退！"
+				""
+				"在这里，您可以添加移动式存储接口和储罐等附件，只需确保将它用强力胶粘在上即可"
+			]
+			id: "258040903DE3C6E0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "32B3EC90065DD933"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "30CE87B9D9CC1C1B"
+					item: "create:railway_casing"
+					type: "item"
+				}
+				{
+					id: "00FC65044156329A"
+					item: "create:schedule"
+					type: "item"
+				}
+				{
+					id: "261E4206328C9A54"
+					item: "create:track_station"
+					type: "item"
+				}
+				{
+					id: "45A4A13FEF091987"
+					item: "create:track_signal"
+					type: "item"
+				}
+				{
+					id: "5A1357D0C80ED2CC"
+					item: "create:track_observer"
+					type: "item"
+				}
+				{
+					id: "6934D909415B4B3A"
+					item: "create:controls"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["258040903DE3C6E0"]
+			id: "2B654F2E88EF73B1"
+			shape: "circle"
+			tasks: [
+				{
+					id: "078BD44AA977A4CC"
+					item: "create:train_door"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["258040903DE3C6E0"]
+			id: "756B678F40C16DE2"
+			shape: "circle"
+			tasks: [
+				{
+					id: "797EB769EF445368"
+					item: "create:train_trapdoor"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["30274D02D16C7089"]
+			description: [
+				"您有一顶非常喜欢并想用作装饰的帽子吗"
+				""
+				"您可以制作一个帽子展示架，把帽子放在上面展示！"
+			]
+			id: "74E4474715523B7F"
+			shape: "circle"
+			tasks: [
+				{
+					id: "59E532BD031EDC71"
+					item: "simplehats:hatdisplay"
+					type: "item"
+				}
+			]
+			title: "帽子展示架"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["268262DFB73CF55A"]
+			description: [
+				"帽子可以装备到 \"头饰\" or \"饰品\" 槽. 这样，您就可以戴上两顶帽子。如果使用 \"饰品\" 槽, 您可以在头盔上戴一顶帽子。将帽子装备到 \"头饰\" 插 将覆盖你的头盔"
+				""
+				"如果你有你不再需要的帽子，你可以用剪刀把它切成碎片。基于该帽子的稀有度,你会得到不常见的、普通的、稀有的或史诗的碎片 "
+				""
+				"有了一个麻布袋和碎片，你就可以制作一个袋子，获得另一顶不同帽子的机会"
+				""
+				"&o请务必查看史诗袋的合成配方，因为它与其他配方略有不同&r"
+			]
+			id: "5D908688DA57CABD"
+			shape: "circle"
+			tasks: [
+				{
+					id: "03FE427B8A4146CB"
+					item: "simplehats:hatbag_common"
+					type: "item"
+				}
+				{
+					id: "0E6A2E5AB9B1FC1C"
+					item: "simplehats:hatbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "41E9B5B69E852DCF"
+					item: "simplehats:hatbag_rare"
+					type: "item"
+				}
+				{
+					id: "1DDBB77DFA93A4F9"
+					item: "simplehats:hatbag_epic"
+					type: "item"
+				}
+			]
+			title: "帽子抓包"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["268262DFB73CF55A"]
+			description: [
+				"手工制作的房屋装饰更加美观大方。"
+				""
+				"&o你很可能要到第 3 阶段才能制作出很多这样的家具--但有机会在 &b任务奖励 中得到它。&r&r"
+			]
+			icon: "handcrafted:acacia_board"
+			id: "697A30455AAA9C7B"
+			shape: "circle"
+			tasks: [{
+				id: "38B39966729E50FC"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "纯手工制作"
+			x: 0.5d
+			y: -3.5d
+		}
+	]
+	title: "超级支线任务"
+}

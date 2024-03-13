@@ -1,0 +1,146 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "moon"
+	group: "6864EC96E852A08D"
+	icon: {
+		Count: 1b
+		id: "fairylights:moon_light"
+		tag: {
+			color: 16383998
+		}
+	}
+	id: "06CD8139B4CA09F6"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5C177330670C0A81"]
+			description: [
+				"月球上有很多新材料。即便肯定还用不上所有材料，但至少可以开始收集一些新材料了。"
+				""
+				"至于月球，这里并没有发生太多事情，只是一个月亮。 你可能会遇到一个月球村庄，或者发现月球的其他一些秘密"
+			]
+			id: "4C10F51470F58A61"
+			tasks: [
+				{
+					dimension: "ad_astra:moon"
+					id: "4BAC9AD9E5FD663F"
+					type: "dimension"
+				}
+			]
+			title: "前往月球！"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4C10F51470F58A61"]
+			id: "757CC8894F6F1AE7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3900CFF7861AF6C5"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "6B594623B61D9A3F"
+					item: "ad_astra:raw_desh"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C10F51470F58A61"]
+			id: "3AC637985771A62E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F2D4174C3C45FD8"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "01AB97A33A239B47"
+					item: "emendatusenigmatica:apatite_gem"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"757CC8894F6F1AE7"
+				"3AC637985771A62E"
+				"516ACA472B0EE924"
+				"581FE0FD83676EC5"
+			]
+			icon: "ad_astra:moon_globe"
+			id: "6BAC477CABB20D05"
+			rewards: [
+				{
+					id: "1CD98889D3E9035E"
+					item: "ad_astra:moon_globe"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "197E1E8C6B604A76"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "月球世界"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4C10F51470F58A61"]
+			id: "581FE0FD83676EC5"
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: true
+					count: 512L
+					id: "098D29F73EA336AB"
+					item: "ad_astra:moon_sand"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4C10F51470F58A61"]
+			id: "516ACA472B0EE924"
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: true
+					count: 512L
+					id: "2AE5A6A75336CD36"
+					item: "ad_astra:moon_cobblestone"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+	title: "月球"
+}

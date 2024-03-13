@@ -1,0 +1,60 @@
+{
+    "Restriction Data": {
+        "stage": "A3",
+        "name": "阶段3",
+        "itemList": [],
+        "modList": [
+            "immersive_armors",
+            "glassential",
+            "wstweaks",
+            "ad_astra",
+            "ad_astra_giselle_addon",
+            "botania",
+            "compactmachines",
+            "constructionwand",
+            "cookingforblockheads",
+            "create",
+            "energeticsheep",
+            "farmingforblockheads",
+            "prettypipes",
+            "productivebees"
+        ],
+        "tagList": [
+            "quark:revertable_chests",
+            "quark:revertable_trapped_chests",
+            "kubejs:age_3_item"
+        ],
+        "exceptionList": [
+            { "tag": "kubejs:age_3_exception" },
+            { "tag": "create:stone_types/granite" },
+            { "tag": "create:stone_types/diorite" },
+            { "tag": "create:stone_types/andesite" },
+            { "tag": "create:stone_types/calcite" },
+            { "tag": "create:stone_types/dripstone" },
+            { "tag": "create:stone_types/deepslate" },
+            { "tag": "create:stone_types/tuff" },
+            { "tag": "create:stone_types/asurine" },
+            { "tag": "create:stone_types/crimsite" },
+            { "tag": "create:stone_types/limestone" },
+            { "tag": "create:stone_types/ochrum" },
+            { "tag": "create:stone_types/scoria" },
+            { "tag": "create:stone_types/scorchia" },
+            { "tag": "create:stone_types/veridium" }
+        ],
+        "containerList": [],
+        "dimensionList": []
+    },
+    "Settings": {
+        "advancedTooltips": "ALWAYS",
+        "itemTitle": "不可用物品",
+        "pickupDelay": 15,
+        "hideInJEI": true,
+        "canPickup": false,
+        "containerListWhitelist": false,
+        "checkPlayerInventory": true,
+        "checkPlayerEquipment": true,
+        "destroyableBlocks": false,
+        "usableItems": false,
+        "usableBlocks": false
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "Restriction Data": {
+        "stage": "A6",
+        "name": "阶段6",
+        "itemList": [],
+        "modList": [
+            "aeinfinitybooster",
+            "angelring",
+            "appmek",
+            "mekanism",
+            "mekanismadditions",
+            "mekanismgenerators",
+            "mekanismtools",
+            "merequester",
+            "mysticalagradditions",
+            "mysticalagriculture",
+            "pipez",
+            "powah",
+            "rangedpumps",
+            "rftoolsbase",
+            "rftoolsutility",
+            "shrink"
+        ],
+        "tagList": ["kubejs:age_6_item"],
+        "exceptionList": [
+            {
+                "tag": "kubejs:age_6_exception"
+            }
+        ],
+        "containerList": [],
+        "dimensionList": []
+    },
+    "Settings": {
+        "advancedTooltips": "ALWAYS",
+        "itemTitle": "不可用物品",
+        "pickupDelay": 15,
+        "hideInJEI": true,
+        "canPickup": false,
+        "containerListWhitelist": false,
+        "checkPlayerInventory": true,
+        "checkPlayerEquipment": true,
+        "destroyableBlocks": false,
+        "usableItems": false,
+        "usableBlocks": false
+    }
+}

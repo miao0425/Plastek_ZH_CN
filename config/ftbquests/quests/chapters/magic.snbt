@@ -1,0 +1,621 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magic"
+	group: "5F8EFC9EDBDA235C"
+	icon: "rootsclassic:growth_powder"
+	id: "45082D84A5613237"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3C8930D4F3A220C5"]
+			description: [
+				"对树木使用树皮刀，获取树皮"
+			]
+			id: "7EF2C043E30919EA"
+			subtitle: "树皮有吗？"
+			tasks: [
+				{
+					id: "0A0313E6FAEE011B"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "rootsclassic:barks"
+						}
+					}
+					title: "任意#rootsclassic:barks"
+					type: "item"
+				}
+			]
+			title: "树皮，树皮，树皮！！"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7EF2C043E30919EA"]
+			id: "60CC82452ABD2862"
+			tasks: [
+				{
+					id: "5DBE816C3CB474BD"
+					item: "rootsclassic:mortar"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7EF2C043E30919EA"]
+			id: "330EA3734E76C695"
+			subtitle: "该工具在使用过程中不会消耗"
+			tasks: [
+				{
+					id: "031330DBCA60FF77"
+					item: "rootsclassic:pestle"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"60CC82452ABD2862"
+				"330EA3734E76C695"
+			]
+			id: "39030471A0763051"
+			tasks: [
+				{
+					id: "5AE69108585A6941"
+					item: "rootsclassic:imbuer"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7EF2C043E30919EA"]
+			description: [
+				"你可以破坏草或高草来获得老根。"
+			]
+			id: "68D95514090BFBF0"
+			subtitle: "潜藏在草丛深处"
+			tasks: [
+				{
+					id: "6AE3D3E456AF4E3A"
+					item: "rootsclassic:old_root"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7EF2C043E30919EA"]
+			description: [
+				"要获得一些翠绿枝，你需要收获完全生长（似乎只有原版）的作物"
+				""
+				"或者说，其中许多树枝已经掉进了泥土里  "
+				""
+				"许你可以试着铲一些泥土？"
+			]
+			id: "0F782E09F52C1CEC"
+			tasks: [
+				{
+					id: "51BBA2D380E71555"
+					item: "rootsclassic:verdant_sprig"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7EF2C043E30919EA"]
+			description: [
+				"红加仑和一些其他果子来自破坏树上的树叶。"
+			]
+			id: "44DC8D765999F8FB"
+			subtitle: "嘘，那是什么？只是风..."
+			tasks: [
+				{
+					id: "3C3C775F27EAAD8F"
+					item: "rootsclassic:redcurrant"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44DC8D765999F8FB"]
+			id: "46FB4D2541FF8A07"
+			shape: "circle"
+			subtitle: "好吃"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "6EF1408000CFA184"
+					item: "rootsclassic:whitecurrant"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "7AA18DF6C95016AB"
+					item: "rootsclassic:blackcurrant"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "67C2CE540969E77F"
+					item: "rootsclassic:elderberry"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "02F67B127E09CF76"
+					item: "rootsclassic:nightshade"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "35EBB20536EDE7C0"
+					item: "rootsclassic:redcurrant"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"68D95514090BFBF0"
+				"0F782E09F52C1CEC"
+				"44DC8D765999F8FB"
+				"1F3B8B8C21120800"
+			]
+			description: [
+				"这个精细 &2&l 生长粉 &r&r 将非常重要"
+				""
+				"你可能需要一些剪刀来剪草"
+			]
+			id: "2F5CEEB974A828E0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "70F8449FDFA4451F"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "不仅仅是生长粉"
+			tasks: [
+				{
+					id: "681F575A82073405"
+					item: "rootsclassic:growth_powder"
+					type: "item"
+				}
+			]
+			title: "绿色粉末"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2F5CEEB974A828E0"]
+			id: "2A19102FB0C16ADE"
+			rewards: [
+				{
+					id: "4B6DA8D05575AEE9"
+					item: "rootsclassic:healing_poultice"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "2F3ABCB4BB5B7F5E"
+					item: "rootsclassic:healing_poultice"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"39030471A0763051"
+				"2F5CEEB974A828E0"
+			]
+			description: [
+				"步骤 1： 将牡丹、西瓜、红色粉末、夜影草和老根放入臼中，然后使用杵。 您将得到一个类似灰尘的物品 "
+				""
+				"步骤 2: 为灌注法杖添加木棍和灰尘物品"
+				""
+				"步骤 3: 观看漂亮的特效，然后收集你的物品！"
+			]
+			id: "18780440BF0EC94C"
+			shape: "circle"
+			tasks: [
+				{
+					id: "7F5158D325796875"
+					item: "minecraft:peony"
+					type: "item"
+				}
+				{
+					id: "4BCF87CC66E8FF30"
+					item: "minecraft:melon"
+					type: "item"
+				}
+				{
+					id: "35D9CF657B83BD9D"
+					item: "minecraft:red_dye"
+					type: "item"
+				}
+				{
+					id: "10CE7431D706ED32"
+					item: "rootsclassic:nightshade"
+					type: "item"
+				}
+				{
+					id: "534AC5BE159249E0"
+					item: "rootsclassic:old_root"
+					type: "item"
+				}
+				{
+					id: "3CCB14A0B9E5D77F"
+					item: "minecraft:stick"
+					type: "item"
+				}
+			]
+			title: "牡丹大狩猎！"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["18780440BF0EC94C"]
+			description: [
+				"这个手杖有0的强度是完全没有用的。你可能只需把它扔进垃圾桶"
+				""
+				"有垃圾桶吗？我听说它在熔岩里烧得很旺"
+				""
+				"当你制作的法杖具有更强的潜能时，它肯定会更有用！"
+			]
+			id: "53F3A90A3B098706"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "581C96B0C22D4516"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "6E7A5A17C75B3B69"
+					item: {
+						Count: 1b
+						id: "rootsclassic:staff"
+						tag: {
+							maxUses: 15
+							"rootsclassic:effect": "rootsclassic:peony"
+							"rootsclassic:efficiency": 1
+							"rootsclassic:potency": 0
+							"rootsclassic:size": 0
+							uses: 15
+						}
+					}
+					title: "再生法杖"
+					type: "item"
+				}
+			]
+			title: "再生法杖"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2F5CEEB974A828E0"
+				"141BB1A7D5C7030B"
+			]
+			description: [
+				"接下来的步骤没有可追踪的方法，所以你只需要跟着任务走就可以了"
+			]
+			icon: "minecraft:totem_of_undying"
+			id: "406FE18343CA43AD"
+			shape: "square"
+			tasks: [
+				{
+					id: "27D23FBE4A37E0D7"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "我连木工课都没上过！"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["406FE18343CA43AD"]
+			description: [
+				"使用您值得信赖的图腾刻刀, 您需要潜行 + 右键点击，直到将其设置为 \"图腾基座\".  "
+				""
+				"&o默认情况下，它以图腾基座的形式启动&r"
+				""
+				"右键点击底部原木或木材(几乎适用于所有原木/木材，但可能会将某些原木/木材转换为橡木)"
+				""
+				"恭喜你，你现在有了一个图腾基座！"
+			]
+			icon: "minecraft:totem_of_undying"
+			id: "58E14308220B97A7"
+			shape: "square"
+			tasks: [
+				{
+					id: "59750AE9FE742D36"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "看起来底座很牢固！"
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["58E14308220B97A7"]
+			description: [
+				"现在打开你的怪奇宝典 把它换成 \"图腾百科全书\""
+				""
+				"在 图腾基础 > 图腾效果 中，你会看到几个选项，可以将它们刻在下一个图腾层上.  您可以混合搭配获得各种 BUFF，也可以叠加使单个 BUFF 更强！ "
+				""
+				"图腾的高度可达 6 个方块，范围约为 7 个方块"
+				""
+				"如果以后制作了药草袋，就可以将图腾效果储存在药草袋中，并带着它四处旅行"
+			]
+			icon: "minecraft:totem_of_undying"
+			id: "6EC27A452F584752"
+			shape: "square"
+			tasks: [
+				{
+					id: "6F4CE2411C9DDF47"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "多么错综复杂"
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6EC27A452F584752"]
+			description: [
+				"在以后的阶段，图腾可能会有更多的进阶。不过，如果你想从整合包的主要发展中抽身出来，欢迎查看《怪奇宝典》中的《图腾百科全书》"
+				""
+				"您可以通过演奏特定的乐器来举行一些仪式，这将为您和周围的人带来一些不错的加成！"
+			]
+			icon: "minecraft:totem_of_undying"
+			id: "6D28D5894B4A7B24"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "428A17BB08E597D8"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "03F49A720767307B"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "音乐和舞蹈"
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["18780440BF0EC94C"]
+			dependency_requirement: "one_started"
+			description: [
+				"好吧,这次我们增加一个强化。"
+				"步骤1:在你的战利品中添加蒲公英、线、羽毛、白urcurant、红石和折射弹,然后使用你的Pestle."
+				"步骤2:在灌注器中添加棍和粉,并收集你的Dandelion之风法杖!"
+				"好吧,这次我们增加一个强化"
+				""
+				"步骤 1: 将蒲公英、线、羽毛、白加仑、红石和翠绿枝放入臼中，然后使用杵"
+				""
+				"步骤 2: 将木棍和灰尘加入灌注法杖，然后收集你的蒲公英之风法杖！"
+			]
+			id: "6ACD3E8E25E1AC9B"
+			shape: "circle"
+			subtitle: "哦，等等 那不是正确的狮子......"
+			tasks: [
+				{
+					id: "4865BEE92BC84E12"
+					item: "minecraft:dandelion"
+					type: "item"
+				}
+				{
+					id: "38383CDD7BBBF374"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					id: "3A4DA2A1C47D3062"
+					item: "minecraft:feather"
+					type: "item"
+				}
+				{
+					id: "1ECD5BFDC4F4685C"
+					item: "rootsclassic:whitecurrant"
+					type: "item"
+				}
+				{
+					id: "6DE24A12DAF53195"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "27A5AE51F7B91961"
+					item: "rootsclassic:verdant_sprig"
+					type: "item"
+				}
+				{
+					id: "62F2B32E6EE3C743"
+					item: "minecraft:stick"
+					type: "item"
+				}
+			]
+			title: "辛巴..."
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6ACD3E8E25E1AC9B"]
+			description: [
+				"这一次，我们要制作一个法杖，但要加上一个强化"
+				""
+				"使用老根时，我们会受到强化的限制。不过，我们可以使用翠绿枝和其他一些物品（更多信息请查看《怪奇宝典》中的符文平板）来使用强化剂"
+				""
+				"这 3 种不同的物品分别是"
+				"&4红石&r：效率 +1（提高铸造成本）"
+				"&e萤石粉&r：力量+1（提高强度）"
+				"&7火药&r： +1 (强化效果)"
+			]
+			id: "6D06741D36DBD24A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "104145016D635762"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			subtitle: "材料必须准确无误！"
+			tasks: [
+				{
+					id: "51D5CAF94E756FA8"
+					item: {
+						Count: 1b
+						id: "rootsclassic:staff"
+						tag: {
+							maxUses: 30
+							"rootsclassic:effect": "rootsclassic:dandelion"
+							"rootsclassic:efficiency": 1
+							"rootsclassic:potency": 0
+							"rootsclassic:size": 0
+							uses: 30
+						}
+					}
+					title: "蒲公英之风的法杖"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7EF2C043E30919EA"]
+			id: "1A561C5F80866151"
+			rewards: [
+				{
+					id: "35F75DE54DABC7D1"
+					item: "pamhc2foodextended:bibimbapitem"
+					random_bonus: 24
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "饿了吗？"
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "325AD4C51B6C3932"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "rootsclassic:barks"
+						}
+					}
+					title: "任意树皮"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["68D95514090BFBF0"]
+			description: [
+				"如果您在把它变成&l&6粗糙末影珍珠&r并进入蜜蜂领域之前，失去了这个&2&l粘液球&r&r -- 您需要执行以下操作之一："
+				""
+				"1) 在地下或沼泽生物群系中击杀史莱姆"
+				""
+				"2) 找到一个真正的末影珍珠"
+				""
+				"3) 以某种方式获得活塞，然后用活塞把自己推进蜂巢"
+			]
+			id: "5BD7351D0D67FD79"
+			rewards: [
+				{
+					id: "7BD266BDC25C919D"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "你可能想做这个。这是一个简单的黏液球。"
+			tasks: [
+				{
+					consume_items: true
+					count: 128L
+					id: "6BC91B3E150A4374"
+					item: "rootsclassic:old_root"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F5CEEB974A828E0"]
+			description: [
+				"直到 3 阶段，原版漏斗解锁后才能制作漏式植物盆。"
+				""
+				"在 6 阶段解锁后 -- 神秘农业将无法使用植物盆栽，因此您需要寻找其他方法来种植这些种子"
+			]
+			id: "4CD0E6121CD44ABE"
+			shape: "circle"
+			tasks: [
+				{
+					id: "34C76F685777888E"
+					item: "botanypots:terracotta_botany_pot"
+					type: "item"
+				}
+				{
+					id: "7D8583A0C7F28815"
+					item: "botanypots:terracotta_hopper_botany_pot"
+					type: "item"
+				}
+			]
+			title: "植物盆"
+			x: 2.5d
+			y: 1.5d
+		}
+	]
+	title: "魔法"
+}

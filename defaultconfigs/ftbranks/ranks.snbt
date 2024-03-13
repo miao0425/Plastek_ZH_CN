@@ -1,0 +1,65 @@
+{
+	member: {
+        name: "Member"
+        power: 1
+        condition: "always_active"
+        ftbranks.name_format: "&f<&b原始人&f> &d{name} &r"
+        ftbchunks.max_claimed: 0
+        ftbchunks.max_force_loaded: 0
+	}
+
+	age_1: {
+	name: "阶段1"
+        power: 2
+        ftbranks.name_format: "&f<&b阶段 1&f> &d{name} &r"
+        ftbchunks.max_claimed: 10
+        ftbchunks.max_force_loaded: 0
+	}
+
+	age_2: {
+	name: "阶段2"
+        power: 3
+        ftbranks.name_format: "&f<&b阶段 2&f> &d{name} &r"
+        ftbchunks.max_claimed: 100
+        ftbchunks.max_force_loaded: 10
+	}
+
+	age_3: {
+	name: "阶段3"
+        power: 4
+        ftbranks.name_format: "&f<&b阶段 3&f> &d{name} &r"
+        ftbchunks.max_claimed: 500
+        ftbchunks.max_force_loaded: 20
+	}
+	age_4: {
+	name: "阶段4"
+        power: 5
+        ftbranks.name_format: "&f<&b阶段 4&f> &d{name} &r"
+        ftbchunks.max_claimed: 1000
+        ftbchunks.max_force_loaded: 40
+	}
+
+	age_5: {
+	name: "阶段5"
+        power: 6
+        ftbranks.name_format: "&f<&b阶段 5&f> &d{name} &r"
+        ftbchunks.max_claimed: 1500
+        ftbchunks.max_force_loaded: 50
+	}
+
+	age_6: {
+	name: "阶段6" 
+        power: 7
+        ftbranks.name_format: "&f<&b阶段 6&f> &d{name} &r"
+        ftbchunks.max_claimed: 2000
+        ftbchunks.max_force_loaded: 100
+	}
+
+	age_7: {
+	name: "阶段7"
+        power: 8
+        ftbranks.name_format: "&f<&b阶段 7&f> &d{name} &r"
+        ftbchunks.max_claimed: 2500
+        ftbchunks.max_force_loaded: 200
+	}
+}

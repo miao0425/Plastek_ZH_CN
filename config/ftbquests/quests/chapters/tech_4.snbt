@@ -1,0 +1,1664 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tech_4"
+	group: "160159E361DC62EF"
+	icon: "pneumaticcraft:printed_circuit_board"
+	id: "06E369EDF8EAA7B5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["481CC7DD0387169C"]
+			id: "34B6EA6F438DBAED"
+			subtitle: "这个会让你忙上一阵子"
+			tasks: [
+				{
+					id: "13E94549441F1B80"
+					title: "阶段 4"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34B6EA6F438DBAED"]
+			description: [
+				"这里没有太多的东西。 现在你有了一些更好的塑料，你要建造你的二级火箭"
+				""
+				"我们要去红色星球了！"
+			]
+			id: "53332FF908BC952E"
+			tasks: [
+				{
+					id: "4642F2AD8B75D14B"
+					title: "火箭队再次起飞！"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["53332FF908BC952E"]
+			description: [
+				"在这里，您需要导航到 火星 任务"
+			]
+			id: "281EE59C33F78909"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "19320157BE37FB18"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "5C174E112EE99D37"
+					item: {
+						Count: 1b
+						id: "ad_astra:tier_2_rocket"
+						tag: {
+							BotariumData: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["34B6EA6F438DBAED"]
+			description: [
+				"我们要制作一个气动工艺精炼厂"
+				""
+				"一旦精炼厂装满石油，并能达到至少 100 度的温度，它就会精炼成 4 种流体"
+				""
+				"&c柴油&r"
+				"&3煤油&r"
+				"&6汽油&r "
+				"&e液化石油气&r"
+				""
+				"与其他装置一样，自动化取决于您"
+				""
+				"至少，我建议尽可能使用安全卡，以避免爆炸"
+			]
+			id: "358BA5BE11EDDF4D"
+			rewards: [
+				{
+					count: 2
+					id: "3647CE1750A0AD5E"
+					item: "pneumaticcraft:air_compressor"
+					type: "item"
+				}
+			]
+			subtitle: "气动工艺：第1部分"
+			tasks: [
+				{
+					id: "41FBE3E9A7901FC0"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "你如此精致，让我大开眼界"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["358BA5BE11EDDF4D"]
+			description: [
+				"为了给精炼厂加压，我们需要 3 台空气压缩机 "
+				""
+				"有了之前的任务奖励，你可能要再做两台空气压缩机 / 安全升级来完成这个任务"
+				""
+				"下面是一个基础设置："
+				""
+				"{image:kubejs:textures/pneumaticcraft/pnematic_refinery_sample.png width:125 height:125 align:1}"
+			]
+			id: "3DCA2CCC13D97EFC"
+			tasks: [
+				{
+					id: "220604312A89E50F"
+					item: "pneumaticcraft:refinery"
+					type: "item"
+				}
+				{
+					id: "766CCCE2AA28C150"
+					item: "pneumaticcraft:small_tank"
+					type: "item"
+				}
+				{
+					id: "45ED230306B9DA9F"
+					item: "pneumaticcraft:dispenser_upgrade"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["358BA5BE11EDDF4D"]
+			description: [
+				"给它加压，一侧输出热量，另一侧输出冷量"
+			]
+			id: "4BCA344784A9C3CC"
+			tasks: [
+				{
+					id: "108C7F9C6D96627B"
+					item: "pneumaticcraft:vortex_tube"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["358BA5BE11EDDF4D"]
+			description: [
+				"将管道调节器模块放入压力管道中，就能实现对管道网络的红石控制"
+				""
+				"这样就可以阻止部分/全部压力通过管道调节器"
+				""
+				"只需将其放入压力管道，并在旁边放置一个杠杆即可"
+			]
+			id: "19BB155306AF9C61"
+			shape: "circle"
+			tasks: [
+				{
+					id: "3B49A758933D6DB8"
+					item: "pneumaticcraft:regulator_tube_module"
+					type: "item"
+				}
+				{
+					id: "3EC8D22E47D95B46"
+					item: "minecraft:lever"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3DCA2CCC13D97EFC"]
+			id: "08C3C24020A7C73B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4DFE91D3B461F05C"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			subtitle: "他是桶先生"
+			tasks: [
+				{
+					id: "4294A6D63D176220"
+					item: "pneumaticcraft:diesel_bucket"
+					type: "item"
+				}
+				{
+					id: "69E1447B8D64CBDD"
+					item: "pneumaticcraft:kerosene_bucket"
+					type: "item"
+				}
+				{
+					id: "18DEDB86368E7593"
+					item: "pneumaticcraft:gasoline_bucket"
+					type: "item"
+				}
+				{
+					id: "1FEAAFF755EFF4B6"
+					item: "pneumaticcraft:lpg_bucket"
+					type: "item"
+				}
+			]
+			title: "趣味桶"
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["358BA5BE11EDDF4D"]
+			id: "6FD77502EDFB5C92"
+			tasks: [
+				{
+					count: 4L
+					id: "7D2CE60DF64B065A"
+					item: "pneumaticcraft:refinery_output"
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "622F3FC7B295F6AF"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:trapdoors"
+						}
+					}
+					title: "任意#minecraft:trapdoors"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["34B6EA6F438DBAED"]
+			description: [
+				"不，你必须经过一个复杂的过程才能得到熔融塑料"
+			]
+			id: "64A26585B7F65D37"
+			subtitle: "气动工艺：第2部分"
+			tasks: [
+				{
+					id: "01030CC910191123"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "不能直接在炉子里熔化吗？"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["64A26585B7F65D37"]
+			id: "511EE9DE3CB4F74A"
+			tasks: [
+				{
+					id: "410CEB0530F8C5A3"
+					item: "pneumaticcraft:air_compressor"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["64A26585B7F65D37"]
+			id: "64E0DCA2B826610E"
+			tasks: [
+				{
+					id: "31FED2A47417FF8E"
+					item: "pneumaticcraft:pressure_tube"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["64A26585B7F65D37"]
+			id: "2D51B77280D234E2"
+			tasks: [
+				{
+					id: "63A5FE24B2E3E0AF"
+					item: "pneumaticcraft:vortex_tube"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["64A26585B7F65D37"]
+			id: "67562986AD40806D"
+			tasks: [
+				{
+					id: "1478FF3DA5530A4E"
+					item: "pneumaticcraft:heat_pipe"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["64A26585B7F65D37"]
+			description: ["{image:kubejs:textures/pneumaticcraft/pneumatic_thermopneumatic_processing_sample.png width:125 height:125 align:1}"]
+			id: "3F978FBFABBAC51C"
+			tasks: [
+				{
+					id: "7BF5BC3B463DA245"
+					item: "pneumaticcraft:thermopneumatic_processing_plant"
+					type: "item"
+				}
+				{
+					id: "4CADCD8711C2F5D2"
+					item: "pneumaticcraft:small_tank"
+					type: "item"
+				}
+				{
+					id: "242F6059F8FC1EA5"
+					item: "pneumaticcraft:dispenser_upgrade"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3F978FBFABBAC51C"]
+			id: "332A9FEAE32BBFD3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3D946DF89D337680"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "3D30576518AD234D"
+					item: "pneumaticcraft:plastic_bucket"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["358BA5BE11EDDF4D"]
+			id: "1097CB60C1600356"
+			tasks: [
+				{
+					count: 2L
+					id: "32143F4A2CF82FDA"
+					item: "pneumaticcraft:pressure_tube"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["34B6EA6F438DBAED"]
+			description: [
+				"请记住，这些设备并不是万能的"
+				""
+				"您有责任实现自动化，并升级您的设备"
+				""
+				"获得 PCB 将使您在整合包取得更多进展，同时还能在气动工艺方面取得更多进展"
+				""
+				"&e&o如果您想进一步了解这种很酷的 mods，YouTube 上的 Duncan Webb 有一个关于气动工艺的精彩系列&r&r"
+			]
+			id: "043ADB4D1CEE73C6"
+			subtitle: "气动工艺：第3部分"
+			tasks: [
+				{
+					id: "35F6345089BACE42"
+					title: "适合您的印刷电路板的日光浴床"
+					type: "checkmark"
+				}
+			]
+			title: "印刷电路板日光浴"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["59AE13AF70687556"]
+			description: [
+				"在适当的压力下，紫外线灯箱可将空印刷电路板的蚀刻机会从 0 提高到 100%。一旦空印刷电路板的蚀刻率达到 100%，就可以进行蚀刻酸喷淋了！"
+				""
+				"下面是一个基础的设置："
+				"{image:kubejs:textures/pneumaticcraft/pneumatic_uv_sample.png width:125 height:125 align:1}"
+				""
+				"&o如果您觉得紫外线灯箱的速度太慢，请务必对其进行速度升级&r"
+			]
+			id: "7FC2073903E11EAF"
+			subtitle: "从未见过这么好的成色"
+			tasks: [
+				{
+					id: "09CC10C06F9F740E"
+					item: "pneumaticcraft:uv_light_box"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["59AE13AF70687556"]
+			description: [
+				"通常情况下，您会将空印刷电路板放入蚀刻器，然后让蚀刻过程进行。但是，我们不按常规行事"
+				""
+				"蚀刻器已被 &c禁用&r. "
+				""
+				"取而代之的是，您需要想办法将蚀刻酸注入到注液器中 (&o气动工艺的小型储罐就很好用&r). "
+				""
+				"一旦你至少有一桶 &a蚀刻酸&r 在 &d注液器&r 中, 你需要拿一个&a100% 蚀刻成功几率&r的&b空印刷电路板&r, 把它放在注液器下面，让蚀刻酸倒在上面. "
+				""
+				"成功将获得&9未组装的印刷电路板&r"
+			]
+			id: "6FC92C323C8EE144"
+			subtitle: "蚀刻储罐已禁用"
+			tasks: [
+				{
+					id: "4D13D57D1A9EA99C"
+					item: "create:spout"
+					type: "item"
+				}
+			]
+			title: "蚀刻注液器"
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["043ADB4D1CEE73C6"]
+			description: [
+				"蚀刻酸配方会很烦人"
+				""
+				"好消息是，在您有能力制造激光装配程序之前，您只需处理桶装方法"
+				""
+				"您需要 5 个生长粉、1 个诅咒 GM 鸡饲料、1 个营养 GM 鸡饲料、1 个电子管、1 桶汽油和 1 桶熔融塑料"
+			]
+			id: "59AE13AF70687556"
+			subtitle: "扔进锅里"
+			tasks: [
+				{
+					id: "744228BD35EB3958"
+					item: "pneumaticcraft:etching_acid_bucket"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"6FC92C323C8EE144"
+				"7FC2073903E11EAF"
+			]
+			id: "5BC3C965E32561AF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0F86CC04A5BFDD07"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "107A7D8492D0AFCD"
+					item: "pneumaticcraft:unassembled_pcb"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["34B6EA6F438DBAED"]
+			description: [
+				"完成建造后，每台机器都需要用工程师锤右键"
+				""
+				"一般来说，《怪奇宝典》中的《工程师手册》会告诉你需要右键哪个方块来完成结构"
+			]
+			id: "5E46D02E8E6D542A"
+			subtitle: "动力从上往下，机器从右往上"
+			tasks: [
+				{
+					id: "291E94F6C7F09955"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "身临其境"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			description: [
+				"高炉可以让您开始生产钢！"
+			]
+			id: "4596F14140B7AE67"
+			subtitle: "#1"
+			tasks: [
+				{
+					count: 27L
+					id: "3B4C18F4BA15D2DD"
+					item: "immersiveengineering:blastbrick"
+					type: "item"
+				}
+			]
+			title: "高炉"
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			description: [
+				"更好的合金"
+				""
+				"在某些方面它是一种升级，在某些方面则不是"
+			]
+			id: "49661D794D571EE6"
+			subtitle: "#2"
+			tasks: [
+				{
+					count: 8L
+					id: "5ED362766C35B87D"
+					item: "immersiveengineering:alloybrick"
+					type: "item"
+				}
+			]
+			title: "合金窑"
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			id: "4C1816CFCA8A5D47"
+			subtitle: "#4"
+			tasks: [
+				{
+					count: 2L
+					id: "3639EAA4D35FD89F"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					id: "38844B8DF9C15D34"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					id: "1BA3F8C71DAA89D1"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "704F98C8E1C6C767"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "09C0721F1E73F768"
+					item: "immersiveengineering:steel_fence"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3F687B00179616A6"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "60CF0AFFF651C0AB"
+					item: "immersiveengineering:wooden_barrel"
+					type: "item"
+				}
+			]
+			title: "工业挤压机"
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			description: [
+				"你需要用这个工作台来制作一些材料"
+			]
+			id: "3E511A31199739F8"
+			subtitle: "#3"
+			tasks: [
+				{
+					id: "74464211F52ED2EC"
+					item: "emendatusenigmatica:steel_ingot"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3A9408D8656B2D8F"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:treated_wood_slab"
+						}
+					}
+					title: "任意#forge:treated_wood_slab"
+					type: "item"
+				}
+				{
+					id: "513C4B6002D25E11"
+					item: "immersiveengineering:treated_fence"
+					type: "item"
+				}
+				{
+					id: "142EC88932E133DB"
+					item: "immersiveengineering:craftingtable"
+					type: "item"
+				}
+				{
+					id: "0703F336DAE9135E"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					id: "7DE11AEC3F4D7104"
+					item: "immersiveengineering:workbench"
+					type: "item"
+				}
+			]
+			title: "工程师工作台"
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			description: [
+				"使用电弧炉，你就可以开始处理铝了，这可以让你制作一些铝线，这又可以让你完全装配你的印刷电路板"
+			]
+			id: "403157E58C976611"
+			subtitle: "#5"
+			tasks: [
+				{
+					count: 8L
+					id: "6E09EA74CCCC5257"
+					item: "immersiveengineering:sheetmetal_steel"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "42390289374545D9"
+					item: "emendatusenigmatica:steel_block"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "47940C69F74C92C4"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "445E1819D89C7553"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "7A6D129E2731984A"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "597A08B380E2CA4D"
+					item: "immersiveengineering:blastbrick_reinforced"
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "79095434334F9B7D"
+					item: "immersiveengineering:slab_sheetmetal_steel"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "6D1C1314E329B200"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					id: "082EDA4FA9AD6B84"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+			]
+			title: "电弧炉"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			id: "422B990ADEC51790"
+			subtitle: "#6"
+			tasks: [
+				{
+					id: "6488602040E4BA3C"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					id: "5FA5D3E42391116D"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					id: "48355ACBE7BD8E3C"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "333E6C41A54377E8"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6FC5E15912557C46"
+					item: "immersiveengineering:conveyor_basic"
+					type: "item"
+				}
+			]
+			title: "金属冲压机"
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["422B990ADEC51790"]
+			description: [
+				"要想获得铝线，我们需要这样做："
+				""
+				"- 粉碎粗铝或铝土矿石，获得铝粉"
+				""
+				"- 放置 1 块铝粉和 1 块能量羊毛(&o任意颜色&r) 到电弧炉得到铝锭"
+				""
+				"- 用金属冲压模具将1个铝锭放入金属冲压机：获得2个铝线缆"
+				""
+				"&o&e解锁热力感应炉后，您将不再需要能量羊毛来帮助将铝粉粘合成固体锭&r&r "
+			]
+			id: "09A8F4E340FB7D21"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "446EE79CBB736871"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "37F82F29A75CF3BD"
+					item: "immersiveengineering:wire_aluminum"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"5BC3C965E32561AF"
+				"09A8F4E340FB7D21"
+			]
+			description: [
+				"有了印刷电路板，您就可以解锁跟多高级的科技"
+				""
+				"在整合包的其余部分中，将经常使用印刷电路板"
+				""
+				"目前的设备速度较慢，但确实可以工作"
+				""
+				"建议建立装配生产，以加快印刷电路板的进程，以及开始制造更好的管材、压缩机等."
+				" "
+			]
+			id: "2E18138D211E9206"
+			rewards: [
+				{
+					id: "02A2A36550BD7A7C"
+					item: {
+						Count: 1b
+						id: "endrem:cold_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42F175C570CDC0CF"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "把它们擦在地毯上也没问题。它们仍然有效"
+			tasks: [
+				{
+					id: "4A1B4FDC5107E146"
+					item: "pneumaticcraft:printed_circuit_board"
+					type: "item"
+				}
+			]
+			title: "可爱的电路板"
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			description: [
+				"只需将熔岩放在一边，水放在另一边。这样就能发电"
+				""
+				"这样的功率可能不够"
+				""
+				"目前，您可能需要在设备中增加几个热传导发电机.  "
+				""
+				"现在，如果你真的愿意，也许还可以继续使用羊毛，呸呸呸......你真的愿意吗？ "
+				""
+				""
+				"&o是的，我恨我自己刚才的所作所为&r"
+			]
+			id: "35F9B1C965E96E2C"
+			rewards: [
+				{
+					id: "086DA0EBF96423E8"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "28978722DC44B500"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "还行，但还不够"
+			tasks: [
+				{
+					id: "7C57D443829375B1"
+					item: "immersiveengineering:thermoelectric_generator"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			id: "469CC2D6334AB824"
+			shape: "circle"
+			tasks: [
+				{
+					id: "256E52E8D680F947"
+					item: "immersiveengineering:wirecoil_copper"
+					type: "item"
+				}
+				{
+					id: "57D80F944FD434D2"
+					item: "immersiveengineering:wirecoil_copper_ins"
+					type: "item"
+				}
+				{
+					id: "7F49D9E6AE3274D8"
+					item: "immersiveengineering:wirecoil_electrum"
+					type: "item"
+				}
+				{
+					id: "19A8BBE62651A961"
+					item: "immersiveengineering:wirecoil_electrum_ins"
+					type: "item"
+				}
+				{
+					id: "70376082FA5EB9CB"
+					item: "immersiveengineering:wirecoil_steel"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			description: [
+				"这些连接器将机器、发电机和电容器与线缆连接起来，并能输入和输出能量"
+			]
+			id: "2BB10B34413A1537"
+			shape: "circle"
+			tasks: [
+				{
+					id: "207426A4FC494035"
+					item: "immersiveengineering:connector_lv"
+					type: "item"
+				}
+				{
+					id: "728B40E07B5272E8"
+					item: "immersiveengineering:connector_mv"
+					type: "item"
+				}
+				{
+					id: "23FD6A646AC663AA"
+					item: "immersiveengineering:connector_hv"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			description: [
+				"继电器可以连接多条线缆。您可以将多个连接器与 1 个继电器连接在一起，然后从继电器输出电"
+				""
+				""
+				"这是将 4 个连接器连接到 1 个继电器，为 1 台设备供电"
+				"{image:kubejs:textures/immersiveengineering/immersive_relay_sample.png width:150 height:100 align:1}"
+			]
+			id: "0353F668EED9C5DB"
+			shape: "circle"
+			tasks: [
+				{
+					id: "3F0C698D84A52528"
+					item: "immersiveengineering:connector_lv_relay"
+					type: "item"
+				}
+				{
+					id: "1859C427D6462B05"
+					item: "immersiveengineering:connector_mv_relay"
+					type: "item"
+				}
+				{
+					id: "64A8609A9AE4DEB3"
+					item: "immersiveengineering:connector_hv_relay"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2E18138D211E9206"]
+			description: [
+				"由于你需要大量的印刷电路板才能看见未来，你可能想要设置一个更好的程序来制作它们"
+				""
+				"使用气动工艺装配可以大大加快创建未装配印刷电路板的过程"
+				""
+				"由于激光的精确性 -- 您将不再需要将空印刷电路板送入紫外线灯箱. "
+				""
+				"&b&o虽然完成第 4 阶段不需要激光装配，但在第 5 和第 6 阶段制作几台机器和部件时需要&r&r"
+			]
+			id: "19B5FFF3FB393174"
+			shape: "square"
+			tasks: [
+				{
+					id: "0695E6A805E26FC3"
+					title: "OK"
+					type: "checkmark"
+				}
+			]
+			title: "装配机:无法装配"
+			x: 7.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["332A9FEAE32BBFD3"]
+			description: [
+				"您也可以让一个储罐装满熔融塑料，然后使用另一个储罐（如水桶），将收集到的熔融塑料罐放入一个装有加热架的桶内，这样就可以将罐内的物品变成塑料板"
+				""
+				"这样的设置应该可以让你开始工作："
+				"{image:kubejs:textures/pneumaticcraft/pneumatic_heat_frame_sample.png width:175 height:125 align:1} "
+			]
+			id: "65347C6676E31024"
+			shape: "circle"
+			tasks: [
+				{
+					id: "49E6FE495EA34E8D"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "pneumaticcraft:fluid_tanks"
+						}
+					}
+					title: "任意#pneumaticcraft:fluid_tanks"
+					type: "item"
+				}
+				{
+					id: "256B760434061B89"
+					item: "pneumaticcraft:heat_frame"
+					type: "item"
+				}
+				{
+					id: "08D6402ACC505F83"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+			]
+			title: "熔融塑料到塑料片"
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["19B5FFF3FB393174"]
+			description: [
+				"激光程序为这个整合包提供了许多功能："
+				""
+				"- 高级压力管道"
+				"- 压缩能源炉"
+				"- 食物能源炉"
+				"- 气动能源炉"
+				"- 斯特林能源炉"
+				"- 数字型采矿机"
+				"- 未组装的印刷电路板"
+				"- 化学溶解室"
+				"- 流体单元"
+				"- 战利品制造器"
+				"- 模拟室"
+				"- 空的预测矩阵"
+				"- 压力室气阀"
+				"- Powah 组件"
+				""
+				"还有一个钻孔程序可以让你制作下界合金钻头. "
+			]
+			id: "6C9495C43764A397"
+			shape: "square"
+			tasks: [
+				{
+					id: "6FFEFD7215C5F0F7"
+					item: "pneumaticcraft:assembly_program_laser"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["19B5FFF3FB393174"]
+			description: [
+				"这是一个简单的设置："
+				""
+				"{image:kubejs:textures/pneumaticcraft/pneumatic_laser_assembly_sample.png width:175 height:125 align:1}"
+				""
+				"木桶是可选项，您可以使用任何储物箱"
+			]
+			id: "5742B7B8C9A7667A"
+			shape: "square"
+			tasks: [
+				{
+					id: "4B414CFBB9173DBA"
+					item: "pneumaticcraft:assembly_controller"
+					type: "item"
+				}
+				{
+					id: "15C2048EC82F3597"
+					item: "pneumaticcraft:assembly_io_unit_import"
+					type: "item"
+				}
+				{
+					id: "55E769263CC3877C"
+					item: "pneumaticcraft:assembly_io_unit_export"
+					type: "item"
+				}
+				{
+					id: "1E4197A9AB4722B1"
+					item: "pneumaticcraft:assembly_laser"
+					type: "item"
+				}
+				{
+					id: "62844CA848EC81C4"
+					item: "pneumaticcraft:assembly_platform"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"5742B7B8C9A7667A"
+				"6C9495C43764A397"
+			]
+			id: "312585081B7A3CDD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3C105F4304644FBD"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "68FE48998D9D1941"
+					item: "pneumaticcraft:unassembled_pcb"
+					type: "item"
+				}
+			]
+			title: "装配"
+			x: 10.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2E18138D211E9206"]
+			icon: {
+				Count: 1b
+				id: "endrem:cold_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "568FFB1C8BA282CC"
+			rewards: [
+				{
+					id: "65664BCB4ECF7F42"
+					item: {
+						Count: 1b
+						id: "endrem:cold_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "heart"
+			tasks: [
+				{
+					id: "225CBC099D6BE89B"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "魔眼恢复"
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["281EE59C33F78909"]
+			id: "5A4DCF7D2F0282B6"
+			shape: "circle"
+			tasks: [
+				{
+					id: "7E7E626B3C8B345D"
+					item: "ad_astra_giselle_addon:fuel_loader"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["294D6DE9D415823B"]
+			id: "1BEB924ACBB44CA4"
+			shape: "circle"
+			subtitle: "斗轮式挖掘机部件 #1"
+			tasks: [
+				{
+					count: 16L
+					id: "4C9E6189F3464194"
+					item: "immersiveengineering:sheetmetal_steel"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "148185E1F30512CE"
+					item: "immersiveengineering:radiator"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "1A32966793BF76CE"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					id: "22BE0C580B815D04"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6C758AFB814DC822"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "69F44F9447828C7A"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+			]
+			title: "斗轮式挖掘机"
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1BEB924ACBB44CA4"]
+			dependency_requirement: "one_started"
+			id: "00E8652076713E91"
+			shape: "circle"
+			subtitle: "斗轮式挖掘机部件 #2"
+			tasks: [
+				{
+					count: 9L
+					id: "28BADD2A658278E3"
+					item: "emendatusenigmatica:steel_block"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "48D9BDFBA0BE04A3"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+			]
+			title: "斗轮"
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["403157E58C976611"]
+			description: [
+				"斗轮式挖掘机的主要好处是它使用一个特殊的系统来找到和开采地下矿石"
+				""
+				"这意味着主世界或其他维度通常不存在的矿石也可以用挖掘机开采"
+				""
+				"使用岩芯钻井机，启动它，旋转起来，然后用镐头敲击它。 它应该会产生一个物品，让你知道下面的大块矿石中有多少矿石，以及是什么类型的矿物. "
+				""
+				"您可以查看《工程师手册》 \"矿脉\". "
+				""
+				"在第 8 页，您可以看到各种矿脉、它们的产量以及您需要在什么维度上设置斗轮式挖掘机"
+				""
+				"&o之后您将获得 MEK 数字型采矿机和 RF 工具采石场的使用权，它们可以开采世界中的物理矿石&r"
+			]
+			id: "294D6DE9D415823B"
+			shape: "circle"
+			tasks: [
+				{
+					id: "7F296D0EFA444A8E"
+					item: "immersiveengineering:sample_drill"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F978FBFABBAC51C"]
+			id: "06FDA3A0ABB7D61E"
+			shape: "circle"
+			tasks: [
+				{
+					id: "3103145DF9088C55"
+					item: "pneumaticcraft:reinforced_pressure_tube"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["65347C6676E31024"]
+			id: "70B420DBF0D5F0F2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3D32F03103AC15F2"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "4FCBC4E417CF5CAF"
+					item: "pneumaticcraft:plastic"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			description: ["另一种可选机械，可以帮助将部分的东西粉碎成粉"]
+			id: "1B857BA57DA019B3"
+			shape: "square"
+			subtitle: "#9"
+			tasks: [
+				{
+					count: 10L
+					id: "76FA42F0F9D80C61"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					id: "0859FD36E1C038B2"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "61F5F56E6ECB4C92"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "57AFB634C9BD5011"
+					item: "immersiveengineering:steel_fence"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "06A67BD37AB3E8C3"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+			]
+			title: "粉碎机"
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			description: ["在这里装入你在 JEI 中看到的任何流体，以及 2 块沥青，以制造更多硫磺柴油和石油焦！"]
+			id: "14577A9D0ED6368D"
+			subtitle: "#8"
+			tasks: [
+				{
+					count: 18L
+					id: "6DD7C4ABDA3A4464"
+					item: "immersiveengineering:concrete"
+					type: "item"
+				}
+				{
+					id: "7871429B2B8FC92A"
+					item: "emendatusenigmatica:steel_block"
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "7B3861DEDF597792"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "00187932EA1E79AD"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "5402FE11043D8C3C"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					id: "3E5551AA9F3F4D27"
+					item: "immersiveengineering:treated_wood_horizontal"
+					type: "item"
+				}
+				{
+					count: 182L
+					id: "00A975DE9CDF3D05"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "4391EDBA8B1A437C"
+					item: "immersiveengineering:concrete_tile"
+					type: "item"
+				}
+				{
+					count: 29L
+					id: "6F32C0BE4754BB85"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "2F147211C2324213"
+					item: "immersiveengineering:slab_storage_steel"
+					type: "item"
+				}
+				{
+					count: 193L
+					id: "34092D14E5517D6B"
+					item: "immersiveengineering:steel_fence"
+					type: "item"
+				}
+				{
+					count: 82L
+					id: "6D651318B715500D"
+					item: "immersiveengineering:slab_steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 51L
+					id: "45C0605EA91598AE"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+			]
+			title: "焦化器"
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			description: [
+				"用石油或原油供应，即可获得："
+				""
+				"润滑油"
+				"硫磺柴油"
+				"煤油"
+				"石脑油"
+				"沥青"
+				""
+				"您需要对生产过程中产生的各种流体进行分类或处理"
+			]
+			id: "66EBB1DFF76FCE00"
+			subtitle: "#7"
+			tasks: [
+				{
+					count: 4L
+					id: "6911B285472CCF57"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "4387BC897E011289"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 60L
+					id: "0840FF36B62C5641"
+					item: "immersiveengineering:sheetmetal_iron"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "4FD713C91F20F204"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 30L
+					id: "4E803B1544B7B1CB"
+					item: "immersiveengineering:slab_steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "3842BF3C6BA595A8"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+			]
+			title: "蒸馏塔"
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3E511A31199739F8"]
+			description: [
+				"这就像工程师工作台，但自动化程度更高一些"
+				""
+				"绝对更加花哨 "
+				""
+				"&o你喜欢花里胡哨吗？&r"
+			]
+			id: "2588E6D48E12F4AD"
+			shape: "circle"
+			subtitle: "太漂亮了！"
+			tasks: [
+				{
+					count: 4L
+					id: "16BC8830C165E7CF"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					id: "7FBB153671673581"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "09683FC59D640F9D"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "43DB6342FB0F7C7C"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "18594A59DBAB57CC"
+					item: "immersiveengineering:slab_treated_wood_horizontal"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0116CF5CB3F75AA7"
+					item: "immersiveengineering:conveyor_basic"
+					type: "item"
+				}
+			]
+			title: "自动化工程师工作台"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5E46D02E8E6D542A"]
+			description: [
+				"是的，欢迎您的新柴油发电机加入您的大家庭"
+				""
+				"它将为这个阶段的机器提供能量"
+			]
+			id: "3F2AF8C18E33DF6B"
+			shape: "circle"
+			subtitle: "家人"
+			tasks: [
+				{
+					count: 9L
+					id: "7C288ECCF0CD5BB0"
+					item: "immersiveengineering:radiator"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5AFC73C7F6168AE4"
+					item: "immersiveengineering:generator"
+					type: "item"
+				}
+				{
+					count: 13L
+					id: "5E21C20C6E3CBA29"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "66929EFDCE0BA563"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "173EFC0B6D6D5895"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "05D147931DF0ED18"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+			]
+			title: "柴油发电机组"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4596F14140B7AE67"]
+			description: [
+				"您需要合金窑才能将钢熔入高炉砖中"
+				""
+				"&o该高炉可实现完全自动化，如果增加 2 个预热器，速度还会提高&r"
+			]
+			id: "0DF12EA8CAAC71A6"
+			shape: "circle"
+			tasks: [
+				{
+					count: 27L
+					id: "352C649F70D9BEEE"
+					item: "immersiveengineering:blastbrick_reinforced"
+					type: "item"
+				}
+				{
+					id: "762F43C0341446E4"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+			]
+			title: "改良型高炉"
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1B857BA57DA019B3"]
+			description: ["这是制作所有印刷电路板的晶体管和电容器的关键部件"]
+			id: "0D0AC04D3F23DEBE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37D8A876292F909C"
+				table_id: 3325230720908722317L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "49ABA541EAD71CA3"
+				item: "immersivepetroleum:petcoke_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0DF12EA8CAAC71A6"]
+			description: ["这些高炉预热器可将改进型高炉的速度提高一倍或三倍。不过它们需要电力才能运行"]
+			id: "0441CD515F1BA4F9"
+			shape: "circle"
+			tasks: [{
+				id: "03D22BB0D0745B12"
+				item: "immersiveengineering:blastfurnace_preheater"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+	]
+	title: "科技"
+}

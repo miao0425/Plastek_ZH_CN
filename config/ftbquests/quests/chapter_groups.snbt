@@ -1,0 +1,48 @@
+{
+	chapter_groups: [
+		{
+			id: "7B921CB93186BAA4"
+			title: "欢迎"
+		}
+		{
+			id: "6864EC96E852A08D"
+			title: "世界"
+		}
+		{
+			id: "2C080FE404DC830F"
+			title: "可选"
+		}
+		{
+			id: "5F8EFC9EDBDA235C"
+			title: "1 阶段"
+		}
+		{
+			id: "04DB2BB1A10D6373"
+			title: "2 阶段"
+		}
+		{
+			id: "7F2FC2E4E4C51B36"
+			title: "3 阶段"
+		}
+		{
+			id: "160159E361DC62EF"
+			title: "4 阶段"
+		}
+		{
+			id: "7259EF239C15BF6E"
+			title: "5 阶段"
+		}
+		{
+			id: "16ADE1AEEBEEE736"
+			title: "6 阶段"
+		}
+		{
+			id: "69403B2D49AA6748"
+			title: "7 阶段"
+		}
+		{
+			id: "6274245AF897553D"
+			title: "收集"
+		}
+	]
+}

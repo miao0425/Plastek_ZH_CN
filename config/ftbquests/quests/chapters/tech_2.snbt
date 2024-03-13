@@ -1,0 +1,1214 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tech_2"
+	group: "04DB2BB1A10D6373"
+	icon: "create:water_wheel"
+	id: "7082CBFFE93B716B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			description: [
+				"有了未来，就有了选择。比如这些选择："
+				""
+				"1：制作更好的工具、盔甲和武器"
+				"2：制作防腐木，这样你就可以制作更好的存储系统"
+				"3：制作必要的机器，开始用水车为机械动力机器提供动力"
+				""
+				"您也可以前往魔法选项卡，从植物魔法开始。你需要活石来用神秘学做一些事情，所以建议先在魔法选项卡中做植物魔法"
+			]
+			id: "1BEF36F590BA5162"
+			subtitle: "不那么线性"
+			tasks: [
+				{
+					id: "053321D13EAC1C3E"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "阶段 2"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BEF36F590BA5162"]
+			description: [
+				"这条线是防腐木的基础，也是更好的储存方式"
+			]
+			id: "50031393944F8B2E"
+			tasks: [
+				{
+					id: "1D5427F73550D5A0"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "如何制作防腐木，手把手教学"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["02E317D4A6FB874C"]
+			description: [
+				"现在，您只需将 500mb 的液态混凝土浇筑到砂砾上，就可以制作出混凝土了"
+				""
+				"&o如果您想改变混凝土方块的颜色，可以将混凝土和各种染料一起合成&r"
+			]
+			id: "116360F62F2EB226"
+			subtitle: "搅拌均匀"
+			tasks: [
+				{
+					id: "620CFC76666B7908"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:concrete"
+						}
+					}
+					title: "任意#forge:concrete"
+					type: "item"
+				}
+			]
+			title: "混凝土"
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			description: [
+				"在这一步中，你必须释放出内心的炽热"
+				""
+				"对于正常人来说，你可以尝试简单地挖几个坑，把木头、原木或木板放下去，然后用打火石把它们点燃"
+				""
+				"一段时间后，地面上就会出现灰烬，您可以将其回收，然后将其扔进熔炉，得到灰烬砖"
+				""
+				"&4对于疯子来说，为什么不试试烧掉整片森林，毁掉整个村庄呢？野生动物可能不会介意... 也许不要这么做。可能延迟会很高！&r"
+			]
+			id: "515F7A7F7C53D791"
+			subtitle: "浓烟滚滚"
+			tasks: [
+				{
+					id: "483C77977856415A"
+					item: "supplementaries:ash_brick"
+					type: "item"
+				}
+				{
+					id: "03F31087AC95883E"
+					item: {
+						Count: 1b
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0240FDF5F774DEEE"]
+			description: [
+				"只要在世界上找到一些粘土，破坏它，然后看着它变成小粘土球"
+				""
+				"&o粘土不能食用&r"
+			]
+			id: "3AFD7FCCCC43E5EC"
+			tasks: [
+				{
+					id: "19CC3B5E23EBEF7D"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3AFD7FCCCC43E5EC"
+				"116360F62F2EB226"
+				"515F7A7F7C53D791"
+			]
+			description: [
+				"制作完 27 块焦炉砖后，您需要制作 工程师之锤，它就在这个阶段的 工具 任务重 "
+				""
+				"手持工程师锤，你可以走到你的 3x3 焦炉砖塔前，捶打它中间的方块，然后看着它变成焦炉"
+			]
+			id: "46A8082BAFA451ED"
+			tasks: [
+				{
+					count: 27L
+					id: "17482C2D44B9C936"
+					item: "immersiveengineering:cokebrick"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"46A8082BAFA451ED"
+				"1A6E4C045828DEDE"
+			]
+			id: "1673C2D215EA54FD"
+			tasks: [
+				{
+					id: "16FEFD33D231E894"
+					item: "immersiveengineering:creosote_bucket"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1673C2D215EA54FD"]
+			description: [
+				"能走到这一步，可能已经是一段相当艰辛的旅程了"
+				""
+				"然而，看看你自己 你做到了！新的存储方式就在眼前"
+				""
+				"当你将你的物品放入新容器时，你的身体会感谢你，希望这些集装箱不会被苦力怕炸毁"
+			]
+			id: "7010308F4F836BAD"
+			rewards: [
+				{
+					icon: "supplementaries:sign_post_oak"
+					id: "2992209DD6A62C67"
+					title: "访问箱子和桶"
+					type: "custom"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "512A7B1EC9039FF7"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "获得防腐木后，新的存储方式就会出现！"
+			tasks: [
+				{
+					id: "6C2B72E5EB3F747A"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:treated_wood"
+						}
+					}
+					title: "任意#forge:treated_wood"
+					type: "item"
+				}
+			]
+			title: "防腐木"
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1BEF36F590BA5162"]
+			description: [
+				"这条线会让你开始接触一些寂静装备的东西. "
+				""
+				"其他相关任务将出现在工具/武器/护甲任务中"
+			]
+			id: "3F2C3738590350D3"
+			tasks: [
+				{
+					id: "285B30B1F43B161E"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "嘘。。。"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F2C3738590350D3"]
+			description: [
+				"首要任务是制作一件平时免费获得的物品。你真幸运！"
+				""
+				"然后，我们将制作一套铁装备"
+				""
+				"任务完成后，您就可以自由制作任何材料了。获得新材料后，您就能获得更强的特性、更高的伤害、更好的防御和更好的工具！"
+			]
+			id: "1F14D3B1AEC7C529"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "436AC636FFFE8EBB"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "记住:你可以在蓝图上按U来查看如何制作某些物品"
+			tasks: [
+				{
+					id: "7B6ECE66D47F0BB9"
+					item: {
+						Count: 1b
+						id: "silentgear:blueprint_package"
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "silentgear:starter_blueprints"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1F14D3B1AEC7C529"]
+			description: [
+				"打开蓝图包后，您会从几种不同类型的武器中获得一种"
+				""
+				"无论得到什么武器，将鼠标悬停在武器上并按 U 键，就会显示如何制作该物品"
+				""
+				"无论你得到什么武器，都不应该需要超过 5 块铁锭。制作刀尖或枪尖最多需要 3 块，制作柄最多需要 2 块. "
+				""
+				"&l&e为了获得任务奖励，它必须完全由铁锭制成&r&r"
+			]
+			id: "4D7BCB819636280C"
+			tasks: [
+				{
+					id: "0F6996D041F2F70B"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "武器"
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6AF24552F4A82665"]
+			description: [
+				"这将为你提供一套基础的盔甲。 "
+				""
+				"如果你在内衬任务线上查看，你可以为你的盔甲制作内衬"
+				""
+				"&l&e为了获得任务奖励，它必须完全由铁锭制成&r&r"
+			]
+			id: "1F7670AA1DAE582B"
+			tasks: [
+				{
+					id: "4BABFE6B6F0556C8"
+					item: {
+						Count: 1b
+						id: "silentgear:helmet_plates"
+						tag: {
+							CraftedCount: 1
+							Damage: 0
+							Materials: [
+								{
+									Count: 5b
+									ID: "silentgear:iron"
+									Item: {
+										Count: 1b
+										id: "minecraft:iron_ingot"
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0DED1E07742CFC85"
+					item: {
+						Count: 1b
+						id: "silentgear:chestplate_plates"
+						tag: {
+							CraftedCount: 1
+							Damage: 0
+							Materials: [
+								{
+									Count: 8b
+									ID: "silentgear:iron"
+									Item: {
+										Count: 1b
+										id: "minecraft:iron_ingot"
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1ABD7CCBC0B66434"
+					item: {
+						Count: 1b
+						id: "silentgear:legging_plates"
+						tag: {
+							Damage: 0
+							Materials: [
+								{
+									ID: "silentgear:example"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25307B4A5C1C4764"
+					item: {
+						Count: 1b
+						id: "silentgear:boot_plates"
+						tag: {
+							CraftedCount: 1
+							Damage: 0
+							Materials: [
+								{
+									Count: 4b
+									ID: "silentgear:iron"
+									Item: {
+										Count: 1b
+										id: "minecraft:iron_ingot"
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "护甲"
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1F14D3B1AEC7C529"]
+			description: [
+				"将这两种物品制作在一起，你就得到了一把铁镐！"
+				""
+				"镐头需要 3 块铁锭，柄需要 2 根木棍"
+				""
+				"&l&e为了获得任务奖励，头部必须只用铁锭制成，柄必须用木棍制成&r&r"
+			]
+			id: "0BB117053557ED97"
+			tasks: [
+				{
+					id: "16736A4A019B73F5"
+					item: {
+						Count: 1b
+						id: "silentgear:pickaxe_head"
+						tag: {
+							CraftedCount: 1
+							Damage: 0
+							Materials: [
+								{
+									Count: 3b
+									ID: "silentgear:iron"
+									Item: {
+										Count: 1b
+										id: "minecraft:iron_ingot"
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0940A0D824984681"
+					item: "silentgear:rough_rod"
+					type: "item"
+				}
+			]
+			title: "工具"
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1F14D3B1AEC7C529"]
+			description: [
+				"非一切都是免费的。我也希望是免费的 我很抱歉让你制作这些东西"
+			]
+			id: "6AF24552F4A82665"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4D0BCF40918C24FB"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "但我想要免费的盔甲模板"
+			tasks: [
+				{
+					id: "44BEA7A886D286D2"
+					item: "silentgear:helmet_blueprint"
+					type: "item"
+				}
+				{
+					id: "3ED7339683ABE377"
+					item: "silentgear:chestplate_blueprint"
+					type: "item"
+				}
+				{
+					id: "6CB5261064D0D8C1"
+					item: "silentgear:leggings_blueprint"
+					type: "item"
+				}
+				{
+					id: "4BBFCC4DF6ACD235"
+					item: "silentgear:boots_blueprint"
+					type: "item"
+				}
+			]
+			title: "整装待发"
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6AF24552F4A82665"]
+			id: "40562A0DA7BD8849"
+			shape: "circle"
+			tasks: [
+				{
+					id: "538AAFE37AD29156"
+					item: "silentgear:lining_blueprint"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1F14D3B1AEC7C529"]
+			description: [
+				"在这个阶段结束之前，我们还会再来这个章节制作材料分级器。不过，现在我们还不太具备这样的能力，所以寂静线暂时到此为止"
+				""
+				"抱歉，到目前为止，你在寂静线所做的一切几乎都没有科技含量"
+			]
+			id: "5F1E6260DCA478B7"
+			tasks: [
+				{
+					id: "75623A081521855F"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "仅此而已"
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5F1E6260DCA478B7"]
+			description: [
+				"材料分级器可以让你制造出更强大的寂静装备"
+				""
+				"将材料与 6 种催化剂中的一种一起放入分级器"
+				""
+				"&nT1&r"
+				""
+				"- &e辉耀粉&r"
+				"- &e烈焰金粉&r"
+				""
+				"&nT2&r"
+				""
+				"- &c灼焰粉&r "
+				"- &c蔚蓝银粉&r"
+				""
+				"&nT3&r"
+				""
+				"- &b灿熠粉t&r"
+				"- &b星辉粉&r"
+				""
+				""
+				"获得分级后，如果不满意，可以通过分级器重新分级，获得另一个随机分级"
+				""
+				"希望是更好的等级，但它可能会是更糟糕的等级、这可能会是更糟糕的等级"
+			]
+			id: "31C0D70E20FECEBB"
+			rewards: [
+				{
+					id: "40199BC4DAC1A552"
+					item: "silentgear:glowing_dust"
+					random_bonus: 49
+					type: "item"
+				}
+				{
+					id: "2B861270792038D8"
+					item: "silentgear:blaze_gold_dust"
+					random_bonus: 49
+					type: "item"
+				}
+				{
+					id: "099FDACFE9FAD55E"
+					item: "silentgear:azure_silver_dust"
+					random_bonus: 29
+					type: "item"
+				}
+				{
+					id: "46A0C217984BAE3D"
+					item: "silentgear:blazing_dust"
+					random_bonus: 29
+					type: "item"
+				}
+				{
+					id: "460312DE4E7EBE0B"
+					item: "silentgear:starmetal_dust"
+					random_bonus: 9
+					type: "item"
+				}
+				{
+					id: "1E8A0A31DAF39C2E"
+					item: "silentgear:glittery_dust"
+					random_bonus: 9
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A7C87C1D400B17E"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "分级、分级、再分级......"
+			tasks: [
+				{
+					id: "2249FC3E2CF1754E"
+					item: "silentgear:material_grader"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1BEF36F590BA5162"]
+			description: [
+				"这部分内容将专门用于安装您的第一台（或第 400 台）水车"
+			]
+			id: "21F3FFBB06EDC577"
+			subtitle: "水的力量在我的血液里流动！"
+			tasks: [
+				{
+					id: "6AEB6886B5C525B8"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "水的力量"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21F3FFBB06EDC577"]
+			id: "2AC8DB8B877FCA6C"
+			tasks: [
+				{
+					id: "680CB7FDB649647B"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "齿轮转啊转"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["21F3FFBB06EDC577"]
+			id: "528B58F7CC7CEA81"
+			tasks: [
+				{
+					id: "1CE04652334E2CDA"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			title: "它很坚固。"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"2AC8DB8B877FCA6C"
+				"528B58F7CC7CEA81"
+			]
+			description: [
+				"这些水车的运作与过去的版本有些不同"
+				""
+				"水车始终以其最高效率运行。水流只需流向一个方向即可实现这一目标"
+				""
+				"水车运行时产生 256su"
+				""
+				"{image:kubejs:textures/create/small_waterwheel_sample.png width:175 height:150 align:1}"
+			]
+			id: "174F9BBEC3872691"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "15AC09AC56AD8047"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "制造 0.5.1 水车"
+			tasks: [
+				{
+					id: "3B5472D344CB1704"
+					item: "create:water_wheel"
+					type: "item"
+				}
+			]
+			title: "水车"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["174F9BBEC3872691"]
+			description: [
+				"大水车运行时产生 512su"
+				""
+				"在这个版本中还有一个额外的功能，就是你可以拿一块木板，在水车上右键，这样水车就会变成这块木板的纹理，这对小型和大型水车都适用"
+				""
+				"{image:kubejs:textures/create/large_waterwheel_sample.png width:175 height:150 align:1}"
+			]
+			id: "03FAA14F839BF3FE"
+			shape: "circle"
+			tasks: [
+				{
+					id: "357A7BDF11CE088F"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+			]
+			title: "大型水车"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7010308F4F836BAD"
+				"769D6C69637F65E2"
+			]
+			description: [
+				"如果您还没有开始这个阶段的魔法章节，现在就需要开始了"
+				""
+				"一旦有了一些异界石，就可以制作充能下界石！"
+				""
+				"- 首先，您需要获得经验果冻宝宝，这些经验果冻宝宝含有敌人的血液和碎尸 "
+				""
+				"- 粉碎金锭获得金粉"
+				""
+				"- 取出异界石，扔进灵火。这样就能得到下界石"
+				""
+				"- 现在，带上你的果冻宝宝、金粉、下界石、防腐木板，最后再来点熔岩  "
+				""
+				"所有这些放入一个不加热的机械动力搅拌机中，以制造充能下界石。充能下界石是建造下界传送门所需的方块"
+				""
+				"&o&c虽然不是故意的，但只有&r &b&o钻石镐&r&r &c或更高，才能破坏灌注下界石&r&r"
+			]
+			icon: "kubejs:infused_nether_stone"
+			id: "3E0F7B994C1A95BC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6A21BB9EF1046B8B"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "2231757C13115E2A"
+					item: "kubejs:infused_nether_stone"
+					type: "item"
+				}
+			]
+			title: "充能下界石"
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["46A8082BAFA451ED"]
+			description: [
+				"煤炭可以冶炼 8 种物品，而煤焦可以冶炼 16 种物品！"
+				""
+				"在大多数情况下，你可以把煤/煤焦/等变成块，然后燃烧块，这样可以提高燃料效率"
+			]
+			id: "1A898D8DF984ECFA"
+			shape: "circle"
+			tasks: [
+				{
+					id: "643A10EC597DF1AB"
+					item: "immersiveengineering:coal_coke"
+					type: "item"
+				}
+			]
+			title: "比煤炭更好"
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["40562A0DA7BD8849"]
+			id: "47CC3FB12D74FD4C"
+			rewards: [
+				{
+					id: "3550DD49E3524900"
+					item: {
+						Count: 1b
+						id: "silentgear:chestplate_plates"
+						tag: {
+							CraftedCount: 1
+							Damage: 0
+							Materials: [
+								{
+									Count: 8b
+									ID: "silentgear:iron"
+									Item: {
+										Count: 1b
+										id: "minecraft:iron_ingot"
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "47AAD696A6698436"
+					item: {
+						Count: 1b
+						id: "silentgear:lining"
+						tag: {
+							CraftedCount: 1
+							Materials: [
+								{
+									ID: "silentgear:leather"
+									Item: {
+										Count: 1b
+										id: "minecraft:leather"
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3E0F7B994C1A95BC"]
+			description: [
+				"朱砂最早可以在下界找到"
+			]
+			id: "55868D112FDA7017"
+			tasks: [
+				{
+					id: "06F6C1317A1F7F45"
+					item: "emendatusenigmatica:cinnabar_dust"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3E0F7B994C1A95BC"]
+			description: [
+				"下界石英可在下界找到，但您可能会在主世界找到一些藏在宝箱里的下界石英"
+			]
+			id: "0A5AD933D56B927A"
+			tasks: [
+				{
+					id: "5826A1743CF739ED"
+					item: "thermal:quartz_dust"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7C43A90AB79EE944"]
+			description: [
+				"有了塑料，生活变得更美好！它很便宜，而且还为更多的存储选择打开了大门"
+				""
+				"更不用说，你还想用其中的一些来造火箭。 你能登上月球吗？还是说也会像塑料一样融化？"
+			]
+			id: "41B42F2569AC3752"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F960A7F8E4C9795"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "在你自己的后院制作"
+			tasks: [
+				{
+					id: "6C86CF9148EE351F"
+					item: "industrialforegoing:plastic"
+					type: "item"
+				}
+			]
+			title: "塑料"
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7010308F4F836BAD"]
+			id: "78F24740AFF5CE8F"
+			shape: "circle"
+			subtitle: "工作台升级！"
+			tasks: [
+				{
+					id: "47E0F3C3239AA003"
+					item: "immersiveengineering:craftingtable"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["174F9BBEC3872691"]
+			description: [
+				"为了打开通往下界的传送门，我们需要屠杀大量的怪物，因为我们需要将它们纯化后的肢体融合成下界石，才能激活通往下界的传送门。"
+				""
+				"为鼓励后期利用深度怪物学习，对前期的怪物研磨功用进行了一些削弱"
+				""
+				"多项升级已被删除，怪物风扇和升级将在第 6 阶段解锁"
+				""
+				"这意味着您需要建造一个较小的农场来获得 XP 流体，因为怪物需要从您的刷怪塔实用设备上走过"
+				""
+				"本流程将介绍如何建立一个小型、基本的怪物农场"
+				""
+				"&c&o由于我们为任务所做的设置较小，而且经过了削弱，因此有些怪物可能会被卡住。在建造过程中请记住，有时你可能需要手动清除一些怪物&r&r"
+			]
+			id: "769D6C69637F65E2"
+			subtitle: "什么？没有风扇？！"
+			tasks: [
+				{
+					id: "1D3BE35A02C28EF5"
+					title: "碾碎怪物"
+					type: "checkmark"
+				}
+			]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["769D6C69637F65E2"]
+			description: [
+				"虽然经验会从这些中掉落，但液态经验不会，所以我们需要将其升级为怪物捣碎机。"
+			]
+			id: "7C7E77A248D1A28F"
+			tasks: [
+				{
+					id: "638410FD6DB456AF"
+					item: "mob_grinding_utils:spikes"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["769D6C69637F65E2"]
+			id: "77EB055040E87492"
+			tasks: [
+				{
+					id: "51DD5A174FC7CF11"
+					item: "mob_grinding_utils:absorption_hopper"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["769D6C69637F65E2"]
+			id: "0A61817E86B06EAA"
+			subtitle: "诅咒之土"
+			tasks: [
+				{
+					id: "6364391DA1F9ECA9"
+					item: "mob_grinding_utils:gm_chicken_feed_cursed"
+					type: "item"
+				}
+				{
+					id: "24B5C65AFB4243F9"
+					item: "mob_grinding_utils:rotten_egg"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["769D6C69637F65E2"]
+			id: "2945D7D26482F2F6"
+			subtitle: "祈福之土"
+			tasks: [
+				{
+					id: "2849C623749A2A91"
+					item: "mob_grinding_utils:nutritious_chicken_feed"
+					type: "item"
+				}
+				{
+					id: "0E4CF5EB911CBC0C"
+					item: "mob_grinding_utils:golden_egg"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["769D6C69637F65E2"]
+			id: "320F53EFCF24A76B"
+			tasks: [
+				{
+					id: "7E44BB334C9D3B40"
+					item: "mob_grinding_utils:xpsolidifier"
+					type: "item"
+				}
+				{
+					id: "45162D48B1FAFC50"
+					item: "mob_grinding_utils:solid_xp_mould_baby"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7C7E77A248D1A28F"]
+			description: [
+				"通过红石信号激活"
+				""
+				"试试杠杆！"
+			]
+			id: "2E0DB2805D654494"
+			tasks: [
+				{
+					id: "10E59FDD4CFE5D76"
+					item: "mob_grinding_utils:saw"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2E0DB2805D654494"]
+			id: "3E1D194868B2A6DB"
+			shape: "circle"
+			tasks: [
+				{
+					id: "5178A30E88660C45"
+					item: "mob_grinding_utils:xp_tap"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2E0DB2805D654494"]
+			description: [
+				"没有传送带和风扇，怪物农场可能会有点堵塞"
+				""
+				"你可能需要考虑制作一个进出的门，这样你就可以清理多余的怪物了"
+				""
+				"如果你的农场使用的是诅咒之土，这意味着当密室里一片漆黑时，怪物就会生成。如果添加一盏红石灯和一个杠杆 -- 您可以打开或关闭光源，这将有效地阻止怪物生成"
+				""
+				"如果您使用的是祈福之土，被动生物会在光亮时生成"
+			]
+			id: "2CAD42E71EADA112"
+			shape: "circle"
+			subtitle: "拯救服务器！"
+			tasks: [
+				{
+					id: "26CD24865C2E6D7C"
+					item: "minecraft:redstone_lamp"
+					type: "item"
+				}
+				{
+					id: "1E22C49DF5A35B33"
+					item: "minecraft:lever"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2E0DB2805D654494"]
+			description: [
+				"遮光玻璃可以阻挡光线，所以如果你想要一个很酷的观察室，可以为你的怪物观察室设置一些遮光玻璃"
+			]
+			id: "3F26F923E27E3BB5"
+			shape: "circle"
+			tasks: [
+				{
+					id: "51424690668468DF"
+					item: "mob_grinding_utils:tinted_glass"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3F26F923E27E3BB5"]
+			description: [
+				"有了无光缥缈玻璃，玩家就可以像穿过一扇门一样穿过它。不过，它对怪物来说就像一堵墙"
+			]
+			id: "54BC1A279375DB03"
+			shape: "circle"
+			subtitle: "适用于阶段 3"
+			tasks: [
+				{
+					id: "458852DA4380047C"
+					item: "glassential:glass_dark_ethereal"
+					type: "item"
+				}
+				{
+					id: "1B2186794D512533"
+					item: "glassential:glass_dark_ethereal_reverse"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"0A5AD933D56B927A"
+				"55868D112FDA7017"
+			]
+			description: [
+				"有了下界石英和朱砂尘，就可以将其放入机械动力搅拌机中制作小块干橡胶了"
+			]
+			id: "2B19664C9255178E"
+			tasks: [
+				{
+					id: "47C9B0E4911A41F6"
+					item: "industrialforegoing:tinydryrubber"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2B19664C9255178E"]
+			description: [
+				"将 9 块小块干橡胶组合起来，就会产生 1 块干橡胶，您可以将其压制成塑料片"
+			]
+			id: "7C43A90AB79EE944"
+			tasks: [
+				{
+					id: "1DF15091C1037460"
+					item: "industrialforegoing:dryrubber"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["78F24740AFF5CE8F"]
+			description: [
+				"有了这个制作蓝图，您就可以把它放在墙上，给它分配一个合成配方，然后 -- 物品栏中有该配方的材料后，您就可以点击制作蓝图来制作物品"
+				""
+				"&o例子：&r"
+				"比方说，你想把铁粒变成铁。你只需将蓝图指定为铁。如果你的物品栏中至少有 9 铁粒，点击蓝图，它就会返回铁"
+			]
+			id: "1ABEF27B5C3F766C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4ED27558B2C61220"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			subtitle: "自动合成 v1"
+			tasks: [
+				{
+					id: "0C530650A531D670"
+					item: "create:crafting_blueprint"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["03FAA14F839BF3FE"]
+			description: [
+				"如果您发现自己需要更多的动力，您可以随时添加更多的水车。"
+				""
+				"{image:kubejs:textures/create/large_waterwheel_su_sample.png width:175 height:150 align:1}"
+			]
+			id: "0B97E29119B5B726"
+			shape: "circle"
+			subtitle: "我已经尽全力了，船长！"
+			tasks: [
+				{
+					id: "4E19E1785AF6CCE6"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+			]
+			title: "多个水车"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["50031393944F8B2E"]
+			description: [
+				"在机械动力搅拌机中："
+				""
+				"您需要 3 沙子、3黏土球和 400mb 水来搅拌出 1 构建黏膏。 "
+				""
+				"用 5 块构建黏膏和 200mb 的水可以搅拌出 150mb 的液态混凝土"
+			]
+			id: "02E317D4A6FB874C"
+			subtitle: "啊,搅拌它"
+			tasks: [
+				{
+					count: 5L
+					id: "16B875E023E7A6A1"
+					item: "buildinggadgets:construction_paste"
+					type: "item"
+				}
+			]
+			title: "搅拌构建黏膏"
+			x: -4.0d
+			y: 3.5d
+		}
+	]
+	title: "科技"
+}

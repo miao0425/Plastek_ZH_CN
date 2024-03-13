@@ -1,0 +1,921 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tech"
+	group: "5F8EFC9EDBDA235C"
+	icon: "create:gearbox"
+	id: "57FCD88C8F2E3A1F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6C04ACB8F1639713"]
+			description: [
+				"有了原木，你就觉得自己是个专业伐木工了"
+			]
+			icon: "minecraft:oak_wood"
+			id: "7FAD2D111A51760D"
+			rewards: [
+				{
+					id: "5EE3EC9212267126"
+					item: "pamhc2foodcore:carrotbreaditem"
+					type: "item"
+				}
+				{
+					id: "7934DA86DC24D2B4"
+					item: "pamhc2foodextended:gingersodaitem"
+					type: "item"
+				}
+				{
+					id: "1B42C4987081F2A7"
+					item: "pamhc2foodextended:gravyitem"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "483BAB6F13EE5D85"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					title: "任意#minecraft:logs"
+					type: "item"
+				}
+			]
+			title: "Dexter Wood 感到自豪（这是谁？？）"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FAD2D111A51760D"]
+			icon: "minecraft:oak_planks"
+			id: "046A6ECDB66B91A2"
+			tasks: [
+				{
+					id: "5240C38F999FEBF6"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:planks"
+						}
+					}
+					title: "任意#minecraft:planks"
+					type: "item"
+				}
+			]
+			title: "大量木板"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0492055978020330"]
+			description: [
+				"世界上最强大的金属之一 铜 铜....."
+				""
+				"它确实不是世界上最强大的金属之一。但对你来说，不幸的是，你还要使用铜一段时间"
+			]
+			id: "29ABB78197853F7B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "76CE7AB9D811193D"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "708FA8DB9D272073"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6F712354DFDC89C5"]
+			description: [
+				"您可以捕捉另一头奶牛并为它们生成后代，也可以寻找其他动物进行繁殖 "
+				""
+				"不过，牛是皮革碎片的良好来源！"
+			]
+			icon: "plushies:cow"
+			id: "615BA127ABFF419F"
+			rewards: [
+				{
+					id: "4715C4AC927D975E"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+			]
+			subtitle: "<3"
+			tasks: [
+				{
+					advancement: "minecraft:husbandry/breed_an_animal"
+					criterion: ""
+					icon: "artifacts:crystal_heart"
+					id: "28AEEE589D04F106"
+					type: "advancement"
+				}
+			]
+			title: "1 + 1 = 2"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6F712354DFDC89C5"]
+			id: "744FE5C3E16276EB"
+			rewards: [
+				{
+					count: 3
+					id: "4AAC767F98FD9EBB"
+					item: "statues:marshmallow"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "083EBA25543276FF"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+			]
+			title: "谁有恐怖故事？"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7FAD2D111A51760D"
+				"046A6ECDB66B91A2"
+			]
+			description: [
+				"每个优秀的工程师都必须从某个地方开始。在这种情况下，你首先要建造一个动物围栏和一个小农场"
+				""
+				"这将帮助我们在游戏初期获得一些食物，并为我们需要的皮革做准备"
+			]
+			icon: "itemfilters:not"
+			id: "6F712354DFDC89C5"
+			rewards: [
+				{
+					id: "21A899B4D3B52630"
+					item: "minecraft:cow_spawn_egg"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7D6DC60B475A3F75"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					id: "1D7361E0F5CE2AF6"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1FEA0F46CC920612"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "6B72BEB41C7CE1B8"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:fences"
+						}
+					}
+					title: "任意#forge:fences"
+					type: "item"
+				}
+				{
+					id: "0675A41246286F10"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:fence_gates"
+						}
+					}
+					title: "任意#forge:fence_gates"
+					type: "item"
+				}
+			]
+			title: "等等... 这不是科技啊"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["744FE5C3E16276EB"]
+			description: [
+				"第 1 步: 将马铃薯放入烤箱"
+				"第 2 步: 等待..."
+				"第 3 步: 收集马铃薯"
+				"第 4 步: 因为你没有盐、胡椒、酸奶油、培根或任何东西来让这成为一个好吃的马铃薯"
+				"第 5 步: 把马铃薯扔了"
+			]
+			id: "09473F5555348878"
+			rewards: [{
+				id: "3D65C313FA59F282"
+				item: "silentgear:leather_scrap"
+				random_bonus: 14
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "EZ 烤箱"
+			tasks: [
+				{
+					count: 32L
+					id: "3ED3B0D7A61F2415"
+					item: "minecraft:baked_potato"
+					type: "item"
+				}
+			]
+			title: "我的血管里流着马铃薯的血"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["615BA127ABFF419F"]
+			description: [
+				"在这个整合包中有一些制作皮革的过程。不过不用担心，随着你的进步，会有更多的方法来制作皮革 "
+				""
+				"这还会给你带来一些竹子作为奖励，以防你还没有找到竹子"
+				""
+				"您应该可以开始用竹子和少量麻纤维制作篮子"
+			]
+			id: "0F168A15566009C5"
+			rewards: [
+				{
+					count: 5
+					id: "5EE36929EEA80B92"
+					item: "minecraft:bamboo"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 17L
+					id: "164A8B08288F0841"
+					item: "silentgear:leather_scrap"
+					type: "item"
+				}
+			]
+			title: "皮革碎片"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0F168A15566009C5"]
+			dependency_requirement: "one_started"
+			id: "7DFA570BE3948D39"
+			tasks: [
+				{
+					id: "0D6D99F9378BA67C"
+					item: "kubejs:rawhide"
+					type: "item"
+				}
+			]
+			title: "生皮革"
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7DFA570BE3948D39"]
+			description: [
+				"从这里开始，你要逐步制作右边的 3 台机械动力机器"
+				""
+				"搅拌机、冲压机和石磨"
+			]
+			id: "089813896648386D"
+			subtitle: "需要搅拌机！"
+			tasks: [
+				{
+					id: "5859378BFFE8E791"
+					item: "kubejs:mallable_hide"
+					type: "item"
+				}
+			]
+			title: "锻造皮"
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["24CAB28F70C0D5C1"]
+			id: "0492055978020330"
+			rewards: [
+				{
+					id: "5CF5BF5C4761BFED"
+					item: "minecraft:mushroom_stew"
+					type: "item"
+				}
+				{
+					id: "2898AD1DFB65D872"
+					item: "rootsclassic:rooty_stew"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6A50208F73BC5F70"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["01849E75E7A04443"]
+			id: "24CAB28F70C0D5C1"
+			tasks: [
+				{
+					id: "6FA661FDE66603F8"
+					item: "compressium:cobblestone_1"
+					type: "item"
+				}
+				{
+					id: "3C1FE6E2FD877DA2"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+			]
+			title: "把它们揉在一起"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4FFCDB35F97F22CC"
+				"29ABB78197853F7B"
+			]
+			description: [
+				"就做一个新的。合金机不能替代任何炉子，而且用途非常有限。"
+			]
+			icon: "compressium:andesite_2"
+			id: "5F9650322884CAF2"
+			subtitle: "不要使用现有的炉子！"
+			tasks: [
+				{
+					count: 7L
+					id: "51268A40044BB088"
+					item: "compressium:andesite_1"
+					type: "item"
+				}
+				{
+					id: "51370AFEA95BA2D6"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					id: "1CBB12CB29C83994"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					id: "0ABA23134274C5EA"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+			]
+			title: "这东西真重"
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5F9650322884CAF2"]
+			id: "275A35DE022B722D"
+			tasks: [
+				{
+					id: "062BC1DDDDF4B155"
+					item: "silentgear:metal_alloyer"
+					type: "item"
+				}
+			]
+			title: "金属合金机"
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["275A35DE022B722D"]
+			id: "6FCBB48C6F9A8E03"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3E91C866CDE9ED34"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "1DE85B6BBDCD58B6"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["76C3C56FD74F358E"]
+			id: "33A4EA9F2AEA54F6"
+			tasks: [
+				{
+					id: "340D7F38502C8818"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["273EEA63B0E4BC1C"]
+			id: "76C3C56FD74F358E"
+			tasks: [
+				{
+					id: "719E315345A0678A"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6FCBB48C6F9A8E03"]
+			description: [
+				"手动手摇"
+				""
+				"要为接下来的 3 个机器提供动力，您需要手动操作。转啊转，转啊转....  很快你就会饿了，然后你就得再转几圈"
+				""
+				"别担心。它只会持续到你能够利用水车的力量为止"
+				""
+				"&o水车，将在下一个阶段到来&r"
+			]
+			id: "273EEA63B0E4BC1C"
+			rewards: [
+				{
+					count: 2
+					id: "3C84F002B124776C"
+					item: "create:vertical_gearbox"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4578A309A60E27B8"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7CE927DDBA035D90"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			subtitle: "我希望你饿了"
+			tasks: [
+				{
+					id: "4E51191D261889C9"
+					item: "create:hand_crank"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["273EEA63B0E4BC1C"]
+			id: "39DB7E14FD80D8F2"
+			tasks: [
+				{
+					id: "4B51E4DB48966AE1"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["39DB7E14FD80D8F2"]
+			description: [
+				"从技术上讲，您并不需要这个，但它确实能让您的辊压更轻松一些"
+			]
+			id: "1E6707ED1F4AC625"
+			shape: "circle"
+			tasks: [
+				{
+					id: "0FCD4F4C7FD576F7"
+					item: "create:depot"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["089813896648386D"]
+			id: "4438CC470515A45C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "75E618516991D6C8"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "32012548A028D748"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"486E2F2D84E0E664"
+				"6FCBB48C6F9A8E03"
+			]
+			id: "141BB1A7D5C7030B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0CD230809BD16D82"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "3774877C4ADCA3BB"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["79A637B4D90D9903"]
+			id: "55052EAA5C32C89B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "300226E5B93447EB"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "55AA3CEA4E3734D4"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["141BB1A7D5C7030B"]
+			id: "79A637B4D90D9903"
+			tasks: [
+				{
+					id: "6A3C35DFBAB948F3"
+					item: "emendatusenigmatica:iron_rod"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["141BB1A7D5C7030B"]
+			id: "218D5B0CBA945D35"
+			tasks: [
+				{
+					id: "071C8680B6899578"
+					item: "emendatusenigmatica:iron_plate"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0F168A15566009C5"]
+			dependency_requirement: "one_started"
+			description: [
+				"加一点树皮可以增强生皮革的强度"
+			]
+			id: "203755653C86E4EE"
+			tasks: [
+				{
+					id: "12D02C13A2C60C29"
+					item: "kubejs:durable_rawhide"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["203755653C86E4EE"]
+			id: "446B1D45A06E5991"
+			tasks: [
+				{
+					id: "3225E60017EF5ED9"
+					item: "kubejs:durable_mallable_hide"
+					type: "item"
+				}
+			]
+			title: "耐用的锻造皮"
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["446B1D45A06E5991"]
+			description: [
+				"这实际上是图腾的野牛牛皮。只是为这个整合包重新命名而已"
+				""
+				"只要图腾需要特定的野牛牛皮，耐用皮革就能代替它."
+			]
+			id: "27FBC19A999E7499"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "01658B55E0BCC84C"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "野牛牛皮 = 耐用皮革"
+			tasks: [
+				{
+					id: "6982265269E09FC3"
+					item: "totemic:buffalo_hide"
+					type: "item"
+				}
+			]
+			title: "耐用皮革"
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["275A35DE022B722D"]
+			description: [
+				"使用金属合金机可以制造纯银锭"
+				""
+				"用纯银锭可以制作一些新的盔甲和工具！"
+			]
+			id: "0EAC1C918A0B2E6D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "49F0BFDC2F838515"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "275D2192DBF0DC47"
+					item: "emendatusenigmatica:sterling_silver_ingot"
+					type: "item"
+				}
+			]
+			title: "纯银"
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0492055978020330"]
+			description: [
+				"所以，你来了。你四处挖掘。你可能注意到主世界中缺乏金和其他资源。别担心，它们在蜜蜂领域，你马上就需要去的地方"
+				""
+				"来看看 蜜蜂领域 任务线吧。目前你只需要金锭就能继续发展，但在完成整合包之前 -- 你需要在蜜蜂领域做一些探索，并成功交易一只蜂后"
+			]
+			id: "4FFCDB35F97F22CC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1201E5A3876D9322"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "373F2514F4E561A3"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["273EEA63B0E4BC1C"]
+			id: "027BF7618F0E0D5C"
+			tasks: [
+				{
+					id: "18560DCBE1965DE7"
+					item: "create:millstone"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4438CC470515A45C"]
+			description: [
+				"以备不时之需。也许需要，也许不需要。 写这篇文章的时候，还没有"
+				""
+				"我会改变它吗？谁知道呢？"
+			]
+			id: "0EBA787C93CDAE25"
+			rewards: [
+				{
+					id: "618B17A226430D2B"
+					item: "statues:rabbit_bw_statue"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "可能需要等到以后的阶段才能完成这个支线任务"
+			tasks: [
+				{
+					id: "4DB2DBFC3909B3CB"
+					item: "minecraft:rabbit_hide"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4438CC470515A45C"]
+			id: "691ECBD83694FFBC"
+			shape: "circle"
+			subtitle: "可能需要等到以后的阶段才能完成这个支线任务"
+			tasks: [
+				{
+					id: "40AA2E2CD7A34475"
+					item: "silentcompat:outback_leather"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4438CC470515A45C"]
+			id: "6A9C5598B323C1B5"
+			shape: "circle"
+			subtitle: "可能需要等到以后的阶段才能完成这个支线任务"
+			tasks: [
+				{
+					id: "01369FEBEC742D44"
+					item: "immersiveengineering:ersatz_leather"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0492055978020330"]
+			description: [
+				"建造一个风箱，把它放在熔炉后面，然后用杠杆激活它，就可以加快熔炼物品的时间！"
+			]
+			id: "06F684BEEA458789"
+			rewards: [
+				{
+					count: 5
+					id: "375723EF330E3FDF"
+					item: "farmersdelight:basket"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "56AB19AA3BDD0447"
+					item: "supplementaries:bellows"
+					type: "item"
+				}
+				{
+					id: "66CE41BCDCBC8B55"
+					item: "minecraft:lever"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6F712354DFDC89C5"]
+			description: [
+				"首先，您需要寻找或制作有机肥料"
+				""
+				"一旦你有了一些有机肥料，你就可以把它倒在有水的地方，它最终会变成沃土耕地"
+				""
+				"您可以在 3x3 区域内添加一些不同的催化物，这将加快这一过程："
+				""
+				"- 红/棕色蘑菇"
+				"- 灰化土"
+				"- 菌丝"
+				"- 沃土"
+				""
+				"沃土耕地还有一个额外的好处，那就是作物可以免疫践踏，而且生长速度更快。"
+			]
+			icon: "farmersdelight:rich_soil_farmland"
+			id: "14EFAC1D0DBEF019"
+			shape: "circle"
+			tasks: [
+				{
+					id: "358449A8E2AB8B83"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "沃土耕地"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7FAD2D111A51760D"]
+			description: [
+				"伐木工 Tim 同意你拆除森林。"
+				""
+				"作为交换，他向你提供了他最珍贵的宝藏"
+				""
+				"这并不是他最珍贵的宝藏，但这是他愿意给你的"
+			]
+			id: "6525CE0ABD298652"
+			rewards: [
+				{
+					id: "16F2B4BBB0BD70FC"
+					item: "inventorypets:nugget_diamond"
+					random_bonus: 7
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "二头肌全是肌肉"
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "657942031F30D46C"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					title: "任意#minecraft:logs"
+					type: "item"
+				}
+			]
+			title: "彪悍的男人"
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+	title: "科技"
+}

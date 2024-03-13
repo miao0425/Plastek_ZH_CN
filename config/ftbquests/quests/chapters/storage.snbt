@@ -1,0 +1,72 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: "5F8EFC9EDBDA235C"
+	icon: "minecraft:barrel"
+	id: "0D0217B39F8350ED"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5928D99A2F786286"]
+			description: [
+				"制作原版箱子和木桶的路有点难走"
+				""
+				"留意竹子。如果你看到一些，你就需要相当数量的竹子。我们可以做很多篮子"
+				""
+				"在草地上使用农夫乐事的刀可以获得稻草"
+			]
+			id: "0CFD614E1E0EB45C"
+			rewards: [
+				{
+					count: 3
+					id: "2D2CF8C7E84ECA45"
+					item: "farmersdelight:basket"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "290156B447629C82"
+					item: "farmersdelight:basket"
+					type: "item"
+				}
+			]
+			title: "篮子"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4438CC470515A45C"
+				"27FBC19A999E7499"
+			]
+			id: "3B573F268F450246"
+			subtitle: "至少你可以做一个背包......"
+			tasks: [
+				{
+					id: "75CD0C02517EF98E"
+					item: {
+						Count: 1b
+						id: "sophisticatedbackpacks:backpack"
+						tag: {
+							contentsUuid: [I;
+								397797894
+								-928101449
+								-1991771581
+								-762927079
+							]
+							inventorySlots: 27
+							upgradeSlots: 1
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	title: "存储"
+}

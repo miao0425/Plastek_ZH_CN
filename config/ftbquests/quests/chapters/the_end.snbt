@@ -1,0 +1,118 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "6864EC96E852A08D"
+	icon: "minecraft:dragon_head"
+	id: "2FBF89D8B871C8F5"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0B70779A64DC22A8"]
+			description: [
+				"有了从世界各地收集到的 7 个龙珠   呃....    12 只眼睛*，你的角色就能实现任何愿望！"
+				""
+				"&o开玩笑的 哈哈哈哈&r"
+				""
+				"有了眼睛，您就可以在传送门框架的每个插槽中各放一个。传送门完成后，您就可以跳进去，继续与更凶猛的末影龙战斗"
+			]
+			id: "37382295735E3F02"
+			rewards: [
+				{
+					auto: "disabled"
+					icon: "supplementaries:sign_post_oak"
+					id: "0CB202079AC5CAA2"
+					title: "End Access"
+					type: "custom"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "059803FD386799E0"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "416004620D977F9A"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "万众瞩目"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37382295735E3F02"]
+			id: "24D30B73F4C96954"
+			subtitle: "这根本不重要"
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					id: "7742B302D1A9106D"
+					type: "dimension"
+				}
+			]
+			title: "末地"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["24D30B73F4C96954"]
+			description: [
+				"更凶猛的末影龙 mod 改变了末影龙的机制。"
+				""
+				"这场战斗的规模会随着尝试战斗的人数而增加"
+				""
+				"下面是一些经过调整的机制："
+				""
+				"- 战斗时龙的血量、攻击伤害，水晶再生频率，生物生成量视玩家数量而定。优先级低于配置文件中设定的难度"
+				"- 在玩家周围生成生气的末影人，禁止正常末影人在周围生成"
+				"- 被破坏的末影水晶一段时间后自动恢复"
+				"- 末影龙火球会造成爆炸伤害"
+				"- 末影水晶破碎时给予玩家debuff并生成生物"
+				"- 战斗时生成闪电"
+				"- 龙免疫爆炸伤害"
+				"- 为龙添加了“反飞行爆炸物偷袭机制”，具体表现为龙受到爆炸攻击时根据难度给玩家返还一定伤害"
+			]
+			id: "49839260D77BCFA5"
+			subtitle: "祝你好运！"
+			tasks: [
+				{
+					advancement: "minecraft:end/kill_dragon"
+					criterion: ""
+					id: "24F2E6F77888DF55"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["49839260D77BCFA5"]
+			description: [
+				"如果你击败末影龙并到达末地岛,你准备开始寻找这个维度的珍宝资源。"
+				"我们需要虚空金属来结束这个时代。"
+
+				"如果您打败了末影龙，来到了末地群岛，就可以开始寻找这维度珍贵的资源了"
+				""
+				"我们将需要虚空金属来结束这个阶段"
+			]
+			id: "42EAEFEEA41D2433"
+			tasks: [
+				{
+					advancement: "minecraft:end/enter_end_gateway"
+					criterion: ""
+					id: "1328B3A3924888D0"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+	]
+	title: "末地"
+}

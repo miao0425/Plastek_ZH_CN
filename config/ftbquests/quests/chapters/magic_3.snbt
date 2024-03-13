@@ -1,0 +1,881 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magic_3"
+	group: "7F2FC2E4E4C51B36"
+	icon: "botania:mana_diamond"
+	id: "66A77C969A944C07"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["79705DCA6ADC0148"]
+			id: "597D7BAE219529C7"
+			tasks: [
+				{
+					id: "1F6E37F836ED5816"
+					title: "OK"
+					type: "checkmark"
+				}
+			]
+			title: "光明与黑暗"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["597D7BAE219529C7"]
+			id: "4E8702770B8B8257"
+			tasks: [
+				{
+					id: "58307F64889DE546"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "泰拉凝聚板"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["597D7BAE219529C7"]
+			description: [
+				"神秘学的这个部分应该不会太糟"
+				""
+				"我们将研究碎矿者,我们将可以双倍增加矿石或原矿石。"
+				""
+				"如果你已经忘记了，可以使用怪奇宝典 > 魔灵全典在世界中投射多块结构。一旦投射到世界，就更容易建造了。"
+			]
+			id: "2E85CBE551B7CC1B"
+			subtitle: "至暗时刻"
+			tasks: [
+				{
+					id: "7A5D3B48C07CA87C"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "更多神秘学"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2E85CBE551B7CC1B"]
+			id: "7A6D9760CF30F2A6"
+			subtitle: "召唤：魔精碎矿者"
+			tasks: [
+				{
+					count: 4L
+					id: "7DD8D501F49E1563"
+					item: "occultism:sacrificial_bowl"
+					type: "item"
+				}
+				{
+					id: "32813596AD30BB85"
+					item: "occultism:golden_sacrificial_bowl"
+					type: "item"
+				}
+				{
+					id: "01B9923D4671BD56"
+					item: {
+						Count: 1b
+						id: "occultism:chalk_white"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3181944B5255CAAF"
+					item: "occultism:candle_white"
+					type: "item"
+				}
+			]
+			title: "准备另一个仪式"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7A6D9760CF30F2A6"]
+			id: "05792EDF5201B90B"
+			tasks: [
+				{
+					id: "6B6F5316EC2458CF"
+					item: "industrialforegoing:plastic"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7A6D9760CF30F2A6"]
+			id: "6CDA611206DE38FB"
+			tasks: [
+				{
+					id: "08F15730BB6B1F61"
+					item: "occultism:spirit_attuned_gem"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7A6D9760CF30F2A6"]
+			id: "5B856FC75E770814"
+			tasks: [
+				{
+					id: "1CA4D5EC7284F6DB"
+					item: "emendatusenigmatica:cinnabar_dust"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7A6D9760CF30F2A6"]
+			id: "742ADDFDBA75B0F5"
+			tasks: [
+				{
+					id: "70BCE3E867D7DF7A"
+					item: "thermal:quartz_dust"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7A6D9760CF30F2A6"]
+			id: "6178CB9D4E3969C4"
+			tasks: [
+				{
+					id: "1386EA10379F658F"
+					item: "occultism:book_of_binding_foliot"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"742ADDFDBA75B0F5"
+				"5B856FC75E770814"
+				"6CDA611206DE38FB"
+				"6178CB9D4E3969C4"
+				"05792EDF5201B90B"
+			]
+			description: [
+				"仪式完成后，您可以向您的新恶魔伙伴扔一些矿石/原矿，您将得到 2 倍的矿粉作为回报"
+				""
+				"不过，并不是所有矿石/原矿都可以成倍增加"
+			]
+			id: "54AABC9979DE2531"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "75AB406C2B1762C1"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "双重薄荷口香糖带来的双重享受！"
+			tasks: [
+				{
+					id: "0FE483D6FC31EB04"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "加倍！"
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4E8702770B8B8257"]
+			description: [
+				"&a&l需要泰拉钢锭才能向前推进&r&r"
+			]
+			id: "4635A730A019A8A1"
+			tasks: [
+				{
+					id: "3932C5A751B42BF5"
+					title: "更多植魔"
+					type: "checkmark"
+				}
+			]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4635A730A019A8A1"]
+			id: "74638600DEAA6B03"
+			tasks: [
+				{
+					id: "157562AB629E0C47"
+					item: "botania:livingwood"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4635A730A019A8A1"]
+			id: "6B7CA54AD2A590B8"
+			tasks: [
+				{
+					id: "67BC7B88466029A7"
+					item: "botania:glimmering_livingwood"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4635A730A019A8A1"]
+			description: [
+				"您已经制作了亚尔夫海姆传送门的所有部件，您应该开始建造它了"
+				""
+				"传送门应该由3个微光活木、8个活木和精灵门核心构成。在11x11x11范围内,你需要放下两个魔力池,并将自然水晶放在它们上方。."
+				""
+				"一旦魔力池被填满,你应该可以用&2森林法杖&r右键单击精灵门核心，这应该激活传送门,让你开始和亚尔夫海姆交易."
+				""
+				"如果您在这方面需要更多帮助，请查阅：&n&bhttps://botaniamod.net/lexicon.html&r&r"
+			]
+			id: "0F2AB9FBA1B60CFE"
+			tasks: [
+				{
+					id: "66D7700A9D98944E"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "35B449142C41E27E"
+					item: "botania:natura_pylon"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5CF010C1A856C192"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4E8702770B8B8257"]
+			id: "001F3A1A3713FEEC"
+			tasks: [
+				{
+					count: 4L
+					id: "77E4BD95D3EAB351"
+					item: "minecraft:lapis_block"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "0881AF7D6C5E6295"
+					item: "botania:livingrock"
+					type: "item"
+				}
+			]
+			title: "活石和青金石块"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4E8702770B8B8257"]
+			description: [
+				"底座应该是这样的："
+				""
+				"{image:kubejs:textures/botania/botania_terrestrial_sample.png width:100 height:100 align:1}"
+				""
+				"你要把那个泰拉凝聚板放在中间位置"
+			]
+			id: "64C32E705C1B68A1"
+			tasks: [
+				{
+					id: "0D36C4B9ACA02D9A"
+					item: "botania:terra_plate"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4E8702770B8B8257"]
+			description: [
+				"一个火花放置于您的魔力池上，另一个火花放置于泰拉凝聚板上"
+			]
+			id: "28718EEC53DC6BDA"
+			tasks: [
+				{
+					count: 2L
+					id: "059939369E2CE8F4"
+					item: "botania:spark"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"001F3A1A3713FEEC"
+				"64C32E705C1B68A1"
+				"28718EEC53DC6BDA"
+			]
+			description: [
+				"为了建造亚尔夫海姆传送门，我们现在只需要一点点泰拉钢"
+				""
+				"把传送门打开后，你就能大幅提高自己的魔力生成能力"
+			]
+			id: "3497470BDCF8A2F2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6A960D2576EB648A"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "4D6D6CF5D1FF7918"
+					item: "botania:terrasteel_ingot"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4635A730A019A8A1"]
+			description: [
+				"如果你有多余的 TNT，你可以随时再做一个装置来加速生产魔力"
+			]
+			id: "771AE6F3C0909CD0"
+			rewards: [
+				{
+					id: "33149FC538DCCFA1"
+					item: "botania:floating_entropinnyum"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "虽然可有可无，但你可能会想要更快的魔力生成..."
+			tasks: [
+				{
+					id: "0B2BCE454D715274"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "更多魔力"
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0F2AB9FBA1B60CFE"]
+			id: "6118F7D4117D0F5F"
+			rewards: [
+				{
+					id: "5FD7E741B24BED3A"
+					item: {
+						Count: 1b
+						id: "endrem:exotic_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36E29DC44D4F7F62"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "65F5B71E9783BF00"
+					item: "botania:mana_pearl"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0F2AB9FBA1B60CFE"]
+			id: "063D7CEC1B7AEE2D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "27BBDCB48D6FD57A"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "3488B783E183BDA4"
+					item: "botania:mana_diamond"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["771AE6F3C0909CD0"]
+			id: "3910F4006CC0907D"
+			shape: "circle"
+			tasks: [
+				{
+					id: "5980793412A588F9"
+					item: "minecraft:dispenser"
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["771AE6F3C0909CD0"]
+			id: "63A999CC7EB8D5B0"
+			shape: "circle"
+			tasks: [
+				{
+					id: "0C558CE5CFF4E558"
+					item: "minecraft:comparator"
+					type: "item"
+				}
+				{
+					id: "3F97DE19D7A4064F"
+					item: "minecraft:repeater"
+					type: "item"
+				}
+			]
+			title: "红石比较器和中继器"
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["771AE6F3C0909CD0"]
+			id: "4E31126F16CF0BAC"
+			shape: "circle"
+			tasks: [
+				{
+					count: 5L
+					id: "2141A7F63E571901"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["771AE6F3C0909CD0"]
+			id: "4257F88C7663F3F0"
+			shape: "circle"
+			tasks: [
+				{
+					id: "20974996E24A2369"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+			]
+			title: "魔力池"
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["771AE6F3C0909CD0"]
+			description: [
+				"如果你想做更多 -- 从 \"浮空花\" 开始. 在工作台中将火红莲加入其中，它就会变成浮动变体。"
+				""
+				"示例 -- 从 \"Floating Light Gray Flower\" 开始"
+			]
+			id: "41245DA5FDB9A281"
+			shape: "circle"
+			tasks: [
+				{
+					id: "5F2B462E2FE1F037"
+					item: "botania:floating_entropinnyum"
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["771AE6F3C0909CD0"]
+			id: "3B828AFD999F8A9F"
+			shape: "circle"
+			tasks: [
+				{
+					id: "1C03105E390700A1"
+					item: "botania:elven_spreader"
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["771AE6F3C0909CD0"]
+			description: [
+				"如果您走到这一步还没有农场贸易市场 -- 现在是时候了"
+				""
+				"市场有各种好交易了,供应者确实来自亚尔夫海姆，所以他们售卖符文和其他好东西"
+				""
+				"您需要："
+				""
+				"- 火之符文，用于制作强力透镜"
+				"- 风之符文，用于制作速度透镜"
+				"- 粘液球，将它们合成在一起"
+				""
+				"如果钻石/粗糙末影珍珠/末影珍珠对您来说太难割舍，您可以尝试一下植物魔法的符文制作"
+			]
+			id: "446E6946F9A7F1A7"
+			shape: "circle"
+			tasks: [
+				{
+					id: "16402F6589B75AA4"
+					item: {
+						Count: 1b
+						id: "botania:lens_power"
+						tag: {
+							compositeLens: {
+								Count: 1b
+								id: "botania:lens_speed"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4E31126F16CF0BAC"
+				"3910F4006CC0907D"
+				"63A999CC7EB8D5B0"
+				"41245DA5FDB9A281"
+				"4257F88C7663F3F0"
+				"446E6946F9A7F1A7"
+				"3B828AFD999F8A9F"
+			]
+			description: [
+				"要解释如何制作的说明太难了，希望图片能有所帮助"
+				""
+				"确保发射器指向地面。当你在地面下方时，你可以将发射器放置在另一个方块上。"
+				""
+				""
+				"{image:kubejs:textures/botania/botania_advanced_mana_sample.png width:125 height:125 align:1}"
+				""
+				"&o&e这个设计来自 YouTube 上的 RagePlaysGames。(Surviving With Botania 1.16 : E06) &r&r"
+			]
+			id: "158BD02D8D4A1BCC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "34EB7EADD92A0A6D"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "18741BBA2A941BA0"
+					title: "爆炸就是艺术！"
+					type: "checkmark"
+				}
+			]
+			x: -10.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6118F7D4117D0F5F"]
+			icon: {
+				Count: 1b
+				id: "endrem:exotic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "11FFEF4621B630E0"
+			rewards: [
+				{
+					id: "5DAE2D2788B38021"
+					item: {
+						Count: 1b
+						id: "endrem:exotic_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "heart"
+			tasks: [
+				{
+					id: "58F015AA1ABB4F33"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "魔眼恢复"
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["597D7BAE219529C7"]
+			description: [
+				"你可以通过下界书架、海洋书架等各种达到60级."
+			]
+			id: "0FFBFD0600D23353"
+			shape: "circle"
+			subtitle: "神化附魔：30-60级"
+			tasks: [
+				{
+					id: "01DCC220954A1AA5"
+					title: "Ok"
+					type: "checkmark"
+				}
+			]
+			title: "海洋和下界知识"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0FFBFD0600D23353"]
+			id: "713A2AC9EDBE32C8"
+			shape: "circle"
+			tasks: [
+				{
+					id: "5FA0139DDCD23304"
+					item: "apotheosis:hellshelf"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0FFBFD0600D23353"]
+			id: "19DF3FE63867AC4A"
+			shape: "circle"
+			tasks: [
+				{
+					id: "41248F8B6AC74C6F"
+					item: "apotheosis:seashelf"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["19DF3FE63867AC4A"]
+			id: "1DB22DE4BEA5AF7E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "510DC894C7692189"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "1C59073D9F2B0D01"
+					item: "apotheosis:infused_seashelf"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["713A2AC9EDBE32C8"]
+			id: "11A3ED44CC6D4CC9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "29EFDF6998ECB50A"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "65B2413A67E0E054"
+					item: "apotheosis:infused_hellshelf"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["11A3ED44CC6D4CC9"]
+			id: "1052995F27C86916"
+			shape: "circle"
+			tasks: [
+				{
+					id: "10FCA5B6B12743B4"
+					item: "apotheosis:sightshelf"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1052995F27C86916"]
+			id: "2AB65153EF519D87"
+			shape: "circle"
+			tasks: [
+				{
+					id: "52DCEA55DAA97AD5"
+					item: "apotheosis:sightshelf_t2"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1DB22DE4BEA5AF7E"]
+			id: "654482F195357902"
+			shape: "circle"
+			tasks: [
+				{
+					id: "7BC0BAFDF4D63B09"
+					item: "apotheosis:rectifier"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["654482F195357902"]
+			id: "4F7E6A23D61390E1"
+			shape: "circle"
+			tasks: [
+				{
+					id: "2A01C80AAA477CFB"
+					item: "apotheosis:rectifier_t2"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["11A3ED44CC6D4CC9"]
+			id: "17831A69A71A4957"
+			shape: "circle"
+			tasks: [
+				{
+					id: "6FC89FDEE26E8613"
+					item: "apotheosis:blazing_hellshelf"
+					type: "item"
+				}
+				{
+					id: "3E1E993168D00D07"
+					item: "apotheosis:glowing_hellshelf"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1DB22DE4BEA5AF7E"]
+			id: "54CD8BC32AD3D315"
+			shape: "circle"
+			tasks: [
+				{
+					id: "7277D571B3559711"
+					item: "apotheosis:crystal_seashelf"
+					type: "item"
+				}
+				{
+					id: "6C6EC73940C6DB09"
+					item: "apotheosis:heart_seashelf"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["771AE6F3C0909CD0"]
+			description: [
+				"符文祭坛是制作符文的首选方式"
+				""
+				"市场商人有很好的获取各种符文方法，但并不很便宜"
+			]
+			id: "29E8CFD256990104"
+			shape: "circle"
+			tasks: [
+				{
+					id: "372709AF1C52ABC2"
+					item: "botania:runic_altar"
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3497470BDCF8A2F2"]
+			description: [
+				"通过将魔力发送到这个方块，就能为您发电"
+				""
+				"你可以使用能量线缆将电力传输到其他机器。"
+				""
+				"但目前，您必须将一台机器直接连接到它，才能为其供电。"
+			]
+			id: "304CAAD819C4D0B9"
+			shape: "circle"
+			subtitle: "魔力到RF！"
+			tasks: [
+				{
+					id: "646B877542D6924A"
+					item: "botania:mana_fluxfield"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.5d
+		}
+	]
+	title: "魔法"
+}

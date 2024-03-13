@@ -1,0 +1,747 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tools"
+	group: "5F8EFC9EDBDA235C"
+	icon: {
+		Count: 1b
+		id: "natprog:bone_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "362ED70CFB4421E6"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5928D99A2F786286"]
+			id: "712DE592F4F3D0CC"
+			rewards: [
+				{
+					id: "5C7D7723C224BB3F"
+					item: "pamhc2crops:okraitem"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "7811F304FD8EE49E"
+					item: "pamhc2foodcore:chocolatecupcakeitem"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "3983C384EEAE1C04"
+					item: "pamhc2foodextended:deluxecheeseburgeritem"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "2920EC8D47BD16C2"
+					item: "pamhc2foodextended:mochiitem"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "5C6B54E793DADD23"
+					item: "pamhc2foodextended:mushroomsteakitem"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			subtitle: "木棍和石头"
+			tasks: [
+				{
+					count: 20L
+					id: "75512BDAB1333B65"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:pebbles"
+						}
+					}
+					title: "任意#forge:pebbles"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "31AD78AC5B864A4D"
+					item: "minecraft:stick"
+					type: "item"
+				}
+			]
+			title: "1 阶段"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["712DE592F4F3D0CC"]
+			description: [
+				"好了，你成功了 你得到了一些燧石，现在你得制作你的第一套工具了"
+			]
+			id: "1B3BC43E6B7EDE82"
+			tasks: [
+				{
+					count: 10L
+					id: "705907B1A2256B4C"
+					item: "minecraft:flint"
+					type: "item"
+				}
+			]
+			title: "粉碎！"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B3BC43E6B7EDE82"]
+			description: [
+				"使用燧石斧，您需要先剥开原木，然后再通过右键树木将其砍倒"
+				""
+				"将原木砍下后，可以通过制作使用燧石斧将其切割成 1 块木板"
+				""
+				"&o&c注意：这个过程适用于大多数树木。世界上有少数树木，燧石斧无法将剥离原木变成木板 &r&r "
+				""
+				"&o&c在这一步中，尽量坚持使用原版或超多生物群系的树木&r&r "
+			]
+			id: "6C04ACB8F1639713"
+			rewards: [
+				{
+					id: "5C1AA0D03107272D"
+					item: "farmersdelight:cooked_cod_slice"
+					type: "item"
+				}
+				{
+					id: "4E7C2C06AD4F5097"
+					item: "farmersdelight:sweet_berry_cheesecake_slice"
+					type: "item"
+				}
+				{
+					id: "3D0CDF56D9D3E1A2"
+					item: "farmersdelight:cooked_chicken_cuts"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "45DE169F9C50D4E5"
+					item: {
+						Count: 1b
+						id: "natprog:flint_hatchet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B3BC43E6B7EDE82"]
+			description: [
+				"在草地上使用农夫乐事刀，你应该会得到一些棕色的稻草和各种种子，包括大麻！"
+				""
+				"人人都喜欢的草秆"
+				""
+				""
+				"&o如果你愿意，可以赤手拿到种子，但农夫乐事草秆只能用农夫乐事刀掉落&r"
+			]
+			id: "38B7F4C768357451"
+			tasks: [
+				{
+					id: "6337E2697BBFF287"
+					item: {
+						Count: 1b
+						id: "farmersdelight:flint_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1B3BC43E6B7EDE82"]
+			description: [
+				"燧石锯比燧石斧好用多了。 你将得到 4 块木板，而不是 1 块木板"
+				""
+				"但这是可选的，所以如果你愿意，你可以用一把斧头就能完成，就像你还是个穴居人一样"
+			]
+			id: "0ADCEDA0DE534C90"
+			shape: "circle"
+			subtitle: "燧石升级！"
+			tasks: [
+				{
+					id: "2438B8D5428CB397"
+					item: {
+						Count: 1b
+						id: "natprog:flint_saw"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6C04ACB8F1639713"
+				"38B7F4C768357451"
+			]
+			description: [
+				"你可能在想什么时候才能得到一把漂亮的石镐，但你不会得到它。相反，你将要制作一把骨镐"
+				""
+				"要在这里开始工作，我建议你拿一个你做的燧石工具，找一些动物，然后......嗯......你知道该怎么做"
+				""
+				"让它们脱离幸福的生活，收集它们的碎片"
+				""
+				"有了几块骨头后 -- 把燧石放在手边，骨头放在快捷栏上。 右键点击它们，能得到一些骨头碎片"
+			]
+			id: "67808FB71FA8E8F6"
+			tasks: [
+				{
+					id: "704A63C56405A04F"
+					item: {
+						Count: 1b
+						id: "natprog:bone_shard"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "没有 Bologna"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67808FB71FA8E8F6"]
+			description: [
+				"有了这些，你应该就能开始得到铜了"
+			]
+			id: "01849E75E7A04443"
+			tasks: [
+				{
+					id: "7D61C13D609F2E3C"
+					item: {
+						Count: 1b
+						id: "natprog:bone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "有话要跟你说"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67808FB71FA8E8F6"]
+			description: [
+				"小幅提升刀的伤害"
+			]
+			id: "60B972150AF5F7C3"
+			tasks: [
+				{
+					id: "7A6C117380898A22"
+					item: {
+						Count: 1b
+						id: "natprog:bone_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"01849E75E7A04443"
+				"29ABB78197853F7B"
+			]
+			description: [
+				"这个速度更快，也更耐用"
+			]
+			id: "301EFB21689EDC51"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "47EE9B13A87BC895"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "4C4ACCDC9F1A0E6E"
+					item: {
+						Count: 1b
+						id: "natprog:copper_saw"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["301EFB21689EDC51"]
+			id: "378EB7B1D0917EEF"
+			tasks: [
+				{
+					id: "07AD17DB38EF8A46"
+					item: {
+						Count: 1b
+						id: "emendatusenigmatica:copper_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "铜锄"
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["301EFB21689EDC51"]
+			id: "74EA353F28795796"
+			tasks: [
+				{
+					id: "688F20324F7E5AC1"
+					item: {
+						Count: 1b
+						id: "emendatusenigmatica:copper_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "铜镐"
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["301EFB21689EDC51"]
+			id: "1B85900C76F33C8B"
+			tasks: [
+				{
+					id: "4531870DB0BC277C"
+					item: {
+						Count: 1b
+						id: "emendatusenigmatica:copper_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "铜锹"
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60B972150AF5F7C3"]
+			description: [
+				"这把刀可以让你收集树皮。右键点击一棵树即可收集树皮"
+				""
+				"这拉开了《魔法 1 阶段》系列的序幕"
+			]
+			id: "3C8930D4F3A220C5"
+			tasks: [
+				{
+					id: "704866EF4E8885E6"
+					item: {
+						Count: 1b
+						id: "rootsclassic:bark_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C8930D4F3A220C5"]
+			id: "40615B96DC29316A"
+			subtitle: "研钵最好的朋友"
+			tasks: [
+				{
+					id: "0EE6C680C7613632"
+					item: "rootsclassic:pestle"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C8930D4F3A220C5"]
+			description: [
+				"制作完这个物品后，你就可以在魔法选项卡中进入任务"
+			]
+			id: "0FEB97C69E0EE49C"
+			tasks: [
+				{
+					id: "64EE38833C55DCDE"
+					item: {
+						Count: 1b
+						id: "totemic:totem_whittling_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0FEB97C69E0EE49C"]
+			description: [
+				"用这根法杖点击图腾基座，可以获得更多有关图腾的信息"
+			]
+			id: "0F9BC217E79FD2C8"
+			shape: "circle"
+			tasks: [
+				{
+					id: "629EC262F4ABFAF1"
+					item: "totemic:totemic_staff"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0FEB97C69E0EE49C"]
+			id: "6180A50DF17BF66A"
+			shape: "circle"
+			subtitle: "仪式"
+			tasks: [
+				{
+					id: "03A6A9783F19BDA4"
+					item: "totemic:flute"
+					type: "item"
+				}
+				{
+					id: "76C31FA1271A8395"
+					item: "totemic:rattle"
+					type: "item"
+				}
+				{
+					id: "077A135C81826054"
+					item: "totemic:eagle_bone_whistle"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6180A50DF17BF66A"]
+			id: "139D5EE6CF3B6E59"
+			shape: "circle"
+			subtitle: "仪式"
+			tasks: [
+				{
+					id: "176C57233CF9068A"
+					item: "totemic:wind_chime"
+					type: "item"
+				}
+				{
+					id: "3ACA456FA506159C"
+					item: "totemic:drum"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0FEB97C69E0EE49C"]
+			description: [
+				"您可以用它来装饰，也可以用它来睡觉！ "
+				""
+				"放置位置有限制。"
+			]
+			id: "50488031886F8B55"
+			shape: "circle"
+			tasks: [
+				{
+					id: "5EBF83343C86BA65"
+					item: "totemic:tipi"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0EAC1C918A0B2E6D"]
+			id: "4CB4012E79F09338"
+			tasks: [
+				{
+					id: "3C143F9E6601705B"
+					item: {
+						Count: 1b
+						id: "emendatusenigmatica:sterling_silver_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0EAC1C918A0B2E6D"]
+			icon: {
+				Count: 1b
+				id: "emendatusenigmatica:sterling_silver_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5615497CF7549469"
+			subtitle: "哇，新铲子......太神奇了。"
+			tasks: [
+				{
+					id: "740CCE85FA3D71E0"
+					item: {
+						Count: 1b
+						id: "emendatusenigmatica:sterling_silver_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4FFCDB35F97F22CC"]
+			id: "1F3B8B8C21120800"
+			subtitle: "我觉得这些看起来不像金子..."
+			tasks: [
+				{
+					id: "16B286B09F95D51E"
+					item: {
+						Count: 1b
+						id: "minecraft:shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["027BF7618F0E0D5C"]
+			description: [
+				"当你想寻找特定生物群系时，它是你最好的朋友"
+				""
+				"否则就是个没用的"
+			]
+			id: "7CBA951B498ED321"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "54F0B18CD91BE9E1"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "2919E745081B9E39"
+					item: {
+						Count: 1b
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["027BF7618F0E0D5C"]
+			description: [
+				"这东西就像一堆压缩的石头一样重，因为它就是这样的。我甚至不知道它为什么能用。 神速力？巴里，你在吗？"
+				""
+				"这将让您找到世界各地的特定建筑！"
+			]
+			id: "59366F5573EC5ACF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "17041D10BEB1AA7B"
+					table_id: 3325230720908722317L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "你是怎么把这些东西装进口袋里的？"
+			tasks: [
+				{
+					id: "337E9985C8338937"
+					item: {
+						Count: 1b
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["712DE592F4F3D0CC"]
+			id: "55B7B244684F57A9"
+			shape: "circle"
+			tasks: [
+				{
+					id: "3760C62EFA7DBF09"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F9BC217E79FD2C8"]
+			description: [
+				"制作一个药草袋，就可以通过潜行+点击你想要效果的图腾头来储存图腾效果"
+				""
+				"要给袋子充能，你需要站在图腾旁边"
+			]
+			id: "66B8A67FB83ABD56"
+			shape: "circle"
+			tasks: [
+				{
+					id: "40575EB2BC86FDAC"
+					item: "totemic:medicine_bag"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4438CC470515A45C"]
+			description: [
+				"通过潜行 + 点击方块，可以将探测棒调谐到方块上。你会在聊天中看到一条确认附魔的信息。 你也可以随时将方块重置为新的方块"
+				""
+				"调谐到方块后，按住右键，让探测棒充能。这时会出现一个粉红色的小粒子效果，如果你在寻找的方块半径 129 块范围内，就能更容易地找到你要找的东西"
+				""
+				"&a&o注：这是为了帮助您找到难以找到的矿石方块！&r&r"
+			]
+			id: "424014FE8CD9F5BC"
+			shape: "circle"
+			subtitle: "方块搜索器"
+			tasks: [
+				{
+					id: "1A25A15ACC69B102"
+					item: {
+						Count: 1b
+						id: "theurgy:divination_rod_t1"
+						tag: {
+							Damage: 0
+							"theurgy:divination.setting.allow_attuning": 1b
+							"theurgy:divination.setting.allowed_blocks_tag": "theurgy:divination_rod_t1_allowed_blocks"
+							"theurgy:divination.setting.disallowed_blocks_tag": "theurgy:divination_rod_t1_disallowed_blocks"
+							"theurgy:divination.setting.duration": 40
+							"theurgy:divination.setting.max_damage": 3
+							"theurgy:divination.setting.range": 96
+							"theurgy:divination.setting.tier": "minecraft:stone"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4FFCDB35F97F22CC"]
+			description: [
+				"日历可以放在物品框中，然后挂在墙上"
+			]
+			id: "55FB38BB46129E89"
+			shape: "circle"
+			tasks: [
+				{
+					id: "7BEB1C2D21148921"
+					item: "sereneseasons:calendar"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["55FB38BB46129E89"]
+			description: [
+				"您可以右键单击来切换传感器上的季节"
+				""
+				"使用红石，你可以为 4 个传感器各连接一个红石灯。红石激活后，传感器就会亮起灯，让你知道当前处于哪个季节"
+			]
+			id: "19123C2CF7D9B7AC"
+			shape: "circle"
+			tasks: [
+				{
+					id: "52450ADC998BBA88"
+					item: "sereneseasons:season_sensor"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -4.0d
+		}
+	]
+	title: "工具"
+}

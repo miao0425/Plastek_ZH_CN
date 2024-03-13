@@ -1,0 +1,41 @@
+{
+	"Restriction Data": {
+		"stage": "A4",
+		"name": "阶段4",
+		"itemList": [],
+		"modList": [
+			"buildinggadgets",
+			"enderstorage",
+			"immersiveengineering",
+			"immersivepetroleum",
+			"mythicbotany",
+			"pneumaticcraft",
+			"redstone_arsenal",
+			"scannable",
+			"sliceanddice",
+			"ppfluids",
+			"waystones"
+		],
+		"tagList": ["kubejs:age_4_item"],
+		"exceptionList": [
+			{
+				"tag": "kubejs:age_4_exception"
+			}
+		],
+		"containerList": [],
+		"dimensionList": []
+	},
+	"Settings": {
+		"advancedTooltips": "ALWAYS",
+		"itemTitle": "不可用物品",
+		"pickupDelay": 15,
+		"hideInJEI": true,
+		"canPickup": false,
+		"containerListWhitelist": false,
+		"checkPlayerInventory": true,
+		"checkPlayerEquipment": true,
+		"destroyableBlocks": false,
+		"usableItems": false,
+		"usableBlocks": true
+	}
+}

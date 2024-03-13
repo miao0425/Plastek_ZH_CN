@@ -1,0 +1,179 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "weapons_4"
+	group: "160159E361DC62EF"
+	icon: {
+		Count: 1b
+		id: "redstone_arsenal:flux_sword"
+		tag: { }
+	}
+	id: "269CEE88BF341312"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["481CC7DD0387169C"]
+			id: "7A77498751662ADB"
+			shape: "circle"
+			subtitle: "通过升级和附魔，它也许是一段时间内最强大的武器。"
+			tasks: [
+				{
+					id: "72208A2913E5C3CA"
+					item: {
+						Count: 1b
+						id: "redstone_arsenal:flux_sword"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["481CC7DD0387169C"]
+			id: "1708B6EB937FFA6B"
+			shape: "circle"
+			tasks: [
+				{
+					id: "387A5F3EDABFE8E8"
+					item: {
+						Count: 1b
+						id: "redstone_arsenal:flux_trident"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["481CC7DD0387169C"]
+			id: "377DBDA2EE861395"
+			shape: "circle"
+			tasks: [
+				{
+					id: "4C30D1EF7C01F632"
+					item: {
+						Count: 1b
+						id: "redstone_arsenal:flux_wrench"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["481CC7DD0387169C"]
+			id: "6B41E944667B4E09"
+			shape: "circle"
+			tasks: [
+				{
+					id: "4098D9C18837C768"
+					item: {
+						Count: 1b
+						id: "redstone_arsenal:flux_bow"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["481CC7DD0387169C"]
+			id: "7542351ECE0DDB69"
+			shape: "circle"
+			tasks: [
+				{
+					id: "18034965C9C8B0A1"
+					item: {
+						Count: 1b
+						id: "redstone_arsenal:flux_crossbow"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["481CC7DD0387169C"]
+			id: "23FCD6F09791E66D"
+			shape: "circle"
+			tasks: [
+				{
+					id: "7DB435F4F0612DF2"
+					item: {
+						Count: 1b
+						id: "redstone_arsenal:flux_quiver"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["281EE59C33F78909"]
+			id: "14A1291BDA338142"
+			shape: "circle"
+			tasks: [
+				{
+					id: "4AE9F2DB0D8ED638"
+					item: {
+						Count: 1b
+						id: "botania:elementium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0933440E7DFA2B10"]
+			description: [
+				"你可能会想找到雷神，砍掉他的手，看看自己能不能用这种方式来获得力量？好吧，这根本行不通....。"
+				""
+				"不过，托尔之戒是欺骗锤子让他认可你的好办法。为了获得这个神器，你需要击败盖亚守护者2。如果你早已肃清了暮色森林并获得了最终的奖励，那么你一定很庆幸。"
+				""
+				"击败盖亚守护者后，盖亚守护者会掉落一枚命运骰子。命运骰子中应藏有几种不同的强大神器之一，托尔之戒就是其中之一"
+				""
+				"运骰子源于盖亚守护者2，使用会掉落一些强大的神器。"
+				""
+				"&l&e&n重要通知：&r&r&r "
+				"&c&o目前存在一个问题：当雷神之锤有一个神化模组的词缀时，你的世界将会损坏并且无法再进入。因此，该物品现已禁止获得神化词缀&r&r"
+			]
+			id: "06197C0F2D5E3808"
+			shape: "circle"
+			subtitle: "格尔对托尔说了什么？"
+			tasks: [
+				{
+					id: "70DB7033234FA8EC"
+					item: {
+						Count: 1b
+						id: "mythicbotany:mjoellnir"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.0d
+		}
+	]
+	title: "武器"
+}
