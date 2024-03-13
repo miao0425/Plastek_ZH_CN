@@ -105,6 +105,9 @@ ClientEvents.lang('zh_cn', event => {
 	rename('kubejs:netherite_drill_bit_parts', '下界合金钻头部件');
 	rename('kubejs:pressure_chamber_valve_parts', '压力室气阀部件');
 
+	rename('kubejs:time_in_a_bottle_parts', '时间之瓶部件');
+
+
 	// SUPPLEMENTARIES 锦致装饰物品重命名
 	rename('supplementaries:globe', '亚尔夫海姆地球仪'); // 亚尔夫海任务获得
 	rename('supplementaries:globe_sepia', '幽冥地球仪'); // 幽冥任务获得
